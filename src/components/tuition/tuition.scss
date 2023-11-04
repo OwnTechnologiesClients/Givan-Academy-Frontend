@@ -1,0 +1,41 @@
+$theme-color: #202c45;
+
+.tuition-section {
+  background-color: $theme-color;
+  border-radius: 0vw 7.32vw 7.32vw 0vw;
+  margin-right: 2.196vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vw 6vw;
+
+  h1 {
+    color: #fff;
+    font-size: 2vw;
+    font-family: "Poppins";
+  }
+  .button {
+    background-color: #85BA00;
+    color: #fff;
+    padding: 0.732vw 1.464vw;
+    border-radius: 0.585vw;
+    font-family: "Poppins", sans-serif;
+    width: 12vw;
+  }
+  @media screen and (max-width: "480px") {
+    display: flex;
+    flex-direction: column;
+    padding: 5vw 6vw;
+    border-radius: 0vw  41.32vw  41.32vw 0vw;
+
+    h1{
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
+    .button {
+        width: 34vw;
+    }
+  }
+
+}

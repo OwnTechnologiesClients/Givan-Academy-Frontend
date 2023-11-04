@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+
+.notes-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7vw 7vw;
+
+  .banner-part-4 {
+    img {
+      height: 32vw;
+      padding: 3vw;
+    }
+  }
+
+  .detailed {
+    .notes {
+      h4 {
+        line-height: 3.856vw;
+        font-size: 1vw;
+        font-weight: 800;
+        color: #85ba00;
+      }
+    }
+    .text-section {
+      h4 {
+        font-size:  2.049vw;
+        margin-bottom: 1.9vw;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+
+    .text-details {
+      margin-bottom: 2.562vw;
+      p {
+        font-size:  1vw;
+        font-family: "Poppins", sans-serif;
+      }
+
+      span {
+        color: #2d6aa2;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+    .check-box {
+      display: flex;
+      justify-content: space-between;
+
+      .box-1 {
+        margin-bottom: 1.756vw;
+        img {
+          width: 1.1vw;
+          font-size: 1.1vw;
+          margin-right: 0.4vw;
+        }
+
+        a {
+          font-family: "Poppins", sans-serif;
+          line-height: 2.5rem;
+          font-size: 1.2vw;
+          font-weight: 700;
+        }
+      }
+    }
+    .button {
+      background-color: #2d6aa2;
+      color: #fff;
+      padding: 0.732vw 1.464vw;
+      border-radius: 0.585vw;
+      font-family: "Poppins", sans-serif;
+      width: 12vw;
+    }
+  }
+}

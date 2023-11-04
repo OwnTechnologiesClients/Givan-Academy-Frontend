@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@300&display=swap");
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6vw;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .logo {
+    img {
+      height: 7vw;
+    }
+  }
+
+  .tabs {
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+
+    .menu-items {
+      color: #000000;
+      font-size: 1.1vw;
+      font-weight: 600;
+
+      &:hover {
+        color: #85ba00;
+      }
+    }
+
+    .join {
+      background-color: #5bddb5;
+      color: #ffffff;
+      border-radius: 0.425rem;
+      padding: 0.625rem;
+      font-size: 1.1vw;
+      font-weight: 600;
+    }
+  }
+  @media screen and (max-width: 780px) { 
+
+    
+  }
+
+}
