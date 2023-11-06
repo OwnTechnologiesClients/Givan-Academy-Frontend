@@ -5,10 +5,15 @@ import Logo from "../../assets/icons/logo.png";
 import hamburger from "../../assets/icons/hamburger.png";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
-    <div className="nav-bar">
-      <div className="menu-icon" >
+    <div className={`nav-bar${menuOpen ? ' menu-open' : ''}`}>
+      <div className="menu-icon" onClick={toggleMenu}>
         <img src={hamburger} alt="" />
       </div>
       <div className="logo">

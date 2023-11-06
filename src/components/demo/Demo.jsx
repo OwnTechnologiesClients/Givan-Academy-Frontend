@@ -34,6 +34,7 @@ const Demo = () => {
       </div>
 
       <div className="banner-part-3">
+      <div className="shape-backgrounds"></div>
         <img src={Banner3} alt="" />
       </div>
     </div>

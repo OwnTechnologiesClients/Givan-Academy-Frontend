@@ -1,9 +1,8 @@
-import React from "react";
-import "./classes.scss";
-import { Link } from "react-router-dom";
+import React from 'react'
+import "./online.scss";
 import Class from "../../assets/class.png";
-
-const Classes = () => {
+import { Link } from "react-router-dom";
+const Online = () => {
   const classCardDetails = [
     {
       key: "1",
@@ -35,13 +34,15 @@ const Classes = () => {
     },
   ];
   return (
-    <div className="class">
+    
+    <div className="course-sections">
       <div className="top-heading">
         <div></div>
         <div className="courses">
           <h4>DISCOVER COURSES</h4>
           <h1>Our Popular Classes</h1>
         </div>
+
         <Link to="/">
           <div className="button"> View All &gt;</div>
         </Link>
@@ -53,8 +54,8 @@ const Classes = () => {
             <div className="card">
               <img src={item.classImg} alt="" />
               <div className="overshadow">
-                <p>{item.classSection}</p>
-              </div>
+              <p>{item.classSection}</p>
+            </div>
               <div className="text-part">
                 <div className="detail">
                   <p>{item.classDetails}</p>
@@ -71,12 +72,12 @@ const Classes = () => {
       <div className="text-section">
         <p>
           Enjoy the top notch learning methods and achieve next level skills!
-          You are the creator of <br /> your own career & we will guide you
-          through that. <span> Register Free Now!.</span>
+          You are the creator of <br /> your own career & we will guide you through
+          that. <span> Register Free Now!.</span>
         </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Classes;
+export default Online

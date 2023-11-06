@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 7vw 7vw;
+  background-color: #faf8f9;
 
   .form-details {
     margin-top: 1px;
@@ -19,20 +20,21 @@
     label {
       font-family: "Poppins", sans-serif;
       font-weight: bold;
-      margin-bottom:  0.439vw;
+      margin-bottom: 0.439vw;
     }
 
     input {
       width: 100%;
-      padding:  0.732vw;
-      background-color: #eee6e6;
-      border-radius:  0.366vw;
-      margin-bottom:  1.4641vw;
+      padding: 0.732vw;
+      background-color: #fff;
+      border-radius: 0.366vw;
+      margin-top: 1vw;
+      margin-bottom: -1vw;
       border: none;
     }
 
     form {
-      margin: 0.732vw 0;
+      margin: 2.732vw 0;
     }
 
     .butt {
@@ -45,9 +47,21 @@
     }
   }
   .banner-part-3 {
+    position: relative;
+    .shape-backgrounds {
+      position: absolute;
+      top: -5.783vw;
+      left: -11.639vw;
+      width: 145%;
+      height: 120%;
+      background-image: url("../../assets/shape2.png");
+      background-size: cover;
+      z-index: 0;
+    }
+
     img {
-      height: 45vw;
-      padding: 2vw;
+      height: 38vw;
+      padding: 3vw;
     }
   }
 }

@@ -1,0 +1,109 @@
+.course-sections {
+  padding: 7vw 7vw;
+    background-color: #FAF8F9;
+    border-bottom: 1px solid #cccccc;
+  
+    .top-heading {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 2vw;
+      align-items: center;
+  
+      .courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        h4 {
+          color: #85ba00;
+          font-size: 1.464vw;
+          font-weight: 800;
+        }
+  
+        h1 {
+          font-size: 3.66vw;
+          font-weight: 700;
+        }
+      }
+      .button {
+        background-color: #2d6aa2;
+        color: #fff;
+        padding: 0.732vw 1.464vw;
+        border-radius: 0.585vw;
+        font-family: "Poppins", sans-serif;
+        outline: none;
+      }
+    }
+    .class-container {
+      display: flex;
+      margin-top: 5vw;
+      gap: 2vw;
+  
+      .card {
+        border: 1px solid #cccccc;
+        border-radius: 0.585vw;
+        position: relative;
+  
+        img {
+          height: 14.055vw;
+        }
+        .overshadow {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: black;
+          opacity: 0.8;
+          width: 20.1vw;
+          height: 14.055vw;
+          p {
+            position: absolute;
+            top:  5.1244vw;
+            left:  4.978vw;
+            font-family: "Poppins";
+            font-weight: 700;
+            font-size: 2vw;
+            color: #fff;
+          }
+        }
+        .text-part {
+          padding: 1vw;
+
+          .detail {
+            p {
+              font-family: "Poppins";
+              font-size: 1.295vw;
+              font-weight: 600;
+              margin-bottom: 1.464vw;
+            }
+  
+            a {
+              .button {
+                border-radius: 0.366vw;
+                font-family: "Poppins";
+                background-color: #2d6aa2;
+                color: #fff;
+                width: 46%;
+                padding: 0.658vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .text-section {
+      text-align: center;
+      margin:  2.562vw 0 0 0;
+      p {
+        font-size: 1.2vw;
+        font-family: "Poppins";
+        span {
+          color: #2d6aa2;
+          font-weight: 700;
+        }
+      }
+    }
+  
+  }
+  
+  

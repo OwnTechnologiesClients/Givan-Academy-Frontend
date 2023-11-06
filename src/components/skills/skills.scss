@@ -3,7 +3,7 @@
 .skills {
   display: flex;
   justify-content: space-between;
-  padding: 5vw 6vw;
+  padding: 5vw 7vw;
 
   .earn {
     background-color: #252525;
@@ -30,28 +30,29 @@
       }
 
       .stats {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
+
         h1 {
-          font-size:  1.464vw;
+          font-size: 1.599vw;
           padding-bottom: 1vw;
-          font-family: 'Poppins', sans-serif;
+          font-family: "Poppins", sans-serif;
         }
 
         p {
-          font-size: 0.805vw;
-          font-family: 'Poppins', sans-serif;
+          font-size: 0.866vw;
+          font-family: "Poppins", sans-serif;
         }
 
         .view {
-          font-size:  1.098vw;
+          font-size: 1.098vw;
           line-height: 3.66vw;
-          font-family: 'Poppins', sans-serif;
-          &:hover{
+          font-family: "Poppins", sans-serif;
+
+          &:hover {
             color: #9158fa;
           }
         }
       }
     }
   }
-  
 }

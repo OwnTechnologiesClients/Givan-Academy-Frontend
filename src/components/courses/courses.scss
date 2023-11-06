@@ -4,14 +4,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5vw 6vw;
-  margin-bottom: 6vw;
+  padding: 6vw 6vw;
+  
   .banner-part-1 {
+    position: relative;
+    .shape-background {
+      position: absolute;
+      top: -3.806vw;
+      left: -2.122vw;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../assets/shape1.png');
+      background-size: cover;
+      z-index: -1; 
+    }
+  
     img {
       height: 38vw;
       padding: 3vw;
     }
   }
+  
   .detail {
     .featured {
       h4 {
@@ -54,7 +67,7 @@
       justify-content: space-between;
 
       .box {
-        margin-bottom:  1.756vw;
+        margin-bottom: 1.756vw;
         img {
           width: 1.1vw;
           font-size: 1.1vw;
@@ -78,5 +91,7 @@
       font-family: "Poppins", sans-serif;
       width: 12vw;
     }
+  }
+  @media screen and (max-width: 480px) {
   }
 }

@@ -5,8 +5,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 7vw 7vw;
+  background-color: #faf8f9;
 
   .banner-part-4 {
+    position: relative;
+    .shapes-background {
+      position: absolute;
+      top: -14.34vw;
+      left: -12.54vw;
+      width: 140%;
+      height: 167%;
+      background-image: url(/src/assets/shape3.png);
+      background-size: cover;
+      z-index: 1;
+    }
     img {
       height: 32vw;
       padding: 3vw;
@@ -24,7 +36,7 @@
     }
     .text-section {
       h4 {
-        font-size:  2.049vw;
+        font-size: 2.049vw;
         margin-bottom: 1.9vw;
         font-family: "Poppins", sans-serif;
       }
@@ -33,7 +45,7 @@
     .text-details {
       margin-bottom: 2.562vw;
       p {
-        font-size:  1vw;
+        font-size: 1vw;
         font-family: "Poppins", sans-serif;
       }
 
@@ -69,6 +81,50 @@
       border-radius: 0.585vw;
       font-family: "Poppins", sans-serif;
       width: 12vw;
+    }
+  }
+
+  @media screen and (max-width: "480px") {
+    padding: 7vw 6vw;
+    flex-direction: column;
+
+    .detailed {
+      .notes {
+        h4 {
+          font-size: 4vw;
+        }
+      }
+      .text-section {
+        h4 {
+          font-size: 4.049vw;
+          margin-bottom: 1.9vw;
+        }
+      }
+      .text-details {
+        p {
+          font-size: 2vw;
+        }
+      }
+
+      .check-box {
+        display: flex;
+        flex-direction: column;
+        .box-1 {
+          margin-bottom: 0;
+          img {
+            margin-right: 2vw;
+            width: 2.5vw;
+          }
+
+          a {
+            font-size: 3vw;
+          }
+        }
+      }
+      .button {
+        margin-top: 0.8784vw;
+        width: 34vw;
+      }
     }
   }
 }

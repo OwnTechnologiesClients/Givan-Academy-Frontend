@@ -45,4 +45,11 @@
       padding: 5vw;
     }
   }
+  @media screen and (max-width: 480px) {
+    .hero-section{
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
+

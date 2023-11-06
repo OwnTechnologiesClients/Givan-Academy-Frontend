@@ -3,10 +3,12 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  background: #fff;
   padding: 0 6vw;
 
   .menu-icon {
     display: none;
+    cursor: pointer;
   }
 
   .logo {
@@ -39,9 +41,62 @@
       font-weight: 600;
     }
   }
-  @media screen and (max-width: 780px) { 
 
-    
+  &.menu-open {
+    .menu-icon {
+      display: block;
+    }
+
+    .tabs {
+      display: none;
+      .menu-items {
+        color: #000000;
+        font-size: 3vw;
+        font-weight: 600;
+        margin-bottom: 7px;
+        font-family: "Poppins", sans-serif;
+        margin-right: 20px;
+
+        &:hover {
+          color: #85ba00;
+        }
+      }
+
+      .join {
+        width: 47%;
+        font-size: 3vw;
+        font-family: "Poppins", sans-serif;
+      }
+    }
   }
 
+  @media screen and (max-width: 480px) {
+    padding: 1vw 7vw;
+
+    .menu-icon {
+      display: block;
+    }
+
+    .logo {
+      img {
+        height: 13vw;
+      }
+    }
+
+    .tabs {
+      display: none;
+    }
+
+    &.menu-open {
+      .tabs {
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        background: #fff;
+        width: 100%;
+        padding: 1rem 2rem;
+      }
+    }
+  }
 }

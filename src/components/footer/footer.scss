@@ -18,8 +18,6 @@
     }
   }
 
-
-
   .message {
     font-family: "Poppins";
     color: #fff;
@@ -128,13 +126,13 @@
     }
 
     .contact-us {
-
       h4 {
         margin: 0.5rem 0;
         font-size: 1.3rem;
       }
 
       .text-part {
+        width: unset;
         line-height: 1.3rem;
         font-size: 1rem;
       }

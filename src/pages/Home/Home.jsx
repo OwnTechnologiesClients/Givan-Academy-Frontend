@@ -12,6 +12,10 @@ import WhatsappIcon from "../../components/whatsappIcon/WhatsappIcon";
 import Demo from "../../components/demo/Demo";
 import Notes from "../../components/notes/Notes";
 import Tuition from "../../components/tuition/Tuition";
+import Instructor from "../../components/instructors/Instructors"
+import Testimonials from "../../components/Testimonials/Testimonials";
+import Online from "../../components/onlinenotes/Online";
+
 
 const Home = () => {
   return (
@@ -24,6 +28,9 @@ const Home = () => {
       <Courses />
       <StatisticsSection />
       <Demo />
+      <Online />
+      <Testimonials />
+      <Instructor />
       <Tuition />
       <Notes />
       <WhatsappIcon />

@@ -8,6 +8,7 @@ const Notes = () => {
   return (
     <div className="notes-section">
       <div className="banner-part-4">
+        <div className="shapes-background"></div>
         <img src={Banner4} alt="" />
       </div>
       <div className="detailed">

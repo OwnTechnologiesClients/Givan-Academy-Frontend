@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+
+.instructor-section {
+  padding: 7vw;
+  background-color: #FAF8F9;
+
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6vw;
+    h5 {
+      font-size: 1.464vw;
+      font-weight: 800;
+      color: #85ba00;
+    }
+    h1 {
+      font-size: 3.66vw;
+      font-weight: 700;
+    }
+  }
+
+  .img-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .content-part-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .border-line {
+        border: 3px solid #fad39a;
+        border-radius:  0.732vw;
+        padding: 0.732vw;
+        img {
+          height: 20vw;
+        }
+      }
+      .name {
+        font-size: 2vw;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+      }
+      .post {
+        font-size: 1.464vw;
+        font-weight: 700;
+        color: #fad39a;
+      }
+    }
+    .content-part-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .border-line {
+        border: 3px solid #5bddb5;
+        border-radius:  0.732vw;
+        padding: 0.732vw;
+        img {
+          height: 20vw;
+        }
+      }
+      .name {
+        font-size: 2vw;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+      }
+      .post {
+        font-size: 1.464vw;
+        font-weight: 700;
+        color: #5bddb5;
+      }
+    }
+    .content-part-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .border-line {
+        border: 3px solid #ff2d59;
+        border-radius:  0.732vw;
+        padding: 0.732vw;
+        img {
+          height: 20vw;
+          align-self: center;
+        }
+      }
+      .name {
+        font-size: 2vw;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+      }
+      .post {
+        font-size: 1.464vw;
+        font-weight: 700;
+        color: #ff2d59;
+      }
+    }
+  }
+}

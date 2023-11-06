@@ -1,0 +1,61 @@
+.testimonials {
+  padding: 7vw;
+  background-color: #e7f0fd;
+  .text-part {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6vw;
+    h5 {
+      font-size: 1vw;
+      font-weight: 800;
+      color: #85ba00;
+    }
+    h1 {
+      font-size: 3.66vw;
+      font-weight: 700;
+    }
+  }
+
+  .card-container {
+    display: flex;
+    gap: 2.19vw;
+    .card-part {
+      border-radius: 1.2vw;
+      padding: 1.464vw;
+      background: #fff;
+      .card-section {
+        margin-bottom:  2.196vw;
+        display: flex;
+
+        .img-section {
+          img {
+            height: 4.31vw;
+            margin-right: 1vw;
+          }
+        }
+        .name-class {
+          h4 {
+            font-size: 1.5vw;
+            font-family: "Poppins";
+            font-weight: normal;
+          }
+          p {
+            color: #9a9696;
+            font-size: 1vw;
+            font-family: "Poppins";
+            font-weight: normal;
+          }
+        }
+      }
+      .text-section {
+        margin-bottom:  2.196vw;
+        p {
+          color: #9a9696;
+          font-size: 1.024vw;
+          font-family: "Poppins";
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

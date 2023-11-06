@@ -7,6 +7,7 @@ const Courses = () => {
   return (
     <div className="courses-section">
       <div className="banner-part-1">
+      <div className="shape-background"></div>
         <img src={Banner1} alt="" />
       </div>
 
@@ -17,7 +18,7 @@ const Courses = () => {
 
         <div className="text-details">
           <h4>
-            Newcomers will benefit greatly <br /> 
+            Newcomers will benefit greatly <br />
             from doing our feature classes
           </h4>
 
@@ -59,8 +60,8 @@ const Courses = () => {
         </div>
 
         <Link to="/">
-        <div className="button"> Explore notes &gt;</div>
-      </Link>
+          <div className="button"> Explore notes &gt;</div>
+        </Link>
       </div>
     </div>
   );

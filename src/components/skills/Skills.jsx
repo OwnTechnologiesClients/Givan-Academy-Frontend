@@ -13,10 +13,10 @@ const Skills = () => {
 
           <div className="stats">
             <h1>
-              Learn The Latest <br /> Skills
+              Learn The Latest Skills
             </h1>
             <p>
-              Curabitur arcu erat accumsan id <br /> imperdiet sem vivamu
+              Curabitur arcu erat accumsan id  imperdiet sem vivamu
             </p>
             <Link to="/">
             <div className="view">View Courses &gt;</div>
@@ -30,11 +30,11 @@ const Skills = () => {
           </div>
           <div className="stats">
             <h1>
-              10+ Online <br />
+              10+ Online 
               Courses
             </h1>
             <p>
-              Curabitur arcu erat accumsan id <br /> imperdiet sem vivamu
+              Curabitur arcu erat accumsan id imperdiet sem vivamu
             </p>
             <Link to="/">
             <div className="view">View Courses &gt;</div>
@@ -52,7 +52,7 @@ const Skills = () => {
               Certificate
             </h1>
             <p>
-              Curabitur arcu erat accumsan id <br /> imperdiet sem vivamu
+              Curabitur arcu erat accumsan id  imperdiet sem vivamu
             </p>
             <Link to="/">
             <div className="view">View Courses &gt;</div>
@@ -69,7 +69,7 @@ const Skills = () => {
               Up Your <br /> Skills
             </h1>
             <p>
-              Curabitur arcu erat accumsan id <br /> imperdiet sem vivamu
+              Curabitur arcu erat accumsan id imperdiet sem vivamu
             </p>
             <Link to="/">
               <div className="view">View Courses &gt;</div>
