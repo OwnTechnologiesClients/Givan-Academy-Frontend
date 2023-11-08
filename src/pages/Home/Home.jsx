@@ -10,7 +10,7 @@ import Courses from "../../components/courses/Courses";
 import StatisticsSection from "../../components/statistics/StatisticsSection";
 import WhatsappIcon from "../../components/whatsappIcon/WhatsappIcon";
 import Demo from "../../components/demo/Demo";
-import Notes from "../../components/notes/Notes";
+import Cost from "../../components/cost/Cost";
 import Tuition from "../../components/tuition/Tuition";
 import Instructor from "../../components/instructors/Instructors"
 import Testimonials from "../../components/Testimonials/Testimonials";
@@ -32,7 +32,7 @@ const Home = () => {
       <Testimonials />
       <Instructor />
       <Tuition />
-      <Notes />
+      <Cost />
       <WhatsappIcon />
       <Footer />
     </div>

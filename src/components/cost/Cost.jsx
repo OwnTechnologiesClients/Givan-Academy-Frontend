@@ -1,10 +1,10 @@
 import React from "react";
-import "./notes.scss";
+import "./cost.scss";
 import Banner4 from "../../assets/banner4.png";
 import checkbox from "../../assets/icons/checkbox.png";
 import { Link } from "react-router-dom";
 
-const Notes = () => {
+const Cost = () => {
   return (
     <div className="notes-section">
       <div className="banner-part-4">
@@ -57,4 +57,4 @@ const Notes = () => {
   );
 };
 
-export default Notes;
+export default Cost;

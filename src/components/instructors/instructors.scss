@@ -2,7 +2,7 @@
 
 .instructor-section {
   padding: 7vw;
-  background-color: #FAF8F9;
+  background-color: #faf8f9;
 
   .text-section {
     display: flex;
@@ -30,7 +30,7 @@
       align-items: center;
       .border-line {
         border: 3px solid #fad39a;
-        border-radius:  0.732vw;
+        border-radius: 0.732vw;
         padding: 0.732vw;
         img {
           height: 20vw;
@@ -53,7 +53,7 @@
       align-items: center;
       .border-line {
         border: 3px solid #5bddb5;
-        border-radius:  0.732vw;
+        border-radius: 0.732vw;
         padding: 0.732vw;
         img {
           height: 20vw;
@@ -76,7 +76,7 @@
       align-items: center;
       .border-line {
         border: 3px solid #ff2d59;
-        border-radius:  0.732vw;
+        border-radius: 0.732vw;
         padding: 0.732vw;
         img {
           height: 20vw;
@@ -92,6 +92,70 @@
         font-size: 1.464vw;
         font-weight: 700;
         color: #ff2d59;
+      }
+    }
+  }
+  @media screen and (max-width: "480px") {
+    padding: 5vw 6vw;
+
+    .text-section {
+      h5 {
+        font-size: 2vw;
+      }
+      h1 {
+        font-size: 4vw;
+      }
+    }
+    .img-section {
+      display: flex;
+      flex-direction: column;
+      .content-part-1 {
+        .border-line {
+          padding: 2vw;
+          margin-bottom: 2vw;
+          img {
+            height: 63vw;
+          }
+        }
+        .name {
+          font-size: 3vw;
+        }
+        .post {
+          font-size: 4vw;
+          margin-bottom: 4vw;
+        }
+      }
+      .content-part-2 {
+        .border-line {
+          padding: 2vw;
+          margin-bottom: 2vw;
+          img {
+            height: 63vw;
+          }
+        }
+        .name {
+          font-size: 3vw;
+        }
+        .post {
+          font-size: 4vw;
+          margin-bottom: 4vw;
+        }
+      }
+      .content-part-3 {
+        .border-line {
+          padding: 2vw;
+          margin-bottom: 2vw;
+          img {
+            height: 63vw;
+          }
+        }
+        .name {
+          font-size: 3vw;
+        }
+        .post {
+          font-size: 4vw;
+          margin-bottom: 4vw;
+        }
       }
     }
   }

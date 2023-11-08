@@ -92,6 +92,57 @@
       width: 12vw;
     }
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: "480px") {
+    padding: 7vw 6vw;
+    flex-direction: column;
+
+    .banner-part-1{
+      img{
+        height: 50vw;
+        margin-bottom: 2vw;
+    }
+    }
+
+    .detail {
+      .featured {
+        h4 {
+          font-size: 3vw;
+        }
+      }
+      .text-details {
+        h4 {
+          font-size: 4.049vw;
+          margin-bottom: 1.9vw;
+        }
+        p{
+          font-size: 2.2vw;
+        }
+      }
+      .register {
+        p {
+          font-size: 2vw;
+        }
+      }
+
+      .checkbox {
+        display: flex;
+        flex-direction: column;
+        .box {
+          margin-bottom: 0;
+          img {
+            margin-right: 2vw;
+            width: 2.5vw;
+          }
+
+          a {
+            font-size: 3vw;
+          }
+        }
+      }
+      .button {
+        margin-top: 0.8784vw;
+        width: 34vw;
+      }
+    }
   }
 }

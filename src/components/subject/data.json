@@ -1,0 +1,195 @@
+{
+  "1": {
+    "All": {
+      "Physics": {
+        "title" : "Physics",
+        "id": "1"
+      },
+      "Chemistry": "Chemistry of Class 1",
+      "Biology": "Biology of Class 1",
+      "Literature": "English Literature of Class 1",
+      "Grammar": "English Grammar of Class 1",
+      "Hindi Literature": "Hindi Literature of Class 1",
+      "Vyakran": "Vyakran of Class 1",
+      "Maths 1": "Maths 1 of Class 1",
+      "Maths 2": "Maths 2 of Class 1",
+      "G.K" : "G.K for class 1",
+      "Computer" : "Computer"
+    },
+    "Science": {
+      "Physics": "Physics of Class 1",
+      "Chemistry": "Chemistry of Class 1",
+      "Biology": "Biology of Class 1"
+    },
+    "English": {
+      "Literature": "English Literature of Class 1",
+      "Grammar": "English Grammar of Class 1"
+    },
+    "Hindi": {
+      "Hindi Literature": "Hindi Literature of Class 1",
+      "Vyakran": "Vyakran of Class 1"
+    },
+    "Maths": {
+      "Maths 1": "Maths 1 of Class 1",
+      "Maths 2": "Maths 2 of Class 1"
+    },
+    "GK": {
+      "G.K" : "G.K for class 1"
+    },
+    "Other": {
+      "Computer" : "Computer"
+    }
+  },
+  "2": {
+    "All":{
+      "Physics": "Physics of Class 1",
+      "Chemistry": "Chemistry of Class 1",
+      "Biology": "Biology of Class 1",
+      "Literature": "English Literature of Class 1",
+      "Grammar": "English Grammar of Class 1",
+      "Hindi Literature": "Hindi Literature of Class 1",
+      "Vyakran": "Vyakran of Class 1",
+      "Maths 1": "Maths 1 of Class 1",
+      "Maths 2": "Maths 2 of Class 1",
+      "G.K" : "G.K for class 1",
+      "Computer" : "Computer"
+    },
+    "Science": {
+      "Physics": "Physics of Class 2",
+      "Chemistry": "Chemistry of Class 2",
+      "Biology": "Biology of Class 2"
+    },
+    "English": {
+      "Literature": "English Literature of Class 2",
+      "Grammar": "English Grammar of Class 2"
+    },
+    "Hindi": {
+      "Hindi Literature": "Hindi Literature of Class 2",
+      "Vyakran": "Vyakran of Class 2"
+    },
+    "Maths": {
+      "Maths 1": "Maths 1 of Class 2",
+      "Maths 2": "Maths 2 of Class 2"
+    },
+    "GK": {
+      "G.K" : "G.K for class 2"
+    },
+    "Other": {
+      "Computer" : "Computer"
+    }
+  },
+  "3": {
+    "All": {
+      "Physics": "Physics of Class 1",
+      "Chemistry": "Chemistry of Class 1",
+      "Biology": "Biology of Class 1",
+      "Literature": "English Literature of Class 1",
+      "Grammar": "English Grammar of Class 1",
+      "Hindi Literature": "Hindi Literature of Class 1",
+      "Vyakran": "Vyakran of Class 1",
+      "Maths 1": "Maths 1 of Class 1",
+      "Maths 2": "Maths 2 of Class 1",
+      "G.K" : "G.K for class 1",
+      "Computer" : "Computer"
+    },
+    "Science": {
+      "Physics": "Physics of Class 3",
+      "Chemistry": "Chemistry of Class 3",
+      "Biology": "Biology of Class 3"
+    },
+    "English": {
+      "Literature": "English Literature of Class 3",
+      "Grammar": "English Grammar of Class 3"
+    },
+    "Hindi": {
+      "Hindi Literature": "Hindi Literature of Class 3",
+      "Vyakran": "Vyakran of Class 3"
+    },
+    "Maths": {
+      "Maths 1": "Maths 1 of Class 3",
+      "Maths 2": "Maths 2 of Class 3"
+    },
+    "GK": {
+      "G.K" : "G.K for class 3"
+    },
+    "Other": {
+      "Computer" : "Computer"
+    }
+  },
+  "4": {
+    "All":{
+      "Physics": "Physics of Class 1",
+      "Chemistry": "Chemistry of Class 1",
+      "Biology": "Biology of Class 1",
+      "Literature": "English Literature of Class 1",
+      "Grammar": "English Grammar of Class 1",
+      "Hindi Literature": "Hindi Literature of Class 1",
+      "Vyakran": "Vyakran of Class 1",
+      "Maths 1": "Maths 1 of Class 1",
+      "Maths 2": "Maths 2 of Class 1",
+      "G.K" : "G.K for class 1",
+      "Computer" : "Computer"
+    },
+    "Science": {
+      "Physics": "Physics of Class 4",
+      "Chemistry": "Chemistry of Class 4",
+      "Biology": "Biology of Class 4"
+    },
+    "English": {
+      "Literature": "English Literature of Class 4",
+      "Grammar": "English Grammar of Class 4"
+    },
+    "Hindi": {
+      "Hindi Literature": "Hindi Literature of Class 4",
+      "Vyakran": "Vyakran of Class 4"
+    },
+    "Maths": {
+      "Maths 1": "Maths 1 of Class 4",
+      "Maths 2": "Maths 2 of Class 4"
+    },
+    "GK": {
+      "G.K" : "G.K for class 4"
+    },
+    "Other": {
+      "Computer" : "Computer"
+    }
+  },
+  "5": {
+    "All":{
+      "Physics": "Physics of Class 1",
+      "Chemistry": "Chemistry of Class 1",
+      "Biology": "Biology of Class 1",
+      "Literature": "English Literature of Class 1",
+      "Grammar": "English Grammar of Class 1",
+      "Hindi Literature": "Hindi Literature of Class 1",
+      "Vyakran": "Vyakran of Class 1",
+      "Maths 1": "Maths 1 of Class 1",
+      "Maths 2": "Maths 2 of Class 1",
+      "G.K" : "G.K for class 1",
+      "Computer" : "Computer"
+    },
+    "Science": {
+      "Physics": "Physics of Class 5",
+      "Chemistry": "Chemistry of Class 5",
+      "Biology": "Biology of Class 5"
+    },
+    "English": {
+      "Literature": "English Literature of Class 5",
+      "Grammar": "English Grammar of Class 5"
+    },
+    "Hindi": {
+      "Hindi Literature": "Hindi Literature of Class 5",
+      "Vyakran": "Vyakran of Class 5"
+    },
+    "Maths": {
+      "Maths 1": "Maths 1 of Class 5",
+      "Maths 2": "Maths 2 of Class 5"
+    },
+    "GK": {
+      "G.K" : "G.K for class 5"
+    },
+    "Other": {
+      "Computer" : "Computer"
+    }
+  }
+}

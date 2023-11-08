@@ -64,4 +64,35 @@
       padding: 3vw;
     }
   }
+  @media screen and (max-width: "480px") {
+    padding: 7vw 6vw;
+    flex-direction: column;
+
+    .form-details {
+      .head {
+        h1 {
+          font-size: 6.5vw;
+          margin-bottom: 7vw;
+        }
+      }
+      input {
+        padding: 1.5vw;
+      }
+
+      form {
+        width: 88vw;
+      }
+      .butt {
+        margin-top: 6vw;
+        width: 27vw;
+      }
+    }
+
+    .banner-part-3 {
+      img {
+        height: 50vw;
+        margin-top: 4vw;
+      }
+    }
+  }
 }

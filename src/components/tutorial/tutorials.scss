@@ -1,0 +1,44 @@
+.tutorials-section {
+  .notes-pages {
+    position: relative;
+    .img-banner {
+      img {
+        height: 20.571vw;
+      }
+    }
+    .notes-text-part {
+      h1 {
+        position: absolute;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 4vw;
+        top: 5.2vw;
+        letter-spacing: 0.14vw;
+        font-weight: bold;
+        left: 42.6vw;
+      }
+    }
+    .homes-notes {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: absolute;
+      gap: 1.2vw;
+      top: 11vw;
+      left: 43.3vw;
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+
+      p {
+        font-family: "Poppins";
+        color: #fff;
+        font-size: 1.2vw;
+      }
+    }
+  }
+}

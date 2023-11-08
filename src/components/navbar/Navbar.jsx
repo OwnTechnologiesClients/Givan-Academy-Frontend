@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`nav-bar${menuOpen ? ' menu-open' : ''}`}>
+    <div className={`nav-bar${menuOpen ? " menu-open" : ""}`}>
       <div className="menu-icon" onClick={toggleMenu}>
         <img src={hamburger} alt="" />
       </div>
@@ -26,22 +26,22 @@ const Navbar = () => {
         <Link to="/">
           <div className="menu-items">Homes</div>
         </Link>
-        <Link to="/">
+        <Link to="/notes">
           <div className="menu-items">Notes</div>
         </Link>
-        <Link to="/">
+        <Link to="/videos">
           <div className="menu-items">Videos</div>
         </Link>
-        <Link to="/">
+        <Link to="/aboutus">
           <div className="menu-items">About Us</div>
         </Link>
-        <Link to="/">
+        <Link to="/contactus">
           <div className="menu-items">Contact Us</div>
         </Link>
-        <Link to="/">
+        <Link to="/liveclass">
           <div className="menu-items">Live Class</div>
         </Link>
-        <Link>
+        <Link to="/">
           <div className="join">JOIN AS INSTRUCTOR</div>
         </Link>
       </div>
