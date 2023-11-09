@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Subject = () => {
   // Extract all subjects from the data
   const navigate = useNavigate();
+  
   const allSubjects = Object.keys(data)
     .filter((classKey) => classKey !== "All")
     .reduce((subjects, classKey) => {
@@ -50,9 +51,14 @@ const Subject = () => {
 
       // Render subsections
       return (
-        <div style={{display:"flex", flexDirection:"row", flexWrap: "wrap"}} className="subject-card-map">
+        <div style={{display:"flex", flexDirection:"row", flexWrap: "wrap" , }} className="subject-card-map">
           {subsections.map((subsection) => (
-            <Card standard={selectedClass} subject={subsection}/>
+            <Card
+            standard={selectedClass}
+            subject={subsection}
+            onClick={() => navigate('detail')}
+          />
+          
           ))}
         </div>
       );

@@ -8,3 +8,25 @@
   color: inherit;
 
 }
+
+.under-bar::after {
+  content: "";
+  height: .2vw;
+  background-color: #363345;
+  display: flex;
+  width: 4vw;
+  margin-top: .7vw;
+}
+
+
+@media screen and (max-width:600px) {
+  .under-bar::after {
+    height: .2rem;
+    width: 20vw;
+  }
+
+}
+
+button:hover {
+  cursor: pointer;
+}

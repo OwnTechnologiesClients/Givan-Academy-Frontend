@@ -5,6 +5,9 @@
   justify-content: space-between;
   background: #fff;
   padding: 0 6vw;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
 
   .menu-icon {
     display: none;
@@ -91,7 +94,7 @@
       .tabs {
         display: block;
         position: absolute;
-        top: 20%;
+        top: 72%;
         left: 0;
         background: #fff;
         width: 100%;
