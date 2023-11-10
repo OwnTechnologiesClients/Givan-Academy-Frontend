@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.scss";
 
-const Card = ({ standard, subject , onClick}) => {
+const Card = ({ standard, subject, onClick }) => {
   return (
     <div className="card-container-1">
       <div
@@ -9,7 +9,9 @@ const Card = ({ standard, subject , onClick}) => {
           height: "14vw",
           width: " 250px",
         }}
-        className="card-container-section" onClick={onClick}>
+        className="card-container-section"
+        onClick={() => onClick(subject)} 
+      >
         <p>Class {standard}</p>
         <h4>{subject}</h4>
       </div>

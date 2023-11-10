@@ -5,11 +5,11 @@ const CourseDetail = ({ heading1, detailData }) => {
     <div className="course-detail">
       <div className="course-img">
         {" "}
-        <img src={detailData[heading1].image} alt="" />
+        <img src={detailData.image} alt="" />
       </div>
       <div className="content">
-        <h2>{heading1}</h2>
-        {detailData[heading1].courseLines.map((item, index) => {
+        <h2>{detailData.title}</h2>
+        {detailData.courseLines.map((item, index) => {
           return <p key={index}>{item}</p>;
         })}
       </div>

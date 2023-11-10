@@ -32,6 +32,19 @@ const Subject = () => {
     setSelectedSubject(subject);
   };
 
+  const handleSubjectSubsectionClick = (subject) => {
+    // Combine the selectedClass and selectedSubject into the path
+    const path = `detail/${selectedClass}/${subject}`;
+    
+    // Get the data for the clicked subsection
+    const subsectionData = data[selectedClass][selectedSubject][subject];
+
+    const subjectData = data[selectedClass][selectedSubject];
+
+    // Use the navigate function with state to pass data to the detail page
+    navigate(path, { state: { selectedClass, selectedSubject: subject, subsectionData  , subjectData} });
+  };
+
   // Render functions
   const renderContent = () => {
     return <p>{renderSubjectContent(selectedClass, selectedSubject)}</p>;
@@ -39,7 +52,8 @@ const Subject = () => {
 
   const renderSubjectContent = (selectedClass, selectedSubject) => {
     const subjectData = data[selectedClass][selectedSubject];
-
+ 
+    console.log(subjectData)
     if (typeof subjectData === "string") {
       return subjectData;
     } else if (typeof subjectData === "object") {
@@ -56,7 +70,7 @@ const Subject = () => {
             <Card
             standard={selectedClass}
             subject={subsection}
-            onClick={() => navigate('detail')}
+            onClick={handleSubjectSubsectionClick}
           />
           
           ))}

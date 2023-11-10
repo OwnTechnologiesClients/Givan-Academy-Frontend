@@ -1,64 +1,22 @@
 import React, { useRef } from "react";
 import CoursePageList from "../../components/coursepagelist/CoursePageList";
-import emailjs from "@emailjs/browser";
 import "./courselink.scss";
 
-const CourseLinks = ({ activeLink, handleLinkClick }) => {
-  const form = useRef();
-  const handleMessage = (e) => {
-    e.preventDefault(); // prevents the page from reloading when you hit “Send”
-    toast.success("We will contact you soon", {
-      position: "bottom-right",
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: false,
-      pauseOnHover: false,
-      draggable: false,
-      progress: undefined,
-    });
-    if (form !== null) {
-      emailjs
-        .sendForm(
-          "service_k99s57e",
-          "template_2a0tus6",
-          form.current,
-          "7EjtnFEz-7ax6QsuK"
-        )
-        .then(
-          (result) => {
-            console.log(result);
-          },
-          (error) => {
-            console.log(error);
-          }
-        );
-      form.current.reset();
-    }
-  };
+const CourseLinks = ({ activeLink, handleLinkClick ,sublinks }) => {
 
-  const currentURL = window.location.href;
-
-  // Split the URL by '/' and get the part after the last slash
-  /// const parts = currentURL.split("/");
-  /// const afterLastSlash = parts[parts.length - 1];
-
-  const links = [
-    ["English", "Hindi", "Maths", "Science", "G.K", "Other"],
-    ["English", "Hindi", "Maths", "Science", "G.K", "Other"],
-  ];
   return (
     <div className="course-page-left-nav">
       <CoursePageList
         hd1={"All Notes"}
         hd2={"List"}
-        links={links[0]}
+        links={sublinks}
         activeLink={activeLink}
         onLinkClick={handleLinkClick}
       />
       <CoursePageList
         hd1={"Related"}
         hd2={" Videos"}
-        links={links[1]}
+        links={sublinks}
         activeLink={activeLink}
         onLinkClick={handleLinkClick}
       />
@@ -101,7 +59,7 @@ const CourseLinks = ({ activeLink, handleLinkClick }) => {
         <h2>
           Quick <span className="under-bar">Contact</span>
         </h2>
-        <form className="form-fields" ref={form} onSubmit={handleMessage}>
+        <form className="form-fields" >
           <input
             type="email"
             name="email"

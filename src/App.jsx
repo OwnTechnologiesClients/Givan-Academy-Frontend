@@ -19,7 +19,10 @@ function App() {
           <Route path="contactus" element={<ContactUs />} />
           <Route path="aboutus" element={<Aboutus />} />
           <Route path="liveclass" element={<Liveclass />} />
-          <Route path="notes/detail" element={<Details />} /> 
+          <Route
+          path="notes/detail/:selectedClass/:selectedSubject"
+          element={<Details />}
+        />        
         </Routes>
       </BrowserRouter>
     </div>
