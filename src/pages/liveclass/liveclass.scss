@@ -1,0 +1,118 @@
+.liveclass-container {
+  padding: 6vw 10vw 6vw 10vw;
+  .live-section {
+    display: flex;
+    gap: 9vw;
+    align-items: center;
+
+    .live-img-section {
+      img {
+        height: 30vw;
+      }
+    }
+
+    .live-text-section {
+      h4 {
+        font-family: "Poppins";
+        font-size: 1vw;
+        font-weight: 700;
+        color: #85ba00;
+        margin-bottom: 1vw;
+      }
+
+      h2 {
+        font-family: "Poppins";
+        font-size: 2vw;
+        margin-bottom: 1.5vw;
+        color: #252525;
+        font-family: "Poppins";
+        font-weight: 700;
+      }
+
+      .stu {
+        font-family: "Poppins";
+        font-size: 1vw;
+        font-weight: 800;
+        margin-bottom: 1vw;
+      }
+
+      p {
+        font-family: "Poppins";
+        font-size: 1vw;
+        margin-bottom: 1.5vw;
+      }
+    }
+
+    .check-bx {
+      display: flex;
+      align-items: center;
+      gap: 0.7vw;
+      margin-bottom: 0.5vw;
+
+      img {
+        width: 1.5vw;
+      }
+
+      p {
+        font-family: "Poppins";
+        font-size: 1.5vw;
+        margin-bottom: -0.1vw;
+        font-weight: 800;
+      }
+    }
+
+    p {
+      font-family: "Poppins";
+      font-size: 1vw;
+    }
+  }
+
+  .form-section-live {
+    margin-top: 3vw;
+    .form-fields {
+      display: flex;
+      flex-direction: column;
+    }
+
+    h4 {
+      font-family: "Poppins";
+      font-size: 1.1vw;
+      font-weight: 700;
+    }
+
+    button {
+      margin-left: 3vw;
+      border: none;
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 1vw;
+      background-color: #2d6aa2;
+      border-radius: 5px;
+      width: 15%;
+      padding: 1vw;
+    }
+
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+      font-size: 1.1vw;
+      color: #9a9696;
+    }
+
+    input,
+    textarea {
+      background-color: #eeeeee;
+      border: none;
+      margin: 1vw 0;
+      height: 3vw;
+      padding: 0 2vw;
+      font-family: "Poppins";
+      font-size: 1.1vw;
+      color: #9a9696;
+      width: 45%;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

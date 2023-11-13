@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./notesdetail.scss";
 import CourseDetail from "../coursedetail/CourseDetail";
 import CourseLinks from "../courselink/CourseLink";
-import TestSeriesData from "./TestSeriesData.json";
 import NotesPdf from "../notespdf/NotesPdf";
 
 const Notesdetail = ({
@@ -12,9 +11,6 @@ const Notesdetail = ({
   subjectData,
 }) => {
   const [activeLink, setActiveLink] = useState("Hindi note description");
-
-  const pdfUrl =
-    "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf";
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
@@ -33,7 +29,7 @@ const Notesdetail = ({
             <CourseDetail heading1={activeLink} detailData={subsectionData} />
             <div className="notes-idea">
               <h2 className="under-bar">Notes Idea</h2>
-              <NotesPdf />
+              <NotesPdf pdfurl={subsectionData.pdf} />
             </div>
           </div>
         </div>

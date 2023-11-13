@@ -1,0 +1,64 @@
+.apply-container{
+    padding: 7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .img-apply{
+        img{
+            height: 27vw;
+        }
+    }
+
+    .text-apply{
+        h4{
+            font-family: "Poppins";
+            font-size: 1vw;
+            font-weight: 700;
+            color: #85BA00;
+            margin-bottom: 1vw;
+        }
+
+        h2{
+            font-family: "Poppins";
+            font-size: 2vw;
+            margin-bottom: 2vw;
+
+        }
+
+        p{
+            font-family: "Poppins";
+            font-size: 1vw;
+            font-weight: 700;
+        }
+    }
+
+    .apply-checkbox{
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+
+        .box{
+            display: flex;
+            gap: 0.5vw;
+            align-items: center;
+
+            img{
+                width: 1.5vw;
+            }
+        }
+    }
+
+    button{
+        background-color: #2D6AA2;
+        font-family: "Poppins";
+        color: #fff;
+        padding: 1vw;
+        border-radius: 5px;
+        width: 25%;
+        border: none;
+    }
+}

@@ -1,0 +1,482 @@
+.connection-container {
+  padding: 6.5vw;
+
+  .connection-section {
+
+    .heading {
+      margin-bottom: 6vw;
+      text-align: center;
+      h4 {
+        color: #85ba00;
+        font-size: 1vw;
+        font-weight: 800;
+        font-family: "Poppins";
+      }
+      h2 {
+        color: black;
+        font-size: 1.9vw;
+        font-family: "Poppins";
+      }
+    }
+    .connection-1 {
+      display: flex;
+      gap: 4vw;
+      align-items: center;
+      margin-bottom: 6vw;
+
+      .connection-left {
+        border: 3px solid #fad39a;
+        border-radius: 0.732vw;
+        padding: 0.732vw;
+        img {
+          height: 32vw;
+        }
+      }
+
+      .connection-right {
+        .part-1-right {
+          h4 {
+            margin-bottom: 1vw;
+            font-size: 1.8vw;
+            font-family: "Poppins";
+            font-weight: 800;
+          }
+
+          h5 {
+            margin-bottom: 1vw;
+            color: #ff9700;
+            font-size: 1.5vw;
+            font-family: "Poppins";
+            font-weight: 800;
+          }
+
+          p {
+            margin-bottom: 2.5vw;
+            color: #9a9696;
+            font-family: "Poppins";
+            font-family: 1vw;
+            font-weight: 700;
+          }
+        }
+
+        .part-1-bottom {
+          display: flex;
+          gap: 2vw;
+
+          .education {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+              font-size: 1.2vw;
+              font-family: "Poppins";
+              font-weight: 800;
+              margin-bottom: 0.9vw;
+            }
+            .hard {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 0.5vw;
+              img {
+                height: 2.5vw;
+              }
+
+              .text-connection {
+                h4 {
+                  color: #2d6aa2;
+                  font-size: 1vw;
+                  font-family: "Poppins";
+                }
+
+                p {
+                  font-family: "Poppins";
+                  font-size: 0.9vw;
+                  font-weight: 700;
+                  margin-bottom: 0.7vw;
+                }
+              }
+            }
+          }
+          .experience {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+              font-size: 1.2vw;
+              font-family: "Poppins";
+              font-weight: 800;
+              margin-bottom: 0.9vw;
+            }
+            .hard {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 0.5vw;
+              img {
+                height: 2.5vw;
+              }
+
+              .text-connection {
+                h4 {
+                  color: #2d6aa2;
+                  font-size: 1vw;
+                  font-family: "Poppins";
+                }
+
+                p {
+                  font-family: "Poppins";
+                  font-size: 0.9vw;
+                  font-weight: 700;
+                  margin-bottom: 0.7vw;
+                }
+              }
+            }
+          }
+          .achivements {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+              font-size: 1.2vw;
+              font-family: "Poppins";
+              font-weight: 800;
+              margin-bottom: 0.9vw;
+            }
+            .hard {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 0.5vw;
+              img {
+                height: 2.5vw;
+              }
+
+              .text-connection {
+                h4 {
+                  color: #2d6aa2;
+                  font-size: 1vw;
+                  font-family: "Poppins";
+                }
+
+                p {
+                  font-family: "Poppins";
+                  font-size: 0.9vw;
+                  font-weight: 700;
+                  margin-bottom: 0.7vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .connection-2 {
+        display: flex;
+        gap: 4vw;
+        align-items: center;
+        margin-bottom: 6vw;
+  
+        .connection-left {
+          border: 3px solid #B5F4E1;
+          border-radius: 0.732vw;
+          padding: 0.732vw;
+          img {
+            height: 32vw;
+          }
+        }
+  
+        .connection-right {
+          .part-1-right {
+            h4 {
+              margin-bottom: 1vw;
+              font-size: 1.8vw;
+              font-family: "Poppins";
+              font-weight: 800;
+            }
+  
+            h5 {
+              margin-bottom: 1vw;
+              color: #5BDDB5;
+              font-size: 1.5vw;
+              font-family: "Poppins";
+              font-weight: 800;
+            }
+  
+            p {
+              margin-bottom: 2.5vw;
+              color: #9a9696;
+              font-family: "Poppins";
+              font-family: 1vw;
+              font-weight: 700;
+            }
+          }
+  
+          .part-1-bottom {
+            display: flex;
+            gap: 2vw;
+  
+            .education {
+              display: flex;
+              flex-direction: column;
+  
+              h2 {
+                font-size: 1.2vw;
+                font-family: "Poppins";
+                font-weight: 800;
+                margin-bottom: 0.9vw;
+              }
+              .hard {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.5vw;
+                img {
+                  height: 2.5vw;
+                }
+  
+                .text-connection {
+                  h4 {
+                    color: #2d6aa2;
+                    font-size: 1vw;
+                    font-family: "Poppins";
+                  }
+  
+                  p {
+                    font-family: "Poppins";
+                    font-size: 0.9vw;
+                    font-weight: 700;
+                    margin-bottom: 0.7vw;
+                  }
+                }
+              }
+            }
+            .experience {
+              display: flex;
+              flex-direction: column;
+  
+              h2 {
+                font-size: 1.2vw;
+                font-family: "Poppins";
+                font-weight: 800;
+                margin-bottom: 0.9vw;
+              }
+              .hard {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.5vw;
+                img {
+                  height: 2.5vw;
+                }
+  
+                .text-connection {
+                  h4 {
+                    color: #2d6aa2;
+                    font-size: 1vw;
+                    font-family: "Poppins";
+                  }
+  
+                  p {
+                    font-family: "Poppins";
+                    font-size: 0.9vw;
+                    font-weight: 700;
+                    margin-bottom: 0.7vw;
+                  }
+                }
+              }
+            }
+            .achivements {
+              display: flex;
+              flex-direction: column;
+  
+              h2 {
+                font-size: 1.2vw;
+                font-family: "Poppins";
+                font-weight: 800;
+                margin-bottom: 0.9vw;
+              }
+              .hard {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.5vw;
+                img {
+                  height: 2.5vw;
+                }
+  
+                .text-connection {
+                  h4 {
+                    color: #2d6aa2;
+                    font-size: 1vw;
+                    font-family: "Poppins";
+                  }
+  
+                  p {
+                    font-family: "Poppins";
+                    font-size: 0.9vw;
+                    font-weight: 700;
+                    margin-bottom: 0.7vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .connection-3 {
+        display: flex;
+        gap: 4vw;
+        align-items: center;
+        margin-bottom: 6vw;
+  
+        .connection-left {
+          border: 3px solid #FF2D59;
+          border-radius: 0.732vw;
+          padding: 0.732vw;
+          img {
+            height: 32vw;
+          }
+        }
+  
+        .connection-right {
+          .part-1-right {
+            h4 {
+              margin-bottom: 1vw;
+              font-size: 1.8vw;
+              font-family: "Poppins";
+              font-weight: 800;
+            }
+  
+            h5 {
+              margin-bottom: 1vw;
+              color: #FF2D59;
+              font-size: 1.5vw;
+              font-family: "Poppins";
+              font-weight: 800;
+            }
+  
+            p {
+              margin-bottom: 2.5vw;
+              color: #9a9696;
+              font-family: "Poppins";
+              font-family: 1vw;
+              font-weight: 700;
+            }
+          }
+  
+          .part-1-bottom {
+            display: flex;
+            gap: 2vw;
+  
+            .education {
+              display: flex;
+              flex-direction: column;
+  
+              h2 {
+                font-size: 1.2vw;
+                font-family: "Poppins";
+                font-weight: 800;
+                margin-bottom: 0.9vw;
+              }
+              .hard {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.5vw;
+                img {
+                  height: 2.5vw;
+                }
+  
+                .text-connection {
+                  h4 {
+                    color: #2d6aa2;
+                    font-size: 1vw;
+                    font-family: "Poppins";
+                  }
+  
+                  p {
+                    font-family: "Poppins";
+                    font-size: 0.9vw;
+                    font-weight: 700;
+                    margin-bottom: 0.7vw;
+                  }
+                }
+              }
+            }
+            .experience {
+              display: flex;
+              flex-direction: column;
+  
+              h2 {
+                font-size: 1.2vw;
+                font-family: "Poppins";
+                font-weight: 800;
+                margin-bottom: 0.9vw;
+              }
+              .hard {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.5vw;
+                img {
+                  height: 2.5vw;
+                }
+  
+                .text-connection {
+                  h4 {
+                    color: #2d6aa2;
+                    font-size: 1vw;
+                    font-family: "Poppins";
+                  }
+  
+                  p {
+                    font-family: "Poppins";
+                    font-size: 0.9vw;
+                    font-weight: 700;
+                    margin-bottom: 0.7vw;
+                  }
+                }
+              }
+            }
+            .achivements {
+              display: flex;
+              flex-direction: column;
+  
+              h2 {
+                font-size: 1.2vw;
+                font-family: "Poppins";
+                font-weight: 800;
+                margin-bottom: 0.9vw;
+              }
+              .hard {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.5vw;
+                img {
+                  height: 2.5vw;
+                }
+  
+                .text-connection {
+                  h4 {
+                    color: #2d6aa2;
+                    font-size: 1vw;
+                    font-family: "Poppins";
+                  }
+  
+                  p {
+                    font-family: "Poppins";
+                    font-size: 0.9vw;
+                    font-weight: 700;
+                    margin-bottom: 0.7vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+}

@@ -42,7 +42,7 @@ const Classes = () => {
           <h4>DISCOVER COURSES</h4>
           <h1>Our Popular Classes</h1>
         </div>
-        <Link to="/">
+        <Link to="/notes">
           <div className="button"> View All &gt;</div>
         </Link>
       </div>

@@ -20,11 +20,12 @@ const HeroSection = () => {
           porta dapibus.
         </p>
 
-        <Link to="/" >
+        <Link to="/notes">
           <div className="notes">View All Notes &gt;</div>
         </Link>
       </div>
       <div className="banner-part">
+        <div className="shape-background-1"></div>
         <img src={Banner} alt="" />
       </div>
     </div>

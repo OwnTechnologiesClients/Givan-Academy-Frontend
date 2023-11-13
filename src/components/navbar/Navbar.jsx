@@ -41,7 +41,7 @@ const Navbar = () => {
         <Link to="/liveclass">
           <div className="menu-items">Live Class</div>
         </Link>
-        <Link to="/">
+        <Link to="/apply">
           <div className="join">JOIN AS INSTRUCTOR</div>
         </Link>
       </div>

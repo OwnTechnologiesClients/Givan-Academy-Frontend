@@ -5,7 +5,8 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
-        "sidelinks": [ "Physics", "Chemistry" , "Biology"],
+        "pdf": "../../.././src/assets/dummy.pdf",
+           "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
 
@@ -22,6 +23,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -39,6 +41,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -56,6 +59,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -73,6 +77,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -90,6 +95,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -107,6 +113,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -124,6 +131,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -141,6 +149,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -158,6 +167,7 @@
         "id": "10",
         "title" : "G K note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "G.K"],
     "courseLines": [
       "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -175,6 +185,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -194,6 +205,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -211,6 +223,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -228,6 +241,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -247,6 +261,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -264,6 +279,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -283,6 +299,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -300,6 +317,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -319,6 +337,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -336,6 +355,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -355,6 +375,7 @@
         "id": "10",
         "title" : "G K note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "G.K"],
     "courseLines": [
       "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -374,6 +395,7 @@
         "id": "1",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
     "courseLines": [
       "English Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
 
@@ -393,6 +415,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -410,6 +433,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -427,6 +451,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -444,6 +469,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -461,6 +487,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -478,6 +505,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -495,6 +523,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -512,6 +541,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -529,6 +559,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -546,6 +577,7 @@
         "id": "10",
         "title" : "G K note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "G.K"],
     "courseLines": [
       "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -563,6 +595,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -582,6 +615,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -599,6 +633,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -616,6 +651,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -635,6 +671,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -652,6 +689,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -671,6 +709,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -688,6 +727,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -707,6 +747,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -724,6 +765,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -743,6 +785,7 @@
         "id": "10",
         "title" : "G K note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "G.K"],
     "courseLines": [
       "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -762,6 +805,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -783,6 +827,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -800,6 +845,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -817,6 +863,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -834,6 +881,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -851,6 +899,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -868,6 +917,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -885,6 +935,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -902,6 +953,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -919,6 +971,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -937,6 +990,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -956,6 +1010,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -973,6 +1028,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -990,6 +1046,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1009,6 +1066,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1026,6 +1084,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1045,6 +1104,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1062,6 +1122,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1081,6 +1142,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1098,6 +1160,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1117,6 +1180,7 @@
         "id": "10",
         "title" : "G K note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "G.K"],
     "courseLines": [
       "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1136,6 +1200,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1157,6 +1222,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1174,6 +1240,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1191,6 +1258,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1208,6 +1276,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1225,6 +1294,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1242,6 +1312,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1259,6 +1330,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1276,6 +1348,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1293,6 +1366,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1310,6 +1384,7 @@
         "id": "10",
         "title" : "G K note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "G.K"],
     "courseLines": [
       "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1327,6 +1402,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1346,6 +1422,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1363,6 +1440,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1380,6 +1458,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1399,6 +1478,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1416,6 +1496,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1435,6 +1516,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1452,6 +1534,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1471,6 +1554,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1488,6 +1572,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1507,6 +1592,7 @@
         "id": "10",
         "title" : "G K note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "G.K"],
     "courseLines": [
       "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1526,6 +1612,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1547,6 +1634,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1564,6 +1652,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1581,6 +1670,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1598,6 +1688,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1615,6 +1706,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1632,6 +1724,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1649,6 +1742,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1666,6 +1760,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1683,6 +1778,7 @@
         "id": "9",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths 2 Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1701,6 +1797,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1720,6 +1817,7 @@
         "id": "1",
         "title" : "Physics note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1737,6 +1835,7 @@
         "id": "2",
         "title" : "Chemistry note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1754,6 +1853,7 @@
         "id": "3",
         "title" : "Biology note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Physics", "Chemistry" , "Biology"],
     "courseLines": [
       "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1773,6 +1873,7 @@
         "id": "4",
         "title" : "English Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1790,6 +1891,7 @@
         "id": "5",
         "title" : "Grammer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Literature", "Grammer"],
     "courseLines": [
       "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1809,6 +1911,7 @@
         "id": "6",
         "title" : "Hindi Literature note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Hindi Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1826,6 +1929,7 @@
         "id": "7",
         "title" : "Vyakran note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Hindi Literature", "Vyakran"],
     "courseLines": [
       "Vyakran Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1845,6 +1949,7 @@
         "id": "8",
         "title" : "Maths 1 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1862,6 +1967,7 @@
         "id": "8",
         "title" : "Maths 2 note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Maths 1", "Maths 2"],
     "courseLines": [
       "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1881,6 +1987,7 @@
         "id": "10",
         "title" : "G K note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "G.K"],
     "courseLines": [
       "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -1900,6 +2007,7 @@
         "id": "11",
         "title" : "Computer note description",
         "image": "../../.././src/assets/bg3.png",
+        "pdf": "../../.././src/assets/dummy.pdf",
         "sidelinks": [ "Computer"],
     "courseLines": [
       "Computer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",

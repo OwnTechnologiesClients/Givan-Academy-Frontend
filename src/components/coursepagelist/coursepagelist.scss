@@ -1,7 +1,4 @@
-$theme-color: #202C45;
-$nav-bg: #24497c;
-$blue: #2D8EFF;
-$light-bg: #EEE;
+
 
 .course-list {
 
@@ -12,7 +9,7 @@ $light-bg: #EEE;
             font-size: 1vw;
             padding: .8vw;
             margin: 0.6vw 0;
-            background-color: $light-bg;
+            background-color: #eee;
             width: 17vw;
 
             a {
@@ -21,8 +18,8 @@ $light-bg: #EEE;
         }
 
         .active {
-            background-color: $theme-color;
-            border-right: 0.3vw solid $blue;
+            background-color:#85BA00;
+            border-right: 0.3vw solid black;
             width: 17.3vw;
             color: #fff;
         }
@@ -39,7 +36,7 @@ $light-bg: #EEE;
             }
 
             .active {
-                border-right: 1vw solid $blue;
+                border-right: 1vw solid black;
                 a {
                     color: #fff;
                 }

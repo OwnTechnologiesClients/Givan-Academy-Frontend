@@ -40,6 +40,17 @@
   }
 
   .banner-part {
+    position: relative;
+    .shape-background-1 {
+      position: absolute;
+      top: 0.194vw;
+      left: 1.878vw;
+      width: 100%;
+      height: 100%;
+      background-image: url(/src/assets/shape1.png);
+      background-size: cover;
+      z-index: 0;
+    }
     img {
       height: 50vw;
       padding: 5vw;
