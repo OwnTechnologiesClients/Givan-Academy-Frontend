@@ -1,0 +1,49 @@
+{
+    "allVideos": [
+      {
+        "title": "Video 1",
+        "duration": "10:30",
+        "type": "regular",
+        "link": "https://www.youtube.com/embed/1raJIerR0J0?si=6h0gScEUGQr1_lmZ"
+      },
+      {
+        "title": "Short 1",
+        "duration": "2:45",
+        "type": "short",
+        "link":"https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z"
+      },
+      {
+        "title": "Video 2",
+        "duration": "8:15",
+        "type": "regular",
+        "link": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z"
+      },
+      {
+        "title": "Short 2",
+        "duration": "1:50",
+        "type": "short",
+        "link": "https://www.youtube.com/embed/1raJIerR0J0?si=6h0gScEUGQr1_lmZ"
+      },
+      {
+        "title": "Video 3",
+        "duration": "12:05",
+        "type": "regular",
+        "link": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z"
+      }
+    ],
+    "shorts": [
+      {
+        "title": "Short 1",
+        "duration": "2:45",
+        "type": "short",
+        "link": "https://youtube.com/shorts/GDQOCoPjUiA?si=esCOlnQB2NqfURro"
+      },
+      {
+        "title": "Short 2",
+        "duration": "1:50",
+        "type": "short",
+        "link": "https://youtube.com/shorts/GDQOCoPjUiA?si=esCOlnQB2NqfURro"
+      }
+    ]
+  }
+  

@@ -7,6 +7,7 @@ import Footer from "../../components/footer/Footer";
 import ApplyIMG from "../../assets/apply-bg.png";
 import Tutorial from "../../components/tutorial/Tutorial";
 import Box from "../../assets/icons/checkbox.png";
+
 const Apply = () => {
   return (
     <div>
@@ -42,6 +43,8 @@ const Apply = () => {
           <button>Apply Now</button>
         </div>
       </div>
+
+      
       <WhatsappIcon />
       <Footer />
     </div>

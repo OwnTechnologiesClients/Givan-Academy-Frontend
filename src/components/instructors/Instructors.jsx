@@ -3,6 +3,7 @@ import "./instructors.scss";
 import IMG1 from "../../assets/3.png";
 import IMG2 from "../../assets/2.png";
 import IMG3 from "../../assets/1.png";
+import { Link } from "react-router-dom";
 
 const Instructors = () => {
   return (
@@ -13,27 +14,33 @@ const Instructors = () => {
       </div>
 
       <div className="img-section">
-        <div className="content-part-1">
-          <div className="border-line">
-            <img src={IMG1} alt="" />
+        <Link to="/aboutus">
+          <div className="content-part-1">
+            <div className="border-line">
+              <img src={IMG1} alt="" />
+            </div>
+            <div className="name">Female Name</div>
+            <div className="post">Director</div>
           </div>
-          <div className="name">Female Name</div>
-          <div className="post">Director</div>
-        </div>
-        <div className="content-part-2">
-          <div className="border-line">
-            <img src={IMG2} alt="" />
+        </Link>
+        <Link to="/aboutus">
+          <div className="content-part-2">
+            <div className="border-line">
+              <img src={IMG2} alt="" />
+            </div>
+            <div className="name">Male Name</div>
+            <div className="post">Maths Instructor </div>
           </div>
-          <div className="name">Male Name</div>
-          <div className="post">Maths Instructor </div>
-        </div>
-        <div className="content-part-3">
-          <div className="border-line">
-            <img src={IMG3} alt="" />
-          </div>
-          <div className="name">Female Name</div>
-          <div className="post">English Instructor </div>
-        </div>
+        </Link>
+       <Link to="/aboutus">
+       <div className="content-part-3">
+       <div className="border-line">
+         <img src={IMG3} alt="" />
+       </div>
+       <div className="name">Female Name</div>
+       <div className="post">English Instructor </div>
+     </div>
+       </Link>
       </div>
     </div>
   );

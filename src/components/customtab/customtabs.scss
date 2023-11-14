@@ -1,0 +1,40 @@
+.customTabs { // Updated class name
+  margin-top: 4vw;
+  text-align: center;
+
+  button {
+    padding: 1.2vw;
+    width: 15%;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #2D6AA2;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 0.9vw;
+    transition: background-color 0.3s;
+
+    &:first-child {
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+  }
+
+  button.actives {
+    background-color: #2D6AA2;
+    color: white;
+  }
+
+  button.inactives {
+    background-color: white;
+    color: black;
+  }
+
+  .contents {
+    margin-top: 20px;
+  }
+}

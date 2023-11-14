@@ -3,7 +3,7 @@
 .instructor-section {
   padding: 7vw;
   background-color: #faf8f9;
-
+  
   .text-section {
     display: flex;
     flex-direction: column;
@@ -32,9 +32,11 @@
         border: 3px solid #fad39a;
         border-radius: 0.732vw;
         padding: 0.732vw;
+      
         img {
           height: 20vw;
         }
+    
       }
       .name {
         font-size: 2vw;

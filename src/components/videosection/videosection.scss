@@ -1,0 +1,55 @@
+.subject-container {
+    padding: 6vw;
+    display: flex;
+    background-color: #faf8f9;
+    flex-direction: column;
+  
+    .subject-tutorial {
+      h5 {
+        font-size: 1vw;
+        font-family: "Poppins";
+        margin-bottom: 1vw;
+        letter-spacing: 1px;
+      }
+  
+      .class-select {
+        border: 1px solid #fff;
+        font-family: "Poppins";
+        border-radius:  0.878vw;
+        font-size: 1.2vw;
+        padding: 0.732vw 0.83vw;
+        width: 8vw;
+        cursor: pointer;
+        background-color: #fff;
+        border: none;
+        box-shadow: 0 2px 4px rgba(83, 82, 82, 0.2);
+  
+        &:hover {
+          background-color: #e0e0e0;
+        }
+      }
+    }
+  
+    .tab-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 7vw;
+      margin-top:1.830vw;
+  
+      button {
+        background: #8d9296;
+        border-radius:  0.3660vw;
+        color: #fff;
+        font-family: "Poppins";
+        border: none;
+        padding: 0.732vw 1.83vw;
+        margin-right: 1.317vw;
+        cursor: pointer;
+  
+        &.active {
+          background: #85ba00;
+        }
+      }
+    }
+  }
+  
