@@ -25,12 +25,17 @@
     align-items: center;
     gap: 1.875rem;
 
-    .menu-items {
+    .menu-items,
+    .join {
       color: #000000;
       font-size: 1.1vw;
       font-weight: 600;
 
       &:hover {
+        color: #85ba00;
+      }
+
+      &.active {
         color: #85ba00;
       }
     }
@@ -52,7 +57,8 @@
 
     .tabs {
       display: none;
-      .menu-items {
+      .menu-items,
+      .join {
         color: #000000;
         font-size: 3vw;
         font-weight: 600;

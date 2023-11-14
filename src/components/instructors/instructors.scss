@@ -3,7 +3,7 @@
 .instructor-section {
   padding: 7vw;
   background-color: #faf8f9;
-  
+
   .text-section {
     display: flex;
     flex-direction: column;
@@ -32,11 +32,12 @@
         border: 3px solid #fad39a;
         border-radius: 0.732vw;
         padding: 0.732vw;
-      
+        &:hover {
+          border-color: #f59402;
+        }
         img {
           height: 20vw;
         }
-    
       }
       .name {
         font-size: 2vw;
@@ -47,6 +48,9 @@
         font-size: 1.464vw;
         font-weight: 700;
         color: #fad39a;
+        &:hover {
+          color: #f59402;
+        }
       }
     }
     .content-part-2 {
@@ -57,6 +61,9 @@
         border: 3px solid #5bddb5;
         border-radius: 0.732vw;
         padding: 0.732vw;
+        &:hover {
+          border-color: #78a395;
+        }
         img {
           height: 20vw;
         }
@@ -70,6 +77,9 @@
         font-size: 1.464vw;
         font-weight: 700;
         color: #5bddb5;
+        &:hover {
+          color: #78a395;
+        }
       }
     }
     .content-part-3 {
@@ -80,6 +90,9 @@
         border: 3px solid #ff2d59;
         border-radius: 0.732vw;
         padding: 0.732vw;
+        &:hover {
+          border-color: rgb(150, 102, 113);
+        }
         img {
           height: 20vw;
           align-self: center;
@@ -94,6 +107,9 @@
         font-size: 1.464vw;
         font-weight: 700;
         color: #ff2d59;
+        &:hover {
+        color: rgb(150, 102, 113);
+        }
       }
     }
   }

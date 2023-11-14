@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import "./customtabs.scss"; // Updated import
 import VideoCard from "../videocard/VideoCard";
 import VideoSection from "../videosection/VideoSection";
 import data from "./Data.json";
 
-const CustomTabs = () => { 
+const CustomTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const handleTabClick = (index) => {
@@ -30,20 +29,45 @@ const CustomTabs = () => {
   ];
 
   return (
-    <div className="customTabs"> {/* Updated class name */}
-      <div>
-        {initialTabs.map((tab, index) => (
-          <button
-            key={index}
-            onClick={() => handleTabClick(index)}
-            className={`${index === activeTab ? "actives" : "inactives"}`}
-          >
-            {tab.label}
-          </button>
-        ))}
-      </div>
-      <div className="contents">{initialTabs[activeTab].content}</div>
-    </div>
+   <div style={{  backgroundColor: "#FAF8F9",}}>
+   <div
+   style={{
+     marginTop: "4vw",
+     textAlign: "center",
+   
+   }}
+ >
+   <div>
+     {initialTabs.map((tab, index) => (
+       <button
+         key={index}
+         onClick={() => handleTabClick(index)}
+         style={{
+           padding: "1.2vw",
+           width: "15%",
+           cursor: "pointer",
+           border: "1px solid #2D6AA2",
+           fontFamily: '"Poppins", sans-serif',
+           fontWeight: 700,
+           fontSize: "0.9vw",
+           transition: "background-color 0.3s",
+           borderTopLeftRadius: index === 0 ? "50px" : "0",
+           borderBottomLeftRadius: index === 0 ? "50px" : "0",
+           borderTopRightRadius:
+             index === initialTabs.length - 1 ? "50px" : "0",
+           borderBottomRightRadius:
+             index === initialTabs.length - 1 ? "50px" : "0",
+           backgroundColor: index === activeTab ? "#2D6AA2" : "white",
+           color: index === activeTab ? "white" : "black",
+         }}
+       >
+         {tab.label}
+       </button>
+     ))}
+   </div>
+   <div style={{ marginTop: "20px" }}>{initialTabs[activeTab].content}</div>
+ </div>
+   </div>
   );
 };
 

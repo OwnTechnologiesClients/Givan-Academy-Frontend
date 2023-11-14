@@ -102,9 +102,10 @@ const VideoSection = () => {
     <div className="subject-container">
       {/* Filter Tutorial Class */}
       <div className="subject-tutorial">
-        <h5>Filter Tutorial Class</h5>
+        <h5 style={{ display: "flex", alignItems: "baseline" }}>Filter Tutorial Class</h5>
         <select
           className="class-select"
+          style={{ display: "flex", alignItems: "baseline" }}
           value={selectedClass}
           onChange={handleClassChange}
         >
@@ -117,7 +118,7 @@ const VideoSection = () => {
       </div>
 
       {/* Subject tabs */}
-      <div className="tab-list" style={{display: "flex", alignItems: "baseline"}}>
+      <div className="tab-list">
         <button
           key="All"
           onClick={() => handleSubjectClick("All")}

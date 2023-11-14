@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./subject.scss";
 import data from "./data.json";
-import Card from "../card/Card"
+import Card from "../card/Card";
 import { useNavigate } from "react-router-dom";
 
 const Subject = () => {
   // Extract all subjects from the data
   const navigate = useNavigate();
-  
+
   const allSubjects = Object.keys(data)
     .filter((classKey) => classKey !== "All")
     .reduce((subjects, classKey) => {
@@ -35,14 +35,21 @@ const Subject = () => {
   const handleSubjectSubsectionClick = (subject) => {
     // Combine the selectedClass and selectedSubject into the path
     const path = `detail/${selectedClass}/${subject}`;
-    
+
     // Get the data for the clicked subsection
     const subsectionData = data[selectedClass][selectedSubject][subject];
 
     const subjectData = data[selectedClass][selectedSubject];
 
     // Use the navigate function with state to pass data to the detail page
-    navigate(path, { state: { selectedClass, selectedSubject: subject, subsectionData  , subjectData} });
+    navigate(path, {
+      state: {
+        selectedClass,
+        selectedSubject: subject,
+        subsectionData,
+        subjectData,
+      },
+    });
   };
 
   // Render functions
@@ -52,8 +59,8 @@ const Subject = () => {
 
   const renderSubjectContent = (selectedClass, selectedSubject) => {
     const subjectData = data[selectedClass][selectedSubject];
- 
-    console.log(subjectData)
+
+    console.log(subjectData);
     if (typeof subjectData === "string") {
       return subjectData;
     } else if (typeof subjectData === "object") {
@@ -65,14 +72,16 @@ const Subject = () => {
 
       // Render subsections
       return (
-        <div style={{display:"flex", flexDirection:"row", flexWrap: "wrap" , }} className="subject-card-map">
+        <div
+          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
+          className="subject-card-map"
+        >
           {subsections.map((subsection) => (
             <Card
-            standard={selectedClass}
-            subject={subsection}
-            onClick={handleSubjectSubsectionClick}
-          />
-          
+              standard={selectedClass}
+              subject={subsection}
+              onClick={handleSubjectSubsectionClick}
+            />
           ))}
         </div>
       );
