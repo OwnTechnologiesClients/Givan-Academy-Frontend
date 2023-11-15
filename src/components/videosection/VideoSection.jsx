@@ -72,29 +72,30 @@ const VideoSection = () => {
 
       // Render subsections
       const videoLinks = subsections.map(
-        (subsection) => subjectData[subsection].videoLink
+        (subsection) => subjectData[subsection].videolink
       );
+      
 
       return (
         <div
           style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
           className="subject-card-map"
         >
-          {subsections.map((subsection) => (
-            <div className="video-card">
+          {subsections.map((subsection, index) => (
+            <div key={index} className="video-card">
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/beMXNkn7Fes?si=ALWgfYApLdVMvezb"
+                src={subjectData[subsection].videolink} // Set the src attribute dynamically
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           ))}
         </div>
-      );
+      );      
     }
   };
 

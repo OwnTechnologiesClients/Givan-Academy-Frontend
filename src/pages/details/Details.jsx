@@ -11,7 +11,8 @@ import Notesdetail from '../../components/notesdetail/Notesdetail';
 const Details = () => {
   // Use the useLocation hook to get the state passed during navigation
   const location = useLocation();
-  const { selectedClass, selectedSubject, subsectionData ,subjectData } = location.state;
+  const { selectedClass, selectedSubject, subsectionData, subjectData } = location.state;
+  console.log('Location State:', location.state);
 
   console.log("Subsection Data:", subjectData);
 
@@ -24,7 +25,7 @@ const Details = () => {
       <Tutorial hd1={"Details"} hd3={"Details"}/>
       
       {/* Pass the data to the Notesdetail component */}
-      <Notesdetail
+      <Notesdetail 
         selectedClass={selectedClass}
         selectedSubject={selectedSubject}
         subsectionData={subsectionData}

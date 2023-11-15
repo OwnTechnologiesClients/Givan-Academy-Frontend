@@ -2,24 +2,26 @@ import React, { useRef } from "react";
 import CoursePageList from "../../components/coursepagelist/CoursePageList";
 import "./courselink.scss";
 
-const CourseLinks = ({ activeLink, handleLinkClick ,sublinks }) => {
+const CourseLinks = ({ activeLink, handleLinkClick ,sublinks ,  selectedClass
+}) => {
 
   return (
     <div className="course-page-left-nav">
-      <CoursePageList
+    <CoursePageList
         hd1={"All Notes"}
         hd2={"List"}
+        selectedClass={selectedClass}
         links={sublinks}
         activeLink={activeLink}
-        onLinkClick={handleLinkClick}
+        onLinkClick={handleLinkClick}  // Use the correct prop name here
       />
-      <CoursePageList
+   {/*   <CoursePageList
         hd1={"Related"}
         hd2={" Videos"}
         links={sublinks}
         activeLink={activeLink}
         onLinkClick={handleLinkClick}
-      />
+  />*/ }
 
       <div className="opening-hours-list">
         <h2>

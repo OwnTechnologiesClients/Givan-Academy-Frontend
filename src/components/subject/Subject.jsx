@@ -32,25 +32,23 @@ const Subject = () => {
     setSelectedSubject(subject);
   };
 
-  const handleSubjectSubsectionClick = (subject) => {
-    // Combine the selectedClass and selectedSubject into the path
-    const path = `detail/${selectedClass}/${subject}`;
+const handleSubjectSubsectionClick = (subject) => {
+  const path = `detail/${selectedClass}/${subject}`;
+  const subsectionData = data[selectedClass][selectedSubject][subject];
+  const subjectData = data[selectedClass][selectedSubject];
+  console.log("Data to pass:", selectedClass, selectedSubject, subsectionData, subjectData);
 
-    // Get the data for the clicked subsection
-    const subsectionData = data[selectedClass][selectedSubject][subject];
+  navigate(path, {
+    state: {
+      selectedClass,
+      selectedSubject: subject,
+      subsectionData,
+      subjectData,
+    },
+  });
+};
 
-    const subjectData = data[selectedClass][selectedSubject];
-
-    // Use the navigate function with state to pass data to the detail page
-    navigate(path, {
-      state: {
-        selectedClass,
-        selectedSubject: subject,
-        subsectionData,
-        subjectData,
-      },
-    });
-  };
+  
 
   // Render functions
   const renderContent = () => {
