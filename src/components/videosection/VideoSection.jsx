@@ -74,7 +74,6 @@ const VideoSection = () => {
       const videoLinks = subsections.map(
         (subsection) => subjectData[subsection].videolink
       );
-      
 
       return (
         <div
@@ -82,8 +81,17 @@ const VideoSection = () => {
           className="subject-card-map"
         >
           {subsections.map((subsection, index) => (
-            <div key={index} className="video-card">
+            <div
+              key={index}
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                marginRight: "2vw",
+                marginBottom: "2vw",
+              }}
+            >
               <iframe
+                style={{ width: "24vw", height: "13.5vw" }}
                 width="560"
                 height="315"
                 src={subjectData[subsection].videolink} // Set the src attribute dynamically
@@ -95,7 +103,7 @@ const VideoSection = () => {
             </div>
           ))}
         </div>
-      );      
+      );
     }
   };
 
@@ -103,7 +111,9 @@ const VideoSection = () => {
     <div className="subject-container">
       {/* Filter Tutorial Class */}
       <div className="subject-tutorial">
-        <h5 style={{ display: "flex", alignItems: "baseline" }}>Filter Tutorial Class</h5>
+        <h5 style={{ display: "flex", alignItems: "baseline" }}>
+          Filter Tutorial Class
+        </h5>
         <select
           className="class-select"
           style={{ display: "flex", alignItems: "baseline" }}

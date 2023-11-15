@@ -16,11 +16,11 @@ const CustomTabs = () => {
   const initialTabs = [
     {
       label: "All Videos",
-      content: <VideoCard videourls={allVideosLink} />,
+      content: <VideoCard videourls={allVideosLink}  />,
     },
     {
       label: "Shorts",
-      content: <VideoCard videourls={shortsLink} />,
+      content: <VideoCard videourls={shortsLink} style={{ height: "24vw", width: "13.5vw" }}/>,
     },
     {
       label: "Tutorials",

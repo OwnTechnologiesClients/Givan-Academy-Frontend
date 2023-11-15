@@ -2,15 +2,14 @@ import React, { useRef } from "react";
 import CoursePageList from "../../components/coursepagelist/CoursePageList";
 import "./courselink.scss";
 
-const CourseLinks = ({ activeLink, handleLinkClick ,sublinks ,  selectedClass
+const CourseLinks = ({ activeLink, handleLinkClick ,sublinks 
 }) => {
 
   return (
     <div className="course-page-left-nav">
-    <CoursePageList
+    <CoursePageList 
         hd1={"All Notes"}
         hd2={"List"}
-        selectedClass={selectedClass}
         links={sublinks}
         activeLink={activeLink}
         onLinkClick={handleLinkClick}  // Use the correct prop name here

@@ -1,11 +1,12 @@
 import React from "react";
 import "./videocard.scss";
 
-const VideoCard = ({ videourls }) => {
+const VideoCard = ({ videourls, style }) => {
   return (
     <div className="video-card">
       {videourls.map((url, index) => (
-        <iframe
+        <iframe 
+        style={style}
           key={index}
           src={url}
           title={`YouTube video player ${index}`}

@@ -5,7 +5,7 @@ import Card from "../card/Card";
 import { useNavigate } from "react-router-dom";
 
 const Subject = () => {
-  // Extract all subjects from the data
+
   const navigate = useNavigate();
 
   const allSubjects = Object.keys(data)
@@ -17,40 +17,43 @@ const Subject = () => {
       return subjects.concat(subjectsInClass);
     }, []);
 
-  // State variables
+
   const classOptions = Object.keys(data);
   const [selectedClass, setSelectedClass] = useState(classOptions[0]);
   const [selectedSubject, setSelectedSubject] = useState("All");
 
-  // Event handlers
+
   const handleClassChange = (e) => {
     setSelectedClass(e.target.value);
-    setSelectedSubject("All"); // Reset selectedSubject when class changes
+    setSelectedSubject("All"); 
   };
 
   const handleSubjectClick = (subject) => {
     setSelectedSubject(subject);
   };
 
-const handleSubjectSubsectionClick = (subject) => {
-  const path = `detail/${selectedClass}/${subject}`;
-  const subsectionData = data[selectedClass][selectedSubject][subject];
-  const subjectData = data[selectedClass][selectedSubject];
-  console.log("Data to pass:", selectedClass, selectedSubject, subsectionData, subjectData);
-
-  navigate(path, {
-    state: {
+  const handleSubjectSubsectionClick = (subject) => {
+    const path = `detail/${selectedClass}/${subject}`;
+    const subsectionData = data[selectedClass][selectedSubject][subject];
+    const subjectData = data[selectedClass][selectedSubject];
+    console.log(
+      "Data to pass:",
       selectedClass,
-      selectedSubject: subject,
+      selectedSubject,
       subsectionData,
-      subjectData,
-    },
-  });
-};
+      subjectData
+    );
 
-  
+    navigate(path, {
+      state: {
+        selectedSubject: subject,
+        subsectionData,
+        subjectData,
+      },
+    });
+  };
 
-  // Render functions
+
   const renderContent = () => {
     return <p>{renderSubjectContent(selectedClass, selectedSubject)}</p>;
   };
@@ -62,13 +65,13 @@ const handleSubjectSubsectionClick = (subject) => {
     if (typeof subjectData === "string") {
       return subjectData;
     } else if (typeof subjectData === "object") {
-      // Check if there are subsections
+
       const subsections = Object.keys(subjectData);
       if (subsections.length === 0) {
         return "No content available for this subject";
       }
 
-      // Render subsections
+
       return (
         <div
           style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}

@@ -1,14 +1,19 @@
 .video-card {
+    padding: 6vw;
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+
     iframe {
-        width: 25vw;
-        height: 15vw;
+        width: 24vw; /* Set the width to 16 units */
+        height: 13.5vw; /* Set the height to 9 units */
     }
 
-    @media screen and (max-width:600px) {
+    @media screen and (max-width: 600px) {
         iframe {
             margin-top: 1rem;
             width: 85vw;
-            height: 50vw;
+            height: 48vw; /* Adjusted to maintain the 16:9 ratio */
         }
     }
 }

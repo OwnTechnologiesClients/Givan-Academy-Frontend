@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './coursepagelist.scss';
 import { useNavigate } from "react-router-dom";
 
-const CoursePageList = ({ hd1, hd2, links, activeLink, selectedClass, onLinkClick }) => {
+const CoursePageList = ({ hd1, hd2, links, activeLink,  onLinkClick }) => {
   const navigate = useNavigate();
 
   return (
@@ -18,7 +18,6 @@ const CoursePageList = ({ hd1, hd2, links, activeLink, selectedClass, onLinkClic
           pathArray.push(item); 
           const newPath = pathArray.join('/');
 
-          console.log("Selected Class:", selectedClass);
           console.log("Sublinks:", links);
           
           return (
