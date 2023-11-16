@@ -28,8 +28,8 @@
       left: 43.3vw;
 
       .dot {
-        width: 10px;
-        height: 10px;
+        width: 1vw;
+        height: 1vw;
         background-color: #fff;
         border-radius: 50%;
       }
@@ -38,6 +38,28 @@
         font-family: "Poppins";
         color: #fff;
         font-size: 1.2vw;
+      }
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .notes-pages {
+      .notes-text-part {
+        h1 {
+          font-size: 5vw;
+        }
+        .homes-notes {
+          margin-top: 1vw;
+          top: 11vw;
+          left: 42vw;
+          .dot {
+            width: 1vw;
+            height: 1vw;
+          }
+
+          p {
+            font-size: 2vw;
+          }
+        }
       }
     }
   }

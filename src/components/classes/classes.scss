@@ -28,6 +28,7 @@
       background-color: #2d6aa2;
       color: #fff;
       padding: 0.732vw 1.464vw;
+      font-size: 1.4vw;
       border-radius: 0.585vw;
       font-family: "Poppins", sans-serif;
       outline: none;
@@ -58,8 +59,8 @@
 
         p {
           position: absolute;
-          top:  5.1244vw;
-          left:  4.978vw;
+          top: 5.1244vw;
+          left: 4.978vw;
           font-family: "Poppins";
           font-weight: 700;
           font-size: 2vw;
@@ -96,12 +97,86 @@
     text-align: center;
     margin: 2.562vw 0 0 0;
     p {
-      font-size: 1.2vw;
+      font-size: 1.7vw;
       font-family: "Poppins";
       span {
         color: #2d6aa2;
         font-weight: 700;
       }
     }
+  }
+
+  @media screen and (max-width: 480px) {
+    .top-heading {
+      display: flex;
+      flex-direction: column;
+
+      .courses {
+        h4 {
+          font-size: 3.4vw;
+          margin-bottom: 0.5vw;
+        }
+
+        h1 {
+          font-size: 5.4vw;
+        }
+      }
+
+      .button {
+        margin-top: 4.5vw;
+        padding: 0.999vw 1.864vw;
+        font-size: 2vw;
+      }
+    }
+    .class-container {
+      display: flex;
+      flex-direction: column;
+      gap: 5vw;
+  
+      .card {
+        img {
+          height: 45.055vw;
+          width: 85.5vw;
+        }
+  
+        .overshadow {
+          width: 85.5vw;
+          height: 45.055vw;
+  
+          p {
+            font-size: 7vw;
+            top: 16.1244vw;
+            left: 24.978vw;
+          }
+        }
+  
+        .text-part {
+          padding: 3vw;
+          .detail {
+            p {
+              font-size: 4vw;
+              margin-bottom: 1vw;
+            }
+  
+            a {
+              .button {
+                width: 33%;
+                padding: 1vw 2vw;
+                margin-top: 5vw;
+                margin-bottom: 2vw;
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+   .text-section{
+
+    p{
+      font-size: 3vw;
+    }
+   }
   }
 }

@@ -11,7 +11,7 @@
       color: #85ba00;
     }
     h1 {
-      font-size: 3.66vw;
+      font-size: 2.66vw;
       font-weight: 700;
     }
   }
@@ -24,7 +24,7 @@
       padding: 1.464vw;
       background: #fff;
       .card-section {
-        margin-bottom:  2.196vw;
+        margin-bottom: 2.196vw;
         display: flex;
 
         .img-section {
@@ -48,12 +48,56 @@
         }
       }
       .text-section {
-        margin-bottom:  2.196vw;
+        margin-bottom: 2.196vw;
         p {
           color: #9a9696;
           font-size: 1.024vw;
           font-family: "Poppins";
           font-weight: 600;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: "480px") {
+    .text-part {
+      text-align: center;
+
+      h5 {
+        font-size: 3.5vw;
+      }
+
+      h1 {
+        font-size: 5.4vw;
+      }
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 5vw;
+
+      .card-part {
+        padding: 3vw;
+        .card-section {
+          .img-section {
+            img {
+              height: 20vw;
+              margin-right: 2.5vw;
+            }
+          }
+          .name-class {
+            h4 {
+              font-size: 5vw;
+            }
+            P {
+              font-size: 4vw;
+            }
+          }
+        }
+        .text-section {
+          p {
+            font-size: 3.5vw;
+          }
         }
       }
     }

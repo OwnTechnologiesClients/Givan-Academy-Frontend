@@ -5,10 +5,6 @@ const Card = ({ standard, subject, onClick }) => {
   return (
     <div className="card-container-1">
       <div
-        style={{
-          height: "14vw",
-          width: " 250px",
-        }}
         className="card-container-section"
         onClick={() => onClick(subject)} 
       >

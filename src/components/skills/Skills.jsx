@@ -48,7 +48,7 @@ const Skills = () => {
           </div>
           <div className="stats">
             <h1>
-              Earn A <br />
+              Earn A 
               Certificate
             </h1>
             <p>

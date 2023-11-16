@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     gap: 3.181vw;
+    max-width: 100%;
     h1 {
       color: black;
       line-height: 5.856vw;
@@ -57,10 +58,33 @@
     }
   }
   @media screen and (max-width: 480px) {
-    .hero-section{
-      display: flex;
-      flex-direction: column;
+    padding: 6vw;
+    flex-direction: column;
+    align-items: baseline;
+    display: flex;
+
+    .text-part {
+      h1 {
+        font-size: 9vw;
+        line-height: 3rem;
+      }
+
+      P{
+        font-size: 0.69rem;
+        line-height: 150%;
+      }
+
+      .notes{
+        font-size: 2.1vw;
+        padding: 1.5vw;
+        width: 22%;
+      }
+    }
+
+    .banner-part{
+       img{
+        height: 90vw;
+       }
     }
   }
 }
-

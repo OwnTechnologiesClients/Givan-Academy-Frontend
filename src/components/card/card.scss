@@ -11,7 +11,8 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    
+    height: 15vw;
+    width: 18.355vw;
 
     p {
       font-size: 1.7vw;
@@ -23,6 +24,21 @@
       font-size: 2vw;
       font-weight: 700;
       font-family: "Poppins";
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .card-container-section {
+      height: 23vw;
+      width: 41.355vw;
+
+      p{
+        font-size: 3vw;
+      }
+
+      h4{
+        margin-top: -3px;
+        font-size: 4vw;
+      }
     }
   }
 }

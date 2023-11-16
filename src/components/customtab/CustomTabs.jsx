@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import VideoCard from "../videocard/VideoCard";
 import VideoSection from "../videosection/VideoSection";
+import "./customtab.scss";
 import data from "./Data.json";
 
 const CustomTabs = () => {
