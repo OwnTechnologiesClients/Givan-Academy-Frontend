@@ -87,14 +87,22 @@ const Subject = () => {
     <div className="subject-container">
       {/* Filter Tutorial Class */}
       <div className="subject-tutorial">
-        <h5>Filter Tutorial Class</h5>
-        <select
+        <h5 style={{
+          fontSize: "1rem"
+        }}>Filter Tutorial Class</h5>
+        <select style={{
+          height: "45px",
+          width: "85px",
+          fontSize: "20px"
+                }}
           className="class-select"
           value={selectedClass}
           onChange={handleClassChange}
         >
           {classOptions.map((classOption) => (
-            <option key={classOption} value={classOption}>
+            <option key={classOption} value={classOption} style={{
+              fontSize: "20px"
+            }}>
               {classOption}
             </option>
           ))}

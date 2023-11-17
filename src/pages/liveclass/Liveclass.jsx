@@ -7,12 +7,37 @@ import Footer from "../../components/footer/Footer";
 import Tutorial from "../../components/tutorial/Tutorial";
 import Live from "../../assets/liveclass1.png";
 import BOX from "../../assets/icons/checkbox.png";
+import CopyToClipboardButton from "../../components/copyToClipboardButton/CopyToClipboardButton";
 
 const Liveclass = () => {
-  const copyToClipboard = (linkAddress) => {
-    navigator.clipboard.writeText(linkAddress);
-    alert(`Link copied to clipboard: ${linkAddress}`);
+  const copyToClipboard = (text) => {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
   };
+
+  const contentToCopy = "https://youtube.com";
+
+  const data = [
+    {
+      title: "Join With Discord Server",
+      link: "https://www.youtube.com/",
+      buttonText: "Copy Address",
+    },
+    {
+      title: "Join With Google Meet",
+      link: "https://meet.google.com/edy-yijv-pfv",
+      buttonText: "Copy Address",
+    },
+    {
+      title: "Join With Zoom Meet",
+      link: "https://www.Zoom.com/",
+      buttonText: "Copy Address",
+    },
+  ];
 
   return (
     <div>
@@ -33,8 +58,8 @@ const Liveclass = () => {
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut nisi
-              ut aliquip ex ea commodo consequat.
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              nisi ut aliquip ex ea commodo consequat.
             </p>
             <div className="check-bx">
               <img src={BOX} alt="" />
@@ -46,64 +71,24 @@ const Liveclass = () => {
             </p>
           </div>
         </div>
+        <div>
+          <div></div>
+        </div>
 
         <div className="form-section-live">
-          <form className="form-fields">
-            <div className="form-btn">
-              <h4>Join With Discord Server</h4>
-              <input
-                type="text"
-                name="discordLink"
-                placeholder="Link address"
-                required
-              />
-              <button
-                onClick={() =>
-                  copyToClipboard(
-                    document.getElementsByName("discordLink")[0].value
-                  )
-                }
-              >
-                Copy Address
-              </button>
+          <div className="form-fields">
+            <div className="form-buttons">
+              {data.map((item) => (
+                <div className="form-btn" key={item.title}>
+                  <h4>{item.title}</h4>
+                  <CopyToClipboardButton
+                    linkToCopy={item.link}
+                    buttonText={item.buttonText}
+                  />
+                </div>
+              ))}
             </div>
-            <div className="form-btn">
-              <h4>Join With Google Meet</h4>
-              <input
-                type="link"
-                name="googleMeetLink"
-                placeholder="Link address"
-                required
-              />
-              <button
-                onClick={() =>
-                  copyToClipboard(
-                    document.getElementsByName("googleMeetLink")[0].value
-                  )
-                }
-              >
-                Copy Address
-              </button>
-            </div>
-            <div className="form-btn">
-              <h4>Join With Zoom Call</h4>
-              <input
-                type="text"
-                name="zoomLink"
-                placeholder="Link address"
-                required
-              />
-              <button
-                onClick={() =>
-                  copyToClipboard(
-                    document.getElementsByName("zoomLink")[0].value
-                  )
-                }
-              >
-                Copy Address
-              </button>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
       <WhatsappIcon />

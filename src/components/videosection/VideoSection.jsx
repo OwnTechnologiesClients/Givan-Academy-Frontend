@@ -109,12 +109,14 @@ const VideoSection = () => {
     <div className="subject-container">
       {/* Filter Tutorial Class */}
       <div className="subject-tutorial">
-        <h5 style={{ display: "flex", alignItems: "baseline" }}>
+        <h5 style={{ display: "flex", alignItems: "baseline" , fontSize: "1rem" }}>
           Filter Tutorial Class
         </h5>
         <select
           className="class-select"
-          style={{ display: "flex", alignItems: "baseline" }}
+          style={{ display: "flex", alignItems: "baseline" , height: "45px",
+          width: "85px",
+          fontSize: "20px" }}
           value={selectedClass}
           onChange={handleClassChange}
         >

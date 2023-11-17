@@ -6,7 +6,6 @@
 
   .subject-tutorial {
     h5 {
-      font-size: 1vw;
       font-family: "Poppins";
       margin-bottom: 1vw;
       letter-spacing: 1px;
@@ -16,9 +15,9 @@
       border: 1px solid #fff;
       font-family: "Poppins";
       border-radius: 0.878vw;
-      font-size: 1.2vw;
+      font-size: 20px;
       padding: 0.732vw 0.83vw;
-      width: 8vw;
+      width: 60px;
       cursor: pointer;
       background-color: #fff;
       border: none;
@@ -45,6 +44,7 @@
       padding: 0.732vw 1.83vw;
       margin-right: 1.317vw;
       cursor: pointer;
+      margin-top: 6px;
 
       &.active {
         background: #85ba00;

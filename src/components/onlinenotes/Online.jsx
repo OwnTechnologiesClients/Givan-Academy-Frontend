@@ -9,28 +9,28 @@ const Online = () => {
       classImg: Class,
       classSection: "Class 1-5",
       classDetails: "Foundations of Learning: Classes for Grades 1 to 5",
-      classButton: "view Details",
+      classButton: "View Details",
     },
     {
       key: "2",
       classImg: Class,
       classSection: "Class 6-9",
       classDetails: "Building the Future: Classes for Grades 6 to 9",
-      classButton: "view Details",
+      classButton: "View Details",
     },
     {
       key: "3",
       classImg: Class,
       classSection: "Class 10-12",
       classDetails: "Preparing for Success: Classes for Grades 10 to 12",
-      classButton: "view Details",
+      classButton: "View Details",
     },
     {
       key: "4",
       classImg: Class,
       classSection: "NCERT SOLUTIONS",
       classDetails: "Unlocking Knowledge: NCERT Solutions for Success",
-      classButton: "view Details",
+      classButton: "View Details",
     },
   ];
   return (

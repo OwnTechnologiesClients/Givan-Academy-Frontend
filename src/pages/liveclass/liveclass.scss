@@ -72,6 +72,7 @@
     .form-fields {
       display: flex;
       flex-direction: column;
+      }
     }
 
     h4 {
@@ -162,10 +163,7 @@
 
     .form-section-live {
       margin-top: 5vw;
-      .form-fields {
-
-
-      }
+     
         h4 {
           margin-bottom: 1vw;
           font-size: 2.9vw;
@@ -192,4 +190,3 @@
       
     }
   }
-}

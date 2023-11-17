@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="tabs">
         <Link to="/" onClick={() => handleTabClick("/")}>
           <div className={`menu-items${activeTab === "/" ? " active" : ""}`}>
-            Homes
+            Home
           </div>
         </Link>
         <Link to="/notes" onClick={() => handleTabClick("/notes")}>
