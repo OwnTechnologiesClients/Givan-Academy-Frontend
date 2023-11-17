@@ -77,7 +77,7 @@ const VideoSection = () => {
 
       return (
         <div
-          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
+          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" , alignItems: "center" , justifyContent: "center" }}
           className="subject-card-map"
         >
           {subsections.map((subsection, index) => (
@@ -91,9 +91,7 @@ const VideoSection = () => {
               }}
             >
               <iframe
-                style={{ width: "24vw", height: "13.5vw" }}
-                width="560"
-                height="315"
+               
                 src={subjectData[subsection].videolink} // Set the src attribute dynamically
                 title="YouTube video player"
                 frameBorder="0"

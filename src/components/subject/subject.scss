@@ -15,7 +15,7 @@
     .class-select {
       border: 1px solid #fff;
       font-family: "Poppins";
-      border-radius:  0.878vw;
+      border-radius: 0.878vw;
       font-size: 1.2vw;
       padding: 0.732vw 0.83vw;
       width: 8vw;
@@ -34,11 +34,11 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 7vw;
-    margin-top:1.830vw;
+    margin-top: 1.83vw;
 
     button {
       background: #8d9296;
-      border-radius:  0.3660vw;
+      border-radius: 0.366vw;
       color: #fff;
       font-family: "Poppins";
       border: none;
@@ -51,7 +51,8 @@
       }
     }
   }
-  @media screen and (max-width: 480px) {
-    
-  }
+}
+@media screen and (max-width: 480px) {
+
+  
 }

@@ -5,7 +5,6 @@ import Card from "../card/Card";
 import { useNavigate } from "react-router-dom";
 
 const Subject = () => {
-
   const navigate = useNavigate();
 
   const allSubjects = Object.keys(data)
@@ -17,15 +16,13 @@ const Subject = () => {
       return subjects.concat(subjectsInClass);
     }, []);
 
-
   const classOptions = Object.keys(data);
   const [selectedClass, setSelectedClass] = useState(classOptions[0]);
   const [selectedSubject, setSelectedSubject] = useState("All");
 
-
   const handleClassChange = (e) => {
     setSelectedClass(e.target.value);
-    setSelectedSubject("All"); 
+    setSelectedSubject("All");
   };
 
   const handleSubjectClick = (subject) => {
@@ -53,7 +50,6 @@ const Subject = () => {
     });
   };
 
-
   const renderContent = () => {
     return <p>{renderSubjectContent(selectedClass, selectedSubject)}</p>;
   };
@@ -65,16 +61,14 @@ const Subject = () => {
     if (typeof subjectData === "string") {
       return subjectData;
     } else if (typeof subjectData === "object") {
-
       const subsections = Object.keys(subjectData);
       if (subsections.length === 0) {
         return "No content available for this subject";
       }
 
-
       return (
         <div
-          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
+          style={{ display: "flex", flexWrap: "wrap" }}
           className="subject-card-map"
         >
           {subsections.map((subsection) => (

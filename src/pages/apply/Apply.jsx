@@ -23,8 +23,8 @@ const Apply = () => {
           <h2>Become an Instructor</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua.
-            Ut nisi ut aliquip ex ea commodo <br /> consequat.
+            eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+            Ut nisi ut aliquip ex ea commodo  consequat.
           </p>
           <div className="apply-checkbox">
             <div className="box">

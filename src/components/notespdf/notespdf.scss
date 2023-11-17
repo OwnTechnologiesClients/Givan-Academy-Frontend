@@ -33,4 +33,18 @@
     width: 100%;
     border: none;
   }
+
+  @media screen and (max-width: 480px) {
+
+    .head-notes{
+      p{
+        font-size: 4vw;
+      }
+    }
+    button{
+      margin-top: 3vw;
+      font-size: 3vw;
+      padding: 2vw;
+    }
+  }
 }

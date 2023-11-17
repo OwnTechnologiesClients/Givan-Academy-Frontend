@@ -82,7 +82,7 @@
       .right-section {
         h2 {
           line-height: 8vw;
-          font-size: 4vw;
+          font-size: 5vw;
         }
 
         p {
@@ -92,20 +92,42 @@
         .upload-button {
           border: none;
           color: #fff;
-          background-color: #2D6AA2;
-          width: 50%;
+          background-color: #2d6aa2;
+          width: 60%;
           height: 8vw;
-          font-size: 2.2vw;
+          font-size: 2.5vw;
         }
       }
 
-      .left-section{
-        margin-top: 3vw;
-         .img-map{
-          img{
+      .left-section {
+        margin-top: 12vw;
+        padding: 12vw;
 
+        .img-map {
+          img {
+            height: 35vw;
+            top: -5vw;
+            left: -4vw;
           }
-         }
+        }
+        .img-pay {
+          gap: 3vw;
+          img {
+     
+            height: 8vw;
+          }
+          .pay-text {
+            img {
+              height: 22vw;
+              width: 30vw;
+            }
+            p {
+              font-size: 3vw;
+              font-family: "Poppins";
+              font-weight: 800;
+            }
+          }
+        }
       }
     }
   }

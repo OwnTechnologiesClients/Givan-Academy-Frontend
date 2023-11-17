@@ -1,6 +1,31 @@
-@media screen and (max-width: 480px) {
-    button {
 
-    }
-  }
-  
+.buttons-containers {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  padding: 1.2vw;
+  width: 15%;
+  cursor: pointer;
+  border: 1px solid #2D6AA2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 0.9vw;
+  transition: background-color 0.3s;
+}
+
+.buttons:first-child {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.buttons:last-child {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.buttons.active {
+  background-color: #2D6AA2;
+  color: white;
+}

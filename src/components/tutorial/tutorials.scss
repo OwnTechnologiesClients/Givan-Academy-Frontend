@@ -7,6 +7,9 @@
       }
     }
     .notes-text-part {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       h1 {
         position: absolute;
         color: #fff;
@@ -15,17 +18,17 @@
         top: 5.2vw;
         letter-spacing: 0.14vw;
         font-weight: bold;
-        left: 42.6vw;
       }
     }
     .homes-notes {
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: center;
       position: absolute;
       gap: 1.2vw;
       top: 11vw;
-      left: 43.3vw;
+
 
       .dot {
         width: 1vw;
@@ -43,22 +46,32 @@
   }
   @media screen and (max-width: 480px) {
     .notes-pages {
+      .img-banner {
+        img {
+          height: 20.871vw;
+        }
+      }
       .notes-text-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         h1 {
+        
           font-size: 5vw;
         }
         .homes-notes {
-          margin-top: 1vw;
-          top: 11vw;
-          left: 42vw;
-          .dot {
-            width: 1vw;
-            height: 1vw;
-          }
+          display: none;
+          // margin-top: 1vw;
+          // top: 11vw;
+          // left: 42vw;
+          // .dot {
+          //   width: 1vw;
+          //   height: 1vw;
+          // }
 
-          p {
-            font-size: 2vw;
-          }
+          // p {
+          //   font-size: 2vw;
+          // }
         }
       }
     }

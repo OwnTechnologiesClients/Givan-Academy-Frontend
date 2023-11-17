@@ -11,7 +11,7 @@ import "./payment.scss";
 
 const Payment = () => {
   return (
-    <>
+    <div>
       <Header />
       <Navbar />
       <Tutorial hd1={"payment"} hd3={"payment"} />
@@ -51,7 +51,7 @@ const Payment = () => {
       </div>
       <WhatsappIcon />
       <Footer />
-    </>
+    </div>
   );
 };
 
