@@ -1,5 +1,5 @@
 .subject-container {
-    padding: 6vw 3vw 6vw 4vw;
+  padding: 6vw 3.2vw 6vw 4vw;
     display: flex;
     background-color: #faf8f9;
     flex-direction: column;
@@ -52,11 +52,12 @@
       }
     }
     iframe {
-      width: 360px; 
+      width: 285px; 
       height: 200px; 
   }
 
   @media screen and (max-width: 768px) {
+    padding: 9vw;
       iframe {
           margin-top: 1rem;
           width: 350px; 

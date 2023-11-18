@@ -71,8 +71,11 @@ const Classes = () => {
       <div className="text-section">
         <p>
           Enjoy the top notch learning methods and achieve next level skills!
-          You are the creator of your own career & we will guide you
-          through that. <span> Register Free Now!.</span>
+          You are the  creator of
+        </p>
+        <p>
+          your own career & we will guide you through that.{" "}
+          <span> Register Free Now!.</span>
         </p>
       </div>
     </div>

@@ -24,7 +24,7 @@ const CustomTabs = () => {
       content: (
         <VideoCard
           videourls={shortsLink}
-          style={{  width: "170px" , height: "300px" }}
+          style={{  width: "183px" , height: "300px" }}
         />
       ),
     },
@@ -38,7 +38,6 @@ const CustomTabs = () => {
     <div style={{ backgroundColor: "#FAF8F9" }}>
       <div
         style={{
-          marginTop: "4vw",
           textAlign: "center",
         }}
       >

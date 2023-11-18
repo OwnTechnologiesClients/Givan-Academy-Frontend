@@ -77,7 +77,7 @@ const VideoSection = () => {
 
       return (
         <div
-          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" , alignItems: "center" , justifyContent: "center" }}
+          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
           className="subject-card-map"
         >
           {subsections.map((subsection, index) => (

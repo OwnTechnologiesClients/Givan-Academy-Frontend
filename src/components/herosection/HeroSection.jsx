@@ -15,9 +15,8 @@ const HeroSection = () => {
 
         <p>
           Curabitur arcu erat accumsan id imperdiet et porttitor at sem vivamus
-          magna justo lacinia 
-          eget consectetur sed convallis at tellus pellentesque in ipsum id orci
-          porta dapibus.
+          magna justo lacinia eget consectetur sed convallis at tellus
+          pellentesque in ipsum id orci porta dapibus.
         </p>
 
         <Link to="/notes">

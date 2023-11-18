@@ -1,5 +1,4 @@
 .subject-container {
-  padding: 6vw;
   display: flex;
   background-color: #faf8f9;
   flex-direction: column;
@@ -51,8 +50,9 @@
       }
     }
   }
-}
-@media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
 
-  
+    padding: 4vw;
+  }
 }
+

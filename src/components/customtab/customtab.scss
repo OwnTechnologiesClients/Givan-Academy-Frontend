@@ -1,5 +1,6 @@
-
 .buttons-containers {
+  position: relative;
+  bottom: -4vw;
   display: flex;
   justify-content: center;
 }
@@ -8,8 +9,8 @@
   padding: 1.2vw;
   width: 15%;
   cursor: pointer;
-  border: 1px solid #2D6AA2;
-  font-family: 'Poppins', sans-serif;
+  border: 1px solid #2d6aa2;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 0.9vw;
   transition: background-color 0.3s;
@@ -26,13 +27,12 @@
 }
 
 .buttons.active {
-  background-color: #2D6AA2;
+  background-color: #2d6aa2;
   color: white;
 }
 
 @media screen and (max-width: "480px") {
-
-  .buttons{
+  .buttons {
     font-size: 2vw;
     width: 23%;
   }

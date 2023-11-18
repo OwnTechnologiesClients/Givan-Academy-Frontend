@@ -12,14 +12,16 @@ $theme-color: #202c45;
 
   h1 {
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.2vw;
     font-family: "Poppins";
   }
   .button {
-    background-color: #85BA00;
+    background-color: #85ba00;
     color: #fff;
     padding: 0.732vw 1.464vw;
     border-radius: 0.585vw;
+    text-align: center;
+    font-size: 1.2vw;
     font-family: "Poppins", sans-serif;
     width: 12vw;
   }
@@ -27,15 +29,17 @@ $theme-color: #202c45;
     display: flex;
     flex-direction: column;
     padding: 5vw 6vw;
-    border-radius: 0vw  41.32vw  41.32vw 0vw;
+    border-radius: 0vw 41.32vw 41.32vw 0vw;
 
-    h1{
-        font-size: 1.3rem;
-        padding-bottom: 20px;
+    h1 {
+      font-size: 1.3rem;
+      padding-bottom: 20px;
     }
     .button {
-        width: 36vw;
+      font-size: 2.2vw;
+      text-align: center;
+      width: 20vw;
+   
     }
   }
-
 }

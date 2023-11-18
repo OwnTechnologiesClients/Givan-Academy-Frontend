@@ -16,20 +16,22 @@
       h4 {
         color: #85ba00;
         font-size: 1.464vw;
-        font-weight: 800;
+        font-weight: 700;
       }
 
       h1 {
-        font-size: 3.66vw;
+        font-size: 3vw;
         font-weight: 700;
       }
     }
     .button {
       background-color: #2d6aa2;
       color: #fff;
+      text-align: center;
       padding: 0.732vw 1.464vw;
-      font-size: 1.4vw;
+      font-size: 1.1vw;
       border-radius: 0.585vw;
+      width: 130px;
       font-family: "Poppins", sans-serif;
       outline: none;
     }
@@ -62,7 +64,7 @@
           top: 5.1244vw;
           left: 4.978vw;
           font-family: "Poppins";
-          font-weight: 700;
+          font-weight: 600;
           font-size: 2vw;
           color: #fff;
         }
@@ -73,18 +75,20 @@
         .detail {
           p {
             font-family: "Poppins";
-            font-size: 1.295vw;
+            font-size: 1.3vw;
             font-weight: 600;
             margin-bottom: 1.464vw;
           }
 
           a {
             .button {
-              border-radius: 0.366vw;
+              border-radius: 4px;
+              font-size: 1vw;
+              text-align: center;
               font-family: "Poppins";
               background-color: #2d6aa2;
               color: #fff;
-              width: 50%;
+              width: 45%;
               padding: 0.658vw;
             }
           }
@@ -97,7 +101,7 @@
     text-align: center;
     margin: 2.562vw 0 0 0;
     p {
-      font-size: 1.7vw;
+      font-size: 1.2vw;
       font-family: "Poppins";
       span {
         color: #2d6aa2;
@@ -112,6 +116,7 @@
       flex-direction: column;
 
       .courses {
+        margin-bottom: 4vw;
         h4 {
           font-size: 3.4vw;
           margin-bottom: 0.5vw;
@@ -123,6 +128,7 @@
       }
 
       .button {
+        font-size: 2.5vw;
         margin-top: 4.5vw;
         padding: 0.999vw 1.864vw;
         font-size: 2vw;
@@ -132,24 +138,24 @@
       display: flex;
       flex-direction: column;
       gap: 5vw;
-  
+
       .card {
         img {
           height: 45.055vw;
           width: 85.5vw;
         }
-  
+
         .overshadow {
           width: 85.5vw;
           height: 45.055vw;
-  
+
           p {
             font-size: 7vw;
             top: 16.1244vw;
             left: 24.978vw;
           }
         }
-  
+
         .text-part {
           padding: 3vw;
           .detail {
@@ -157,11 +163,12 @@
               font-size: 4vw;
               margin-bottom: 1vw;
             }
-  
+
             a {
               .button {
                 width: 39%;
                 padding: 1vw 2vw;
+                font-size: 2.5vw;
                 margin-top: 5vw;
                 margin-bottom: 2vw;
                 border-radius: 5px;
@@ -172,11 +179,10 @@
       }
     }
 
-   .text-section{
-
-    p{
-      font-size: 3vw;
+    .text-section {
+      p {
+        font-size: 3vw;
+      }
     }
-   }
   }
 }

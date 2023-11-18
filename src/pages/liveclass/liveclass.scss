@@ -72,52 +72,53 @@
     .form-fields {
       display: flex;
       flex-direction: column;
-      }
-    }
-
-    h4 {
-      font-family: "Poppins";
-      font-size: 1.1vw;
-      font-weight: 700;
-    }
-
-    button {
-      margin-left: 3vw;
-      border: none;
-      color: #fff;
-      font-family: "Poppins";
-      font-size: 1vw;
-      background-color: #2d6aa2;
-      border-radius: 5px;
-      width: 15%;
-      padding: 1vw;
-    }
-
-    input::-webkit-input-placeholder,
-    textarea::-webkit-input-placeholder {
-      font-size: 1.1vw;
-      color: #9a9696;
-    }
-
-    input,
-    textarea {
-      background-color: #eeeeee;
-      border: none;
-      margin: 1vw 0;
-      height: 3vw;
-      padding: 0 2vw;
-      font-family: "Poppins";
-      font-size: 1.1vw;
-      color: #9a9696;
-      width: 45%;
-
-      &:focus {
-        outline: none;
-      }
     }
   }
 
-  @media screen and (max-width: 480px) {
+  h4 {
+    font-family: "Poppins";
+    font-size: 1.1vw;
+    font-weight: 700;
+  }
+
+  button {
+    margin-left: 3vw;
+    border: none;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 1vw;
+    background-color: #2d6aa2;
+    border-radius: 5px;
+    width: 15%;
+    padding: 1vw;
+  }
+
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 1.1vw;
+    color: #9a9696;
+  }
+
+  input,
+  textarea {
+    background-color: #eeeeee;
+    border: none;
+    margin: 1vw 0;
+    height: 3vw;
+    padding: 0 2vw;
+    font-family: "Poppins";
+    font-size: 1.1vw;
+    color: #9a9696;
+    width: 45%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .liveclass-container {
     .live-section {
       flex-direction: column;
 
@@ -163,30 +164,28 @@
 
     .form-section-live {
       margin-top: 5vw;
-     
-        h4 {
-          margin-bottom: 1vw;
-          font-size: 2.9vw;
-        }
 
-        button {
-          padding: 1.2vw;
-          font-size: 2vw;
-          width: 33%;
-        }
+      h4 {
+        margin-bottom: 1vw;
+        font-size: 2.9vw;
+      }
 
-        input::-webkit-input-placeholder,
-        textarea::-webkit-input-placeholder {
-          font-size: 2.3vw;
-       
-        }
+      button {
+        padding: 1.2vw;
+        font-size: 2vw;
+        width: 33%;
+      }
 
-        input,
-        textarea {
-          margin-bottom: 2vw;
-          width: 62%;
-          padding: 3vw 3vw 2vw 3vw;
-        }
-      
+      .link-input {
+        font-size: 2.2vw;
+      }
+
+      input,
+      textarea {
+        margin-bottom: 2vw;
+        width: 62%;
+        padding: 3vw 3vw 2vw 3vw;
+      }
     }
   }
+}

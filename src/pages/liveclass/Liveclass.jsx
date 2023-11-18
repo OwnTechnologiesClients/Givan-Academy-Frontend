@@ -19,22 +19,21 @@ const Liveclass = () => {
     document.body.removeChild(textarea);
   };
 
-  const contentToCopy = "https://youtube.com";
 
   const data = [
     {
       title: "Join With Discord Server",
-      link: "https://www.youtube.com/",
+      link: "https://discord.com",
       buttonText: "Copy Address",
     },
     {
       title: "Join With Google Meet",
-      link: "https://meet.google.com/edy-yijv-pfv",
+      link: "https://meet.google.com",
       buttonText: "Copy Address",
     },
     {
       title: "Join With Zoom Meet",
-      link: "https://www.Zoom.com/",
+      link: "https://www.Zoom.com",
       buttonText: "Copy Address",
     },
   ];

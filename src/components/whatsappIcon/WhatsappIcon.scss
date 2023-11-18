@@ -30,3 +30,14 @@
 .whatsapp-icon:hover {
   animation-play-state: paused;
 }
+
+@media screen and (max-width: 480px) {
+
+  .whatsapp-icon {
+
+  
+    img {
+      width: 2.5rem;
+    }
+  }
+}

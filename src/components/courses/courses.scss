@@ -87,9 +87,10 @@
       background-color: #2d6aa2;
       color: #fff;
       padding: 0.732vw 1.464vw;
+      text-align: center;
       border-radius: 0.585vw;
       font-family: "Poppins", sans-serif;
-      width: 12vw;
+      width: 13vw;
     }
   }
   @media screen and (max-width: "480px") {
@@ -142,8 +143,9 @@
       }
       .button {
         margin-top: 0.8784vw;
+        text-align: center;
         padding: 1vw;
-        width: 34vw;
+        width: 37vw;
       }
     }
   }
