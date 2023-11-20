@@ -91,6 +91,10 @@
       border-radius: 0.585vw;
       font-family: "Poppins", sans-serif;
       width: 13vw;
+
+      &:hover {
+        color: #85ba00;
+      }
     }
   }
   @media screen and (max-width: "480px") {

@@ -32,11 +32,14 @@
       font-weight: 600;
 
       &:hover {
-        color: #85ba00;
+        color: #7f9b3a;
       }
 
       &.active {
         color: #85ba00;
+      }
+      &:last-child:hover {
+        color: #2d3331;
       }
     }
 

@@ -75,7 +75,7 @@ const Classes = () => {
         </p>
         <p>
           your own career & we will guide you through that.{" "}
-          <span> Register Free Now!.</span>
+        <Link to="/apply">   <span> Register Free Now!.</span></Link>
         </p>
       </div>
     </div>

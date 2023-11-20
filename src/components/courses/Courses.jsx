@@ -59,7 +59,7 @@ const Courses = () => {
           </div>
         </div>
 
-        <Link to="/">
+        <Link to="/notes">
           <div className="button"> Explore notes &gt;</div>
         </Link>
       </div>

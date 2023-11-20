@@ -34,6 +34,10 @@
       width: 130px;
       font-family: "Poppins", sans-serif;
       outline: none;
+
+      &:hover {
+        color: #85ba00;
+      }
     }
   }
 
@@ -90,6 +94,10 @@
               color: #fff;
               width: 45%;
               padding: 0.658vw;
+
+              &:hover {
+                color: #85ba00;
+              }
             }
           }
         }
@@ -106,6 +114,10 @@
       span {
         color: #2d6aa2;
         font-weight: 700;
+
+        &:hover {
+          color: #85ba00;
+        }
       }
     }
   }

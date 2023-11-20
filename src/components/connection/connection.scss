@@ -25,6 +25,9 @@
 
       .connection-left {
         border: 3px solid #fad39a;
+        &:hover {
+          border-color: #f59402;
+        }
         border-radius: 0.732vw;
         padding: 0.732vw;
         img {
@@ -175,6 +178,10 @@
 
       .connection-left {
         border: 3px solid #b5f4e1;
+
+        &:hover {
+          border-color: #78a395;
+        }
         border-radius: 0.732vw;
         padding: 0.732vw;
         img {
@@ -328,6 +335,9 @@
 
       .connection-left {
         border: 3px solid #ff2d59;
+        &:hover {
+          border-color: rgb(150, 102, 113);
+        }
         border-radius: 0.732vw;
         padding: 0.732vw;
         img {

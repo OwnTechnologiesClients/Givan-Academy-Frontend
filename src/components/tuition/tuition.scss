@@ -24,6 +24,10 @@ $theme-color: #202c45;
     font-size: 1.2vw;
     font-family: "Poppins", sans-serif;
     width: 12vw;
+    &:hover {
+      color: #2d3331;
+    }
+
   }
   @media screen and (max-width: "480px") {
     display: flex;

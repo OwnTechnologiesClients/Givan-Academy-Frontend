@@ -64,6 +64,10 @@
     border-radius: 5px;
     width: 25%;
     border: none;
+
+    &:hover {
+      color: #85ba00;
+    }
   }
 
   @media screen and (max-width: 480px) {

@@ -7,6 +7,10 @@
       font-size: 1.5vw;
       font-family: "Poppins";
       cursor: pointer;
+
+      &:hover {
+        color: #85ba00;
+      }
     }
   }
 
@@ -32,6 +36,9 @@
     color: #fff;
     width: 100%;
     border: none;
+    &:hover {
+      color: #85ba00;
+    }
   }
 
   @media screen and (max-width: 480px) {

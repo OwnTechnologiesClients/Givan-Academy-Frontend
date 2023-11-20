@@ -91,6 +91,10 @@
     border-radius: 5px;
     width: 15%;
     padding: 1vw;
+
+    &:hover {
+      color: #85ba00;
+    }
   }
 
   input::-webkit-input-placeholder,

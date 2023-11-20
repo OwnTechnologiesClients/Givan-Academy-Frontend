@@ -102,6 +102,10 @@
         height: 3vw;
         border-radius: 5px;
         font-size: 1.1vw;
+
+        &:hover {
+          color: #85ba00;
+        }
       }
     }
 

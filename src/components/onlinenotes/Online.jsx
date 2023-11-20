@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./online.scss";
 import Class from "../../assets/class.png";
 import { Link } from "react-router-dom";
@@ -34,7 +34,6 @@ const Online = () => {
     },
   ];
   return (
-    
     <div className="course-sections">
       <div className="top-heading">
         <div></div>
@@ -54,8 +53,8 @@ const Online = () => {
             <div className="card">
               <img src={item.classImg} alt="" />
               <div className="overshadow">
-              <p>{item.classSection}</p>
-            </div>
+                <p>{item.classSection}</p>
+              </div>
               <div className="text-part">
                 <div className="detail">
                   <p>{item.classDetails}</p>
@@ -70,17 +69,20 @@ const Online = () => {
       </div>
 
       <div className="text-section">
-      <p>
-      Enjoy the top notch learning methods and achieve next level skills!
-      You are the  creator of
-    </p>
-    <p>
-      your own career & we will guide you through that.{" "}
-      <span> Register Free Now!.</span>
-    </p>
+        <p>
+          Enjoy the top notch learning methods and achieve next level skills!
+          You are the creator of
+        </p>
+        <p>
+          your own career & we will guide you through that.{" "}
+          <Link to="/apply">
+          
+            <span> Register Free Now!.</span>{" "}
+          </Link>
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Online
+export default Online;
