@@ -7,13 +7,13 @@ const CourseLinks = ({ activeLink, handleLinkClick ,sublinks
 
   return (
     <div className="course-page-left-nav">
-    <CoursePageList 
+    {/* <CoursePageList 
         hd1={"All Notes"}
         hd2={"List"}
         links={sublinks}
         activeLink={activeLink}
         onLinkClick={handleLinkClick}  // Use the correct prop name here
-      />
+      /> */}
    {/*   <CoursePageList
         hd1={"Related"}
         hd2={" Videos"}

@@ -91,9 +91,9 @@ const Subject = () => {
           fontSize: "1rem"
         }}>Filter Tutorial Class</h5>
         <select style={{
-          height: "45px",
-          width: "85px",
-          fontSize: "20px"
+          height: "40px",
+          width: "105px",
+          fontSize: "15px"
                 }}
           className="class-select"
           value={selectedClass}

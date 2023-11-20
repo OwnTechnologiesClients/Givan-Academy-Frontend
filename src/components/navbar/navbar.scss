@@ -28,7 +28,7 @@
     .menu-items,
     .join {
       color: #000000;
-      font-size: 1.3vw;
+      font-size: 1.1vw;
       font-weight: 600;
 
       &:hover {
@@ -44,11 +44,14 @@
     }
 
     .join {
-      background-color: #5bddb5;
+      background-color: #5BDDB5;
       color: #ffffff;
       border-radius: 0.425rem;
-      padding: 0.625rem;
-      font-size: 1.2vw;
+      padding-left: 1vw;
+      padding-right: 1vw;
+      padding-top: 0.8vw;
+      padding-bottom: 0.8vw;
+      font-size: 0.9vw;
       font-weight: 600;
     }
   }
