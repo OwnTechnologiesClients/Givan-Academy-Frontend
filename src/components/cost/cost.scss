@@ -35,6 +35,10 @@
       }
     }
     .text-section {
+      h1{
+        font-size: 3vw;
+        margin-bottom: 1vw;
+      }
       h4 {
         font-size: 2.049vw;
         margin-bottom: 1.9vw;
@@ -56,12 +60,13 @@
     }
     .check-box {
       display: flex;
-      justify-content: space-between;
+      
 
       .box-1 {
-        margin-bottom: 1.756vw;
+        margin-right: 3vw;
+        margin-bottom: 1.7vw;
         img {
-          width: 1.1vw;
+          width: 0.8vw;
           font-size: 1.1vw;
           margin-right: 0.4vw;
         }
@@ -69,7 +74,7 @@
         a {
           font-family: "Poppins", sans-serif;
           line-height: 2.5rem;
-          font-size: 1.2vw;
+          font-size: 1vw;
           font-weight: 700;
         }
       }
@@ -77,8 +82,8 @@
     .button {
       background-color: #2d6aa2;
       color: #fff;
-      padding: 0.732vw 1.464vw;
-      border-radius: 0.585vw;
+      padding: 0.7vw 1.4vw;
+      border-radius: 0.3vw;
       text-align: center;
       font-family: "Poppins", sans-serif;
       width: 12vw;
@@ -106,6 +111,11 @@
         }
       }
       .text-section {
+        h1{
+          font-size: 6vw;
+          margin-bottom: 1vw;
+        }
+
         h4 {
           font-size: 5.049vw;
           margin-bottom: 1.9vw;

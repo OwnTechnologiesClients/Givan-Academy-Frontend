@@ -9,8 +9,8 @@ const Tuition = () => {
         Boost Your Online Coaching & <br />
         Tuition Center With Easy Way
       </h1>
-      <Link to="/">
-        <div className="button"> Start Classes &gt;</div>
+      <Link to="/contactus">
+        <div className="button"> Start Free Trial &gt;</div>
       </Link>
     </div>
   );

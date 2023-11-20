@@ -79,7 +79,7 @@
               flex-direction: row;
               gap: 0.5vw;
               img {
-                height: 2.5vw;
+                height: 2vw;
               }
 
               .text-connection {
@@ -113,7 +113,7 @@
               flex-direction: row;
               gap: 0.5vw;
               img {
-                height: 2.5vw;
+                height: 2vw;
               }
 
               .text-connection {
@@ -148,13 +148,14 @@
 
               gap: 0.5vw;
               img {
-                height: 2.5vw;
+                height: 2vw;
               }
 
               .text-connection {
                 h4 {
                   color: #2d6aa2;
                   font-size: 1vw;
+                  font-weight: 500;
                   font-family: "Poppins";
                 }
 

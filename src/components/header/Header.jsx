@@ -9,14 +9,8 @@ const Header = () => {
   return (
     <div className="top-bar">
       <div className="top-links">
-        <Link to="/">
-          <span>FAQ &nbsp;&nbsp;|</span>
-        </Link>
-        <Link to="/">
-          <span>Help Desk &nbsp;&nbsp;|</span>
-        </Link>
-        <Link to="/">
-          <span>Login</span>
+        <Link to="/contactus">
+          <span>Help Desk &nbsp;&nbsp;</span>
         </Link>
       </div>
 

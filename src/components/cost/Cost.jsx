@@ -16,7 +16,7 @@ const Cost = () => {
           <h4>Notes</h4>
         </div>
         <div className="text-section">
-          <h4>All kinds of online notes at low cost</h4>
+          <h1>All kinds of online notes at low cost</h1>
         </div>
 
         <div className="text-details">

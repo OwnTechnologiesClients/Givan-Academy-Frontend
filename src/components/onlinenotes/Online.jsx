@@ -38,8 +38,8 @@ const Online = () => {
       <div className="top-heading">
         <div></div>
         <div className="courses">
-          <h4>DISCOVER COURSES</h4>
-          <h1>Our Popular Classes</h1>
+          <h4>Popular Notes</h4>
+          <h1>Our Best Online Notes</h1>
         </div>
 
         <Link to="/">

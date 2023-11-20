@@ -17,10 +17,10 @@ const Courses = () => {
         </div>
 
         <div className="text-details">
-          <h4>
+          <h1>
             Newcomers will benefit greatly <br />
             from doing our feature classes
-          </h4>
+          </h1>
 
           <p>
             We can support student forum 24/7 for national and international

@@ -58,7 +58,7 @@ const Classes = () => {
               <div className="text-part">
                 <div className="detail">
                   <p>{item.classDetails}</p>
-                  <Link to="/">
+                  <Link to="/notes">
                     <div className="button">{item.classButton}</div>
                   </Link>
                 </div>
