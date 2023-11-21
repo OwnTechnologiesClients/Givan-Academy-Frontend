@@ -25,9 +25,6 @@
 
       .connection-left {
         border: 3px solid #fad39a;
-        &:hover {
-          border-color: #f59402;
-        }
         border-radius: 0.732vw;
         padding: 0.732vw;
         img {
@@ -55,163 +52,8 @@
             margin-bottom: 2.5vw;
             color: #9a9696;
             font-family: "Poppins";
-            font-size: 1.3vw;
-            font-weight: 700;
-          }
-        }
-
-        .part-1-bottom {
-          display: flex;
-          gap: 2vw;
-
-          .education {
-            display: flex;
-            flex-direction: column;
-
-            h2 {
-              font-size: 1.2vw;
-              font-family: "Poppins";
-              font-weight: 800;
-              margin-bottom: 0.9vw;
-            }
-            .hard {
-              display: flex;
-              flex-direction: row;
-              gap: 0.5vw;
-              img {
-                height: 2vw;
-              }
-
-              .text-connection {
-                h4 {
-                  color: #2d6aa2;
-                  font-size: 1vw;
-                  font-family: "Poppins";
-                }
-
-                p {
-                  font-family: "Poppins";
-                  font-size: 0.9vw;
-                  font-weight: 700;
-                  margin-bottom: 0.7vw;
-                }
-              }
-            }
-          }
-          .experience {
-            display: flex;
-            flex-direction: column;
-
-            h2 {
-              font-size: 1.2vw;
-              font-family: "Poppins";
-              font-weight: 800;
-              margin-bottom: 0.9vw;
-            }
-            .hard {
-              display: flex;
-              flex-direction: row;
-              gap: 0.5vw;
-              img {
-                height: 2vw;
-              }
-
-              .text-connection {
-                h4 {
-                  color: #2d6aa2;
-                  font-size: 1vw;
-                  font-family: "Poppins";
-                }
-
-                p {
-                  font-family: "Poppins";
-                  font-size: 0.9vw;
-                  font-weight: 700;
-                  margin-bottom: 0.7vw;
-                }
-              }
-            }
-          }
-          .achivements {
-            display: flex;
-            flex-direction: column;
-
-            h2 {
-              font-size: 1.2vw;
-              font-family: "Poppins";
-              font-weight: 800;
-              margin-bottom: 0.9vw;
-            }
-            .hard {
-              display: flex;
-              flex-direction: row;
-
-              gap: 0.5vw;
-              img {
-                height: 2vw;
-              }
-
-              .text-connection {
-                h4 {
-                  color: #2d6aa2;
-                  font-size: 1vw;
-                  font-weight: 500;
-                  font-family: "Poppins";
-                }
-
-                p {
-                  font-family: "Poppins";
-                  font-size: 0.9vw;
-                  font-weight: 700;
-                  margin-bottom: 0.7vw;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    .connection-2 {
-      display: flex;
-      gap: 4vw;
-      align-items: center;
-      margin-bottom: 6vw;
-
-      .connection-left {
-        border: 3px solid #b5f4e1;
-
-        &:hover {
-          border-color: #78a395;
-        }
-        border-radius: 0.732vw;
-        padding: 0.732vw;
-        img {
-          height: 32vw;
-        }
-      }
-
-      .connection-right {
-        .part-1-right {
-          h4 {
-            font-size: 1.8vw;
-            font-family: "Poppins";
-            font-weight: 800;
-          }
-
-          h5 {
-            margin-bottom: 1vw;
-            color: #5bddb5;
             font-size: 1.5vw;
-            font-family: "Poppins";
-            font-weight: 800;
-          }
-
-          p {
-            margin-bottom: 2.5vw;
-            color: #9a9696;
-            font-family: "Poppins";
-            font-size: 1.3vw;
-            font-weight: 700;
+            // font-weight: 700;
           }
         }
 
@@ -232,10 +74,10 @@
             .hard {
               display: flex;
               flex-direction: row;
-   
+              align-items: center;
               gap: 0.5vw;
               img {
-                height: 2.5vw;
+                height: 2vw;
               }
 
               .text-connection {
@@ -267,10 +109,10 @@
             .hard {
               display: flex;
               flex-direction: row;
- 
+              align-items: center;
               gap: 0.5vw;
               img {
-                height: 2.5vw;
+                height: 2vw;
               }
 
               .text-connection {
@@ -302,10 +144,10 @@
             .hard {
               display: flex;
               flex-direction: row;
-
+align-items: center;
               gap: 0.5vw;
               img {
-                height: 2.5vw;
+                height: 2vw;
               }
 
               .text-connection {
@@ -328,160 +170,6 @@
       }
     }
 
-    .connection-3 {
-      display: flex;
-      gap: 4vw;
-      align-items: center;
-      margin-bottom: 6vw;
-
-      .connection-left {
-        border: 3px solid #ff2d59;
-        &:hover {
-          border-color: rgb(150, 102, 113);
-        }
-        border-radius: 0.732vw;
-        padding: 0.732vw;
-        img {
-          height: 32vw;
-        }
-      }
-
-      .connection-right {
-        .part-1-right {
-          h4 {
-            font-size: 1.8vw;
-            font-family: "Poppins";
-            font-weight: 800;
-          }
-
-          h5 {
-            margin-bottom: 1vw;
-            color: #ff2d59;
-            font-size: 1.5vw;
-            font-family: "Poppins";
-            font-weight: 800;
-          }
-
-          p {
-            margin-bottom: 2.5vw;
-            color: #9a9696;
-            font-family: "Poppins";
-            font-size: 1.3vw;
-            font-weight: 700;
-          }
-        }
-
-        .part-1-bottom {
-          display: flex;
-          gap: 2vw;
-
-          .education {
-            display: flex;
-            flex-direction: column;
-
-            h2 {
-              font-size: 1.2vw;
-              font-family: "Poppins";
-              font-weight: 800;
-              margin-bottom: 0.9vw;
-            }
-            .hard {
-              display: flex;
-              flex-direction: row;
-
-              gap: 0.5vw;
-              img {
-                height: 2.5vw;
-              }
-
-              .text-connection {
-                h4 {
-                  color: #2d6aa2;
-                  font-size: 1vw;
-                  font-family: "Poppins";
-                }
-
-                p {
-                  font-family: "Poppins";
-                  font-size: 0.9vw;
-                  font-weight: 700;
-                  margin-bottom: 0.7vw;
-                }
-              }
-            }
-          }
-          .experience {
-            display: flex;
-            flex-direction: column;
-
-            h2 {
-              font-size: 1.2vw;
-              font-family: "Poppins";
-              font-weight: 800;
-              margin-bottom: 0.9vw;
-            }
-            .hard {
-              display: flex;
-              flex-direction: row;
-
-              gap: 0.5vw;
-              img {
-                height: 2.5vw;
-              }
-
-              .text-connection {
-                h4 {
-                  color: #2d6aa2;
-                  font-size: 1vw;
-                  font-family: "Poppins";
-                }
-
-                p {
-                  font-family: "Poppins";
-                  font-size: 0.9vw;
-                  font-weight: 700;
-                  margin-bottom: 0.7vw;
-                }
-              }
-            }
-          }
-          .achivements {
-            display: flex;
-            flex-direction: column;
-
-            h2 {
-              font-size: 1.2vw;
-              font-family: "Poppins";
-              font-weight: 800;
-              margin-bottom: 0.9vw;
-            }
-            .hard {
-              display: flex;
-              flex-direction: row;
-              gap: 0.5vw;
-              img {
-                height: 2.5vw;
-              }
-
-              .text-connection {
-                h4 {
-                  color: #2d6aa2;
-                  font-size: 1vw;
-                  font-family: "Poppins";
-                }
-
-                p {
-                  font-family: "Poppins";
-                  font-size: 0.9vw;
-                  font-weight: 700;
-                  margin-bottom: 0.7vw;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
   }
   @media screen and (max-width: 480px) {
     .connection-section {
@@ -595,218 +283,6 @@
             }
           }
         }
-      }
-
-      .connection-2 {
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-        margin-bottom: 15vw;
-
-        .connection-right {
-          .part-1-right {
-            h4 {
-              font-size: 5vw;
-            }
-
-            h5 {
-              font-size: 3vw;
-            }
-            p {
-              font-size: 2.5vw;
-            }
-          }
-
-          .part-1-bottom {
-            display: flex;
-            gap: 5vw;
-
-            .education {
-              h2 {
-                font-size: 2.5vw;
-              }
-
-              .hard {
-                margin-right: 1vw;
-                img {
-                  height: 4vw;
-                }
-
-                .text-connection {
-                  h4 {
-                    font-size: 2vw;
-                  }
-
-                  p {
-                    font-size: 1.6vw;
-                  }
-                }
-              }
-            }
-
-            .experience {
-              h2 {
-                font-size: 2.5vw;
-              }
-
-              .hard {
-                img {
-                  height: 4vw;
-                }
-
-                .text-connection {
-                  h4 {
-                    font-size: 2vw;
-                  }
-
-                  p {
-                    font-size: 1.5vw;
-                  }
-                }
-              }
-            }
-
-            .achivements {
-              h2 {
-                font-size: 2.5vw;
-              }
-
-              .hard {
-                display: flex;
-                align-items: center;
-
-                img {
-                  height: 4vw;
-                }
-
-                .text-connection {
-                  h4 {
-                    font-size: 2vw;
-                  }
-
-                  p {
-                    font-size: 1.5vw;
-                  }
-                }
-              }
-            }
-          }
-        }
-
-        .connection-left {
-          img {
-            padding: 2vw;
-            height: 89vw;
-          }
-        }
-
-       
-      }
-
-      .connection-3 {
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-        margin-bottom: 15vw;
-
-        .connection-right {
-          .part-1-right {
-            h4 {
-              font-size: 5vw;
-            }
-
-            h5 {
-              font-size: 3vw;
-            }
-            p {
-              font-size: 2.5vw;
-            }
-          }
-
-          .part-1-bottom {
-            display: flex;
-            gap: 5vw;
-
-            .education {
-              h2 {
-                font-size: 2.5vw;
-              }
-
-              .hard {
-                margin-right: 1vw;
-                img {
-                  height: 4vw;
-                }
-
-                .text-connection {
-                  h4 {
-                    font-size: 2vw;
-                  }
-
-                  p {
-                    font-size: 1.6vw;
-                  }
-                }
-              }
-            }
-
-            .experience {
-              h2 {
-                font-size: 2.5vw;
-              }
-
-              .hard {
-                img {
-                  height: 4vw;
-                }
-
-                .text-connection {
-                  h4 {
-                    font-size: 2vw;
-                  }
-
-                  p {
-                    font-size: 1.5vw;
-                  }
-                }
-              }
-            }
-
-            .achivements {
-              h2 {
-                font-size: 2.5vw;
-              }
-
-              .hard {
-                display: flex;
-                align-items: center;
-
-                img {
-                  height: 4vw;
-                }
-
-                .text-connection {
-                  h4 {
-                    font-size: 2vw;
-                  }
-
-                  p {
-                    font-size: 1.5vw;
-                  }
-                }
-              }
-            }
-          }
-        }
-
-        .connection-left {
-          img {
-            padding: 2vw;
-            height: 89vw;
-          }
-        }
-
-       
       }
     }
   }
