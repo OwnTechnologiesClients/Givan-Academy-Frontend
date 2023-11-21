@@ -15,9 +15,9 @@ const Vision = () => {
           </div>
 
           <div className="career">
-            <h1>
-              Learn New Skills to go ahead for <br /> Your Career
-            </h1>
+            <h1>Learn New Skills to go ahead for</h1>
+            
+            <h1>Your Career</h1>
           </div>
 
           <div className="dolor">
@@ -33,9 +33,13 @@ const Vision = () => {
 
           <div className="education">
             <p>
-            Education encompasses both the teaching and learning of knowledge, proper conduct, and technical competency. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut nisi ut aliquip ex ea commodo consequat.
-            
+              Education encompasses both the teaching and learning of knowledge,
+              proper conduct, and technical competency. Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut nisi ut aliquip ex
+              ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
         </div>

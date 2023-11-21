@@ -2,9 +2,9 @@ import React from 'react'
 import './Statistics.scss'
 import smile from '../../assets/smile.png'
 
-const StatisticsSection = () => {
+const StatisticsSection = ({className}) => {
     return (
-        <div className="statistics">
+        <div className={`statistics ${className}`}>
             <div className="st-card">
                 <img src={smile} alt="" />
                 <div className="stats">

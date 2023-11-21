@@ -17,7 +17,7 @@ const Aboutus = () => {
       <Navbar />
       <Tutorial hd1={"About Us"} hd3={"About us"} />
       <Vision />
-      <StatisticsSection  />
+      <StatisticsSection  className="statistics-margin"/>
       <Testimonials />
       <Connection />
       <WhatsappIcon />
