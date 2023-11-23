@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Female Name",
       "role": "Director",
-      "image": "../src/assets/1.png",
+      "image": "/connection/1.png",
       "color": "#FAD39A",
       "color2": "#FF9700",
      "description": "We care for children, protect  their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect  their welfare, and prepare them for the future.  We care for children, protect  their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect  their welfare, and prepare them for the future. . ",
@@ -11,36 +11,36 @@
         {
           "university": "HARVARD UNIVERSITY",
           "degree": "Bachelor in Mathematics",
-          "img": "../src/assets/icons/cap.png"
+     "img": "/connection/cap.png"
         },
         {
           "university": "HARVARD DELHI",
           "degree": "Bachelor in Mathematics",
-          "img": "../src/assets/icons/cap.png"
+     "img": "/connection/cap.png"
         }
       ],
       "experience": [
         {
           "company": "HARVARD UNIVERSITY",
           "year": "2000-2010",
-          "img": "../src/assets/icons/bag.png"
+          "img": "/connection/bag.png"
         },
         {
           "company": "HARVARD DELHI",
           "year": "Bachelor in Mathematics",
-          "img": "../src/assets/icons/bag.png"
+           "img": "/connection/bag.png"
         }
       ],
       "achievements": [
         {
           "title": "TOPPER IN UNIVERSITY",
           "subtitle": "GOLD MEDELIST",
-          "img": "../src/assets/icons/badge.png"
+          "img": "/connection/badge.png"
         },
         {
           "title": "SWIMMER",
           "subtitle": "GOLD",
-          "img": "../src/assets/icons/badge.png"
+          "img": "/connection/badge.png"
         }
       ]
     },
@@ -48,7 +48,7 @@
       "id": 2,
       "name": "Female Name",
       "role": "Director",
-      "image": "../src/assets/2.png",
+      "image": "/connection/2.png",
       "color": "#B5F4E1",
       "color2": "#5BDDB5",
      "description": "We care for children, protect  their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect  their welfare, and prepare them for the future.  We care for children, protect  their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect  their welfare, and prepare them for the future. . ",
@@ -56,36 +56,36 @@
         {
           "university": "HARVARD UNIVERSITY",
           "degree": "Bachelor in Mathematics",
-          "img": "../src/assets/icons/cap.png"
+          "img": "/connection/cap.png"
         },
         {
           "university": "HARVARD DELHI",
           "degree": "Bachelor in Mathematics",
-          "img": "../src/assets/icons/cap.png"
+     "img": "/connection/cap.png"
         }
       ],
       "experience": [
         {
           "company": "HARVARD UNIVERSITY",
           "year": "2000-2010",
-                   "img": "../src/assets/icons/bag.png"
+                    "img": "/connection/bag.png"
         },
         {
           "company": "HARVARD DELHI",
           "year": "Bachelor in Mathematics",
-                   "img": "../src/assets/icons/bag.png"
+                    "img": "/connection/bag.png"
         }
       ],
       "achievements": [
         {
           "title": "TOPPER IN UNIVERSITY",
           "subtitle": "GOLD MEDELIST",
-          "img": "../src/assets/icons/badge.png"
+          "img": "/connection/badge.png"
         },
         {
           "title": "SWIMMER",
           "subtitle": "GOLD",
-          "img": "../src/assets/icons/badge.png"
+          "img": "/connection/badge.png"
         }
       ]
     },
@@ -93,7 +93,7 @@
       "id": 3,
       "name": "Female Name",
       "role": "Director",
-      "image": "../src/assets/3.png",
+      "image": "/connection/3.png",
       "color": "#FF2D59",
       "color2": "#FF2D59",
      "description": "We care for children, protect  their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect  their welfare, and prepare them for the future.  We care for children, protect  their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect  their welfare, and prepare them for the future. . ",
@@ -101,36 +101,36 @@
         {
           "university": "HARVARD UNIVERSITY",
           "degree": "Bachelor in Mathematics",
-                  "img": "../src/assets/icons/cap.png"
+             "img": "/connection/cap.png"
         },
         {
           "university": "HARVARD DELHI",
           "degree": "Bachelor in Mathematics",
-                  "img": "../src/assets/icons/cap.png"
+             "img": "/connection/cap.png"
         }
       ],
       "experience": [
         {
           "company": "HARVARD UNIVERSITY",
           "year": "2000-2010",
-                   "img": "../src/assets/icons/bag.png"
+                    "img": "/connection/bag.png"
         },
         {
           "company": "HARVARD DELHI",
           "year": "Bachelor in Mathematics",
-                   "img": "../src/assets/icons/bag.png"
+                    "img": "/connection/bag.png"
         }
       ],
       "achievements": [
         {
           "title": "TOPPER IN UNIVERSITY",
           "subtitle": "GOLD MEDELIST",
-          "img": "../src/assets/icons/badge.png"
+          "img": "/connection/badge.png"
         },
         {
           "title": "SWIMMER",
           "subtitle": "GOLD",
-          "img": "../src/assets/icons/badge.png"
+          "img": "/connection/badge.png"
         }
       ]
     }
