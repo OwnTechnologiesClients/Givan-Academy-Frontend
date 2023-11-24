@@ -8,25 +8,25 @@ const Skills = () => {
       title: "Learn The Latest ",
       title2: "Skills",
       subtitle: "Curabitur arcu erat accumsan id imperdiet sem vivamu",
-      courses: "View Courses",
+      courses: "Learn More",
     },
     {
       title: "10+ Online ",
       title2: "Courses",
       subtitle: "Curabitur arcu erat accumsan id imperdiet sem vivamu",
-      courses: "View Courses",
+      courses: "Learn More",
     },
     {
       title: "Earn A",
       title2: "Certificate",
       subtitle: "Curabitur arcu erat accumsan id imperdiet sem vivamu",
-      courses: "View Courses",
+      courses: "Learn More",
     },
     {
       title: "Up Your ",
       title2: "Skill",
       subtitle: "Curabitur arcu erat accumsan id imperdiet sem vivamu",
-      courses: "View Courses",
+      courses: "Learn More",
     },
   ];
 
@@ -45,7 +45,7 @@ const Skills = () => {
                 <span>{item.title2}</span>
               </h1>
               <p>{item.subtitle}</p>
-              <Link to="/">
+              <Link to="/aboutus">
                 <div className="view">{item.courses} &gt;</div>
               </Link>
             </div>

@@ -49,7 +49,7 @@ const Cost = () => {
             </div>
           </div>
         </div>
-        <Link to="/">
+        <Link to="/notes">
           <div className="button"> Start Classes &gt;</div>
         </Link>
       </div>

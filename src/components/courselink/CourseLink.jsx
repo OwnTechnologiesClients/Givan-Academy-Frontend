@@ -58,7 +58,7 @@ const CourseLinks = ({ activeLink, handleLinkClick ,sublinks
 
       <div className="contact-form">
         <h2>
-          Quick <span className="under-bar">Contact</span>
+          Quick <span className="under-bar">Contact Form</span>
         </h2>
         <form className="form-fields" >
           <input

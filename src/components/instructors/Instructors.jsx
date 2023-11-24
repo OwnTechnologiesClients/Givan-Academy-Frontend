@@ -9,12 +9,20 @@ const Instructors = () => {
   return (
     <div className="instructor-section">
       <div className="text-section">
-        <h5>MAKE CONNECTIONS</h5>
-        <h1>Team of Instructors</h1>
+        <div></div>
+        <div className="instructor-head">
+   
+          <h5>MAKE CONNECTIONS</h5>
+          <h1>Team of Instructors</h1>
+        </div>
+
+        <Link to="/aboutus">
+          <div className="button"> View All &gt;</div>
+        </Link>
       </div>
 
       <div className="img-section">
-        <Link to="/aboutus">
+        <Link to="/">
           <div className="content-part-1">
             <div className="border-line">
               <img src={IMG1} alt="" />
@@ -23,7 +31,7 @@ const Instructors = () => {
             <div className="post">Director</div>
           </div>
         </Link>
-        <Link to="/aboutus">
+        <Link to="/">
           <div className="content-part-2">
             <div className="border-line">
               <img src={IMG2} alt="" />
@@ -32,15 +40,15 @@ const Instructors = () => {
             <div className="post">Maths Instructor </div>
           </div>
         </Link>
-       <Link to="/aboutus">
-       <div className="content-part-3">
-       <div className="border-line">
-         <img src={IMG3} alt="" />
-       </div>
-       <div className="name">Female Name</div>
-       <div className="post">English Instructor </div>
-     </div>
-       </Link>
+        <Link to="/">
+          <div className="content-part-3">
+            <div className="border-line">
+              <img src={IMG3} alt="" />
+            </div>
+            <div className="name">Female Name</div>
+            <div className="post">English Instructor </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
