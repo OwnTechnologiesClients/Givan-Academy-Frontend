@@ -23,8 +23,8 @@ const Apply = () => {
           <h2>Become an Instructor</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor  incididunt ut labore et dolore magna aliqua.
-            Ut nisi ut aliquip ex ea commodo  consequat.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut nisi
+            ut aliquip ex ea commodo consequat.
           </p>
           <div className="apply-checkbox">
             <div className="box">
@@ -40,11 +40,16 @@ const Apply = () => {
               <p>Math Teacher</p>
             </div>
           </div>
-          <button>Apply Now</button>
+          <a
+            href="https://forms.office.com/pages/responsepage.aspx?id=PzhtkjQaBEiF9c0K1pUUduFaIkSFtAFJtalojR1fH_ZUNUZMN0s4QUVCTFRCRUIxODMwUFRPT0dBMC4u"
+            target="blank"
+          >
+            {" "}
+            <button>Apply Now</button>
+          </a>
         </div>
       </div>
 
-      
       <WhatsappIcon />
       <Footer />
     </div>

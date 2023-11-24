@@ -42,7 +42,7 @@ const Online = () => {
           <h1>Our Best Online Notes</h1>
         </div>
 
-        <Link to="/">
+        <Link to="/notes">
           <div className="button"> View All &gt;</div>
         </Link>
       </div>

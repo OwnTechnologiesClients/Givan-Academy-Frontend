@@ -23,6 +23,12 @@ const Demo = () => {
         </form>
 
         <form>
+        <label>Email</label>
+        <br />
+        <input type="text" name="phone_number" />
+      </form>
+
+        <form>
           <label>Tuition Class For</label>
           <br />
           <input type="text" name="tuition_class" />

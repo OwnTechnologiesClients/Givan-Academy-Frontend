@@ -40,7 +40,7 @@ const Classes = () => {
         <div></div>
         <div className="courses">
           <h4>DISCOVER COURSES</h4>
-          <h1>Our Popular Classes</h1>
+          <h1>Our Popular Notes</h1>
         </div>
         <Link to="/notes">
           <div className="button"> View All &gt;</div>

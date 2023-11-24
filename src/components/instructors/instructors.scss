@@ -6,17 +6,39 @@
 
   .text-section {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 6vw;
-    h5 {
-      font-size: 1.3vw;
-      font-weight: 800;
-      color: #85ba00;
+ 
+
+    .instructor-head{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h5 {
+        font-size: 1.3vw;
+        font-weight: 800;
+        color: #85ba00;
+      }
+      h1 {
+        font-size: 3vw;
+        font-weight: 700;
+      }
     }
-    h1 {
-      font-size: 3vw;
-      font-weight: 700;
+    .button {
+      background-color: #2d6aa2;
+      color: #fff;
+      text-align: center;
+      padding: 0.732vw 1.464vw;
+      font-size: 1vw;
+      border-radius: 0.3vw;
+      width: 130px;
+      font-family: "Poppins", sans-serif;
+      outline: none;
+
+      &:hover {
+        background-color: #85ba00;
+      }
     }
   }
 
@@ -117,11 +139,23 @@
     padding: 5vw 6vw;
 
     .text-section {
-      h5 {
-        font-size: 3.5vw;
+      display: flex;
+      flex-direction: column;
+     
+      .instructor-head{
+        margin-bottom: 3vw;
+        h5 {
+          font-size: 3.5vw;
+        }
+        h1 {
+          font-size: 5.4vw;
+        }
       }
-      h1 {
-        font-size: 5.4vw;
+      .button {
+        font-size: 2.5vw;
+        margin-top: 4.5vw;
+        padding: 0.999vw 1.864vw;
+        font-size: 2vw;
       }
     }
     .img-section {

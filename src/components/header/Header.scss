@@ -24,6 +24,7 @@ $text: #646262;
     }
 
     .top-icons {
+        
         img {
             margin: 0 7px;
             margin-top: .2vw;
@@ -42,6 +43,8 @@ $text: #646262;
         flex-direction: column;
 
         .top-links {
+            position: relative;
+            left: 3vw;
             font-size: .8rem;
         }
 
@@ -49,8 +52,8 @@ $text: #646262;
             margin-top: 3vw;
 
             img {
-                margin-left: 4vw;
-
+                margin-left: 3vw;
+         
             }
         }
 
