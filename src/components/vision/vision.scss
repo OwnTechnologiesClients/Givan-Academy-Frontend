@@ -1,0 +1,91 @@
+.vision-container {
+  padding: 6vw 4vw 6vw 4vw;
+  .vision-section {
+    display: flex;
+    gap: 7vw;
+    align-items: center;
+    .img-vision {
+      img {
+        height: 34vw;
+      }
+    }
+
+    .our-vision {
+      margin-bottom: 0.5vw;
+      h4 {
+        font-size: 1vw;
+        font-weight: 800;
+        font-family: "Poppins";
+        color: #85ba00;
+      }
+    }
+
+    .career {
+      margin-bottom: 0.9vw;
+      h1 {
+        font-size: 2.5vw;
+        font-weight: 800;
+        font-family: "Poppins";
+      }
+    }
+
+    .dolor {
+      margin-bottom: 0.5vw;
+      p {
+        font-family: "Poppins";
+        font-size: 1.1vw;
+      }
+    }
+
+    .education {
+      p {
+        font-family: "Poppins";
+        font-size: 1.1vw;
+        font-weight: 800;
+      }
+    }
+  }
+  @media screen and (max-width: 480px) {
+    padding: 8vw;
+    .vision-section {
+      display: flex;
+      flex-direction: column;
+      .img-vision {
+        img {
+          height: 70vw;
+        }
+      }
+      .our-vision {
+    
+        h4 {
+          font-size: 3vw;
+        }
+      }
+
+      .career {
+        margin-bottom: 2vw;
+        h1 {
+          font-size: 4.5vw;
+        }
+      }
+
+      .dolor {
+        margin-bottom: 2vw;
+        p {
+          font-size: 3.1vw;
+      
+          letter-spacing: 0.3px;
+        }
+      }
+
+      .education {
+        p {
+          font-size: 3.1vw;
+      
+          letter-spacing: 0.3px;
+
+        }
+      }
+    }
+  }
+}

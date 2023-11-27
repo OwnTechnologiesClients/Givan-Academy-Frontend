@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+
+.notes-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7vw 7vw;
+  background-color: #faf8f9;
+
+  .banner-part-4 {
+    position: relative;
+    .shapes-background {
+      position: absolute;
+      top: -14.34vw;
+      left: -12.54vw;
+      width: 140%;
+      height: 167%;
+      background-image: url(/src/assets/shape3.png);
+      background-size: cover;
+      z-index: 1;
+    }
+    img {
+      height: 32vw;
+      padding: 3vw;
+    }
+  }
+
+  .detailed {
+    .notes {
+      h4 {
+        line-height: 3.856vw;
+        font-size: 1vw;
+        font-weight: 800;
+        color: #85ba00;
+      }
+    }
+    .text-section {
+      h1{
+        font-size: 3vw;
+        margin-bottom: 1vw;
+      }
+      h4 {
+        font-size: 2.049vw;
+        margin-bottom: 1.9vw;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+
+    .text-details {
+      margin-bottom: 2.562vw;
+      p {
+        font-size: 1vw;
+        font-family: "Poppins", sans-serif;
+      }
+
+      span {
+        color: #2d6aa2;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+    .check-box {
+      display: flex;
+      
+
+      .box-1 {
+        margin-right: 3vw;
+        margin-bottom: 1.7vw;
+        img {
+          width: 0.8vw;
+          font-size: 1.1vw;
+          margin-right: 0.4vw;
+        }
+
+        a {
+          font-family: "Poppins", sans-serif;
+          line-height: 2.5rem;
+          font-size: 1vw;
+          font-weight: 700;
+        }
+      }
+    }
+    .button {
+      background-color: #2d6aa2;
+      color: #fff;
+      padding: 0.7vw 1.4vw;
+      border-radius: 0.3vw;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      width: 12vw;
+      &:hover {
+        background-color: #85ba00;
+      }
+    }
+  }
+
+  @media screen and (max-width: "480px") {
+    padding: 7vw 6vw;
+    flex-direction: column;
+
+    .banner-part-4{
+      img{
+        height: 50vw;
+        margin-bottom: 2vw;
+    }
+    }
+
+    .detailed {
+      .notes {
+        h4 {
+          font-size: 3vw;
+        }
+      }
+      .text-section {
+        h1{
+          font-size: 6vw;
+          margin-bottom: 1vw;
+        }
+
+        h4 {
+          font-size: 5.049vw;
+          margin-bottom: 1.9vw;
+        }
+      }
+      .text-details {
+        p {
+          font-size: 3vw;
+        }
+      }
+
+      .check-box {
+        display: flex;
+        flex-direction: column;
+        .box-1 {
+          margin-bottom: 0;
+          img {
+            margin-right: 2vw;
+            width: 2.5vw;
+          }
+
+          a {
+            font-size: 3vw;
+          }
+        }
+      }
+      .button {
+        padding: 0.9vw;
+    font-size: 2.8vw;
+    margin-top: 0.8784vw;
+    width: 25vw;
+      }
+    }
+  }
+}

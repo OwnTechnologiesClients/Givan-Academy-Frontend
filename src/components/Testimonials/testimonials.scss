@@ -1,0 +1,113 @@
+.testimonials {
+  padding: 7vw;
+  background-color: #e7f0fd;
+  .text-part {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6vw;
+    h5 {
+      font-size: 1vw;
+      font-weight: 800;
+      color: #85ba00;
+    }
+    h1 {
+      font-size: 2.66vw;
+      font-weight: 700;
+    }
+  }
+
+  .card-container {
+
+
+    .card-part {
+      border-radius: 1.2vw;
+      padding: 1.464vw;
+      background: #fff;
+      .card-section {
+        margin-bottom: 2.196vw;
+        display: flex;
+
+        .img-section {
+          img {
+            height: 4.31vw;
+            margin-right: 1vw;
+          }
+        }
+        .name-class {
+          h4 {
+            font-size: 1.5vw;
+            font-family: "Poppins";
+            font-weight: normal;
+          }
+          p {
+            color: #9a9696;
+            font-size: 1vw;
+            font-family: "Poppins";
+            font-weight: normal;
+          }
+        }
+      }
+      .text-section {
+        margin-bottom: 2.196vw;
+        p {
+          color: #9a9696;
+          font-size: 1.024vw;
+          font-family: "Poppins";
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+
+  @media screen and (max-width: "480px") {
+    padding: 10vw 8vw;
+    .text-part {
+      text-align: center;
+
+      h5 {
+        font-size: 3.5vw;
+      }
+
+      h1 {
+        font-size: 5.4vw;
+      }
+    }
+
+    .card-container {
+      // display: flex;
+      // flex-direction: column;
+      // gap: 5vw;
+ 
+
+      .card-part {
+        padding: 3vw;
+        .card-section {
+          .img-section {
+            img {
+              height: 20vw;
+              margin-right: 2.5vw;
+            }
+          }
+          .name-class {
+            h4 {
+              font-size: 5vw;
+            }
+            P {
+              font-size: 4vw;
+            }
+          }
+        }
+        .text-section {
+          p {
+            font-size: 3.5vw;
+          }
+        }
+      }
+    }
+  }
+}

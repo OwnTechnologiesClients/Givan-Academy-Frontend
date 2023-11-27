@@ -1,0 +1,57 @@
+.notes-pdf-container {
+    margin-bottom: 8vw;
+  .head-notes {
+    margin-top: 2vw;
+    p{
+      color: #031ff7;
+      font-size: 1.5vw;
+      font-family: "Poppins";
+      cursor: pointer;
+
+      &:hover {
+        color: #85ba00;
+      }
+    }
+  }
+
+  .notes-pdf-section {
+    margin-top: 2vw;
+    border: 2px solid #ccc;
+    img {
+      padding: 2vw 3.5vw 2vw 3.2vw;
+      width: 100%;
+      height: 80vw;
+      object-fit: cover;
+    }
+  }
+
+  button {
+    margin-top: 1.5vw;
+    padding: 1vw;
+    background-color: #2d6aa2;
+    border-radius: 0.5vw;
+    font-family:"Poppins";
+    font-weight: 700;
+    font-size: 1vw;
+    color: #fff;
+    width: 100%;
+    border: none;
+    &:hover {
+      background-color: #85ba00;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .head-notes{
+      p{
+        font-size: 4vw;
+      }
+    }
+    button{
+      margin-top: 3vw;
+      font-size: 3vw;
+      padding: 2vw;
+    }
+  }
+}

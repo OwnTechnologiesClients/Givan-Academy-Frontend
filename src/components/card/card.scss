@@ -1,0 +1,48 @@
+.card-container-1 {
+  background-color: #2d6aa2;
+  opacity: 0.5;
+  margin-right: 1.2vw;
+  margin-bottom: 1.2vw;
+  cursor: pointer;
+
+  .card-container-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 15vw;
+    width: 21.355vw;
+
+    &:hover {
+      background-color: #89bd06;
+    }
+
+    p {
+      font-size: 1.7vw;
+      font-weight: 600;
+      font-family: "Poppins";
+    }
+
+    h4 {
+      font-size: 2vw;
+      font-weight: 700;
+      font-family: "Poppins";
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .card-container-section {
+      height: 23vw;
+      width: 39.355vw;
+
+      p{
+        font-size: 3vw;
+      }
+
+      h4{
+        margin-top: -3px;
+        font-size: 4vw;
+      }
+    }
+  }
+}

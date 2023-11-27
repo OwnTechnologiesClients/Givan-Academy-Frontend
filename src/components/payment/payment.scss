@@ -1,0 +1,138 @@
+.payment-container {
+  background-color: #faf8f9;
+  padding: 7vw 7vw;
+  .payment-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .right-section {
+      h2 {
+        color: #363345;
+        font-size: 3vw;
+        line-height: 4vw;
+        font-weight: 700;
+        font-family: "Poppins";
+        margin-bottom: 3.5vw;
+      }
+
+      p {
+        color: #9a9696;
+        font-family: "Poppins";
+        margin-bottom: 3.5vw;
+      }
+
+      .upload-button {
+        background-color: #2d6aa2;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        padding: 1vw;
+        font-size: 1vw;
+        font-family: "Poppins";
+
+        &:hover{
+          background-color: #85ba00;
+        }
+      }
+    }
+
+    .left-section {
+      background-color: #fff;
+      border: 1px solid #252525;
+      border-radius: 10px;
+      padding: 2vw 2vw 2vw 7vw;
+      position: relative;
+      .img-map {
+        position: absolute;
+        top: -6vw;
+        left: -4vw;
+        img {
+          position: absolute;
+          height: 17vw;
+        }
+      }
+      .img-pay {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+
+        img {
+          height: 3vw;
+        }
+        .pay-text {
+          display: flex;
+          flex-direction: column;
+          img {
+            height: 10vw;
+          }
+          p {
+            font-size: 1vw;
+            font-family: "Poppins";
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .payment-container {
+    .payment-section {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+
+      .right-section {
+        h2 {
+          line-height: 8vw;
+          font-size: 5vw;
+        }
+
+        p {
+          font-size: 2.5vw;
+        }
+
+        .upload-button {
+          border: none;
+          color: #fff;
+          background-color: #2d6aa2;
+          width: 60%;
+          height: 8vw;
+          font-size: 2.5vw;
+        }
+      }
+
+      .left-section {
+        margin-top: 12vw;
+        padding: 12vw;
+
+        .img-map {
+          img {
+            height: 35vw;
+            top: -5vw;
+            left: -4vw;
+          }
+        }
+        .img-pay {
+          gap: 3vw;
+          img {
+     
+            height: 8vw;
+          }
+          .pay-text {
+            img {
+              height: 22vw;
+              width: 30vw;
+            }
+            p {
+              font-size: 3vw;
+              font-family: "Poppins";
+              font-weight: 800;
+            }
+          }
+        }
+      }
+    }
+  }
+}

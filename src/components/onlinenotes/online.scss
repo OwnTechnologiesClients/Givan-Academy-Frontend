@@ -1,0 +1,203 @@
+.course-sections {
+  padding: 7vw 7vw;
+    background-color: #FAF8F9;
+    border-bottom: 1px solid #cccccc;
+  
+    .top-heading {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 2vw;
+      align-items: center;
+  
+      .courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        h4 {
+          color: #85ba00;
+          font-size: 1.464vw;
+          font-weight: 700;
+        }
+  
+        h1 {
+          font-size: 3vw;
+          font-weight: 700;
+        }
+      }
+      .button {
+        background-color: #2d6aa2;
+        color: #fff;
+        text-align: center;
+        padding: 0.7vw 1.4vw;
+        font-size: 1vw;
+        border-radius: 0.3vw;
+        width: 130px;
+        font-family: "Poppins", sans-serif;
+        outline: none;
+
+        &:hover {
+          background-color: #85ba00;
+        }
+      }
+    }
+  
+    .class-container {
+      display: flex;
+      margin-top: 5vw;
+      gap: 2vw;
+  
+      .card {
+        border: 1px solid #cccccc;
+        border-radius: 0.585vw;
+        position: relative;
+  
+        img {
+          height: 14.055vw;
+        }
+        .overshadow {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: black;
+          opacity: 0.8;
+          width: 20.1vw;
+          height: 14.055vw;
+  
+          p {
+            position: absolute;
+            top: 5.1244vw;
+            left: 4.978vw;
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 2vw;
+            color: #fff;
+          }
+        }
+        .text-part {
+          padding: 1vw;
+  
+          .detail {
+            p {
+              font-family: "Poppins";
+              font-size: 1.1vw;
+              font-weight: 600;
+              margin-bottom: 1.464vw;
+            }
+  
+            a {
+              .button {
+                border-radius: 4px;
+                font-size: 1vw;
+                text-align: center;
+                font-family: "Poppins";
+                background-color: #2d6aa2;
+                color: #fff;
+                width: 45%;
+                padding: 0.658vw;
+
+                &:hover {
+                  background-color: #85ba00;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .text-section {
+      text-align: center;
+      margin: 2.562vw 0 0 0;
+      p {
+        font-size: 1.2vw;
+        font-family: "Poppins";
+        span {
+          color: #2d6aa2;
+          font-weight: 700;
+          &:hover {
+            color: #85ba00;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      .top-heading {
+        display: flex;
+        flex-direction: column;
+  
+        .courses {
+          margin-bottom: 4vw;
+          h4 {
+            font-size: 3.4vw;
+            margin-bottom: 0.5vw;
+          }
+  
+          h1 {
+            font-size: 5.4vw;
+          }
+        }
+  
+        .button {
+          font-size: 2.5vw;
+          margin-top: 4.5vw;
+          padding: 0.999vw 1.864vw;
+          font-size: 2vw;
+        }
+      }
+      .class-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+  
+        .card {
+          img {
+            height: 45.055vw;
+            width: 85.5vw;
+          }
+  
+          .overshadow {
+            width: 85.5vw;
+            height: 45.055vw;
+  
+            p {
+              font-size: 7vw;
+              top: 16.1244vw;
+              left: 24.978vw;
+            }
+          }
+  
+          .text-part {
+            padding: 3vw;
+            .detail {
+              p {
+                font-size: 4vw;
+                margin-bottom: 1vw;
+              }
+  
+              a {
+                .button {
+                  width: 39%;
+                  padding: 1vw 2vw;
+                  font-size: 2.5vw;
+                  margin-top: 5vw;
+                  margin-bottom: 2vw;
+                  border-radius: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+  
+      .text-section {
+        p {
+          font-size: 3vw;
+        }
+      }
+    }
+  }
+  
+  

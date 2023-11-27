@@ -1,0 +1,195 @@
+.liveclass-container {
+  padding: 6vw 10vw 6vw 10vw;
+  .live-section {
+    display: flex;
+    gap: 9vw;
+    align-items: center;
+
+    .live-img-section {
+      img {
+        height: 30vw;
+      }
+    }
+
+    .live-text-section {
+      h4 {
+        font-family: "Poppins";
+        font-size: 1vw;
+        font-weight: 700;
+        color: #85ba00;
+        margin-bottom: 1vw;
+      }
+
+      h2 {
+        font-family: "Poppins";
+        font-size: 2.5vw;
+        margin-bottom: 1.5vw;
+        color: #252525;
+        font-family: "Poppins";
+        font-weight: 700;
+      }
+
+      .stu {
+        font-family: "Poppins";
+        font-size: 1vw;
+        font-weight: 800;
+        margin-bottom: 1vw;
+      }
+
+      p {
+        font-family: "Poppins";
+        font-size: 1vw;
+        margin-bottom: 1.5vw;
+      }
+    }
+
+    .check-bx {
+      display: flex;
+      align-items: center;
+      gap: 0.7vw;
+      margin-bottom: 0.5vw;
+
+      img {
+        width: 0.9vw;
+      }
+
+      p {
+        font-family: "Poppins";
+        font-size: 1vw;
+        margin-bottom: -0.1vw;
+        font-weight: 800;
+      }
+    }
+
+    p {
+      font-family: "Poppins";
+      font-size: 1vw;
+    }
+  }
+
+  .form-section-live {
+    margin-top: 3vw;
+    .form-fields {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  h4 {
+    font-family: "Poppins";
+    font-size: 1.1vw;
+    font-weight: 700;
+  }
+
+  button {
+    margin-left: 3vw;
+    border: none;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 1vw;
+    background-color: #2d6aa2;
+    border-radius: 5px;
+    width: 15%;
+    padding: 1vw;
+
+    &:hover {
+      background-color: #85ba00;
+    }
+  }
+
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 1.1vw;
+    color: #9a9696;
+  }
+
+  input,
+  textarea {
+    background-color: #eeeeee;
+    border: none;
+    margin: 1vw 0;
+    height: 3vw;
+    padding: 0 2vw;
+    font-family: "Poppins";
+    font-size: 1.1vw;
+    color: #9a9696;
+    width: 45%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .liveclass-container {
+    .live-section {
+      flex-direction: column;
+
+      .live-img-section {
+        img {
+          height: 80.7vw;
+        }
+      }
+
+      .live-text-section {
+        margin-top: -4vw;
+        h4 {
+          font-size: 4vw;
+        }
+
+        h2 {
+          font-size: 3vw;
+        }
+
+        .stu {
+          margin-bottom: 2vw;
+          font-size: 2.2vw;
+        }
+
+        p {
+          font-size: 2.5vw;
+          margin-bottom: 2vw;
+        }
+
+        .check-bx {
+          margin-bottom: 2vw;
+          gap: 1.5vw;
+          img {
+            width: 3.5vw;
+          }
+          p {
+            margin-bottom: 0.1vw;
+            font-size: 3.1vw;
+          }
+        }
+      }
+    }
+
+    .form-section-live {
+      margin-top: 5vw;
+
+      h4 {
+        margin-bottom: 1vw;
+        font-size: 2.9vw;
+      }
+
+      button {
+        padding: 1.2vw;
+        font-size: 2vw;
+        width: 33%;
+      }
+
+      .link-input {
+        font-size: 2.2vw;
+      }
+
+      input,
+      textarea {
+        margin-bottom: 2vw;
+        width: 62%;
+        padding: 3vw 3vw 2vw 3vw;
+      }
+    }
+  }
+}

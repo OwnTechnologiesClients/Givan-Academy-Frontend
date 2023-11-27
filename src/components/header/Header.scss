@@ -1,0 +1,61 @@
+$blue: #2D6AA2;
+$theme-color: #2D6AA2;
+$light-text: #AAA8A8;
+$text: #646262;
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: $blue;
+    padding: .5vw 6vw;
+    color: #fff;
+
+    .top-links {
+        margin: auto 0;
+
+        span {
+            margin: 0 .5vw;
+
+            &:hover {
+                cursor: pointer;
+                color: #c2deff;
+            }
+        }
+    }
+
+    .top-icons {
+        
+        img {
+            margin: 0 7px;
+            margin-top: .2vw;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+
+    }
+
+    @media screen and (max-width:"480px") {
+        padding: 2vw;
+        text-align: center;
+        flex-direction: column;
+
+        .top-links {
+            position: relative;
+            left: 3vw;
+            font-size: .8rem;
+        }
+
+        .top-icons {
+            margin-top: 3vw;
+
+            img {
+                margin-left: 3vw;
+         
+            }
+        }
+
+    }
+}

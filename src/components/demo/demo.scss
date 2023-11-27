@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+
+.demo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7vw 7vw;
+  background-color: #faf8f9;
+
+  .form-details {
+    margin-top: 1px;
+    .head {
+      h1 {
+        font-size: 3.66vw;
+        line-height: 4.298vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+      }
+    }
+    label {
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      margin-bottom: 0.439vw;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.732vw;
+      background-color: #fff;
+      border-radius: 0.366vw;
+      margin-top: 1vw;
+      margin-bottom: -1vw;
+      border: none;
+    }
+
+    form {
+      margin: 2.732vw 0;
+    }
+
+    .butt {
+      background-color: #2d6aa2;
+      color: #fff;
+      padding: 0.732vw 1.464vw;
+      border-radius: 0.3vw;
+      font-family: "Poppins", sans-serif;
+      width: 11vw;
+      font-size: 1vw;
+      text-align: center;
+
+      &:hover {
+        background-color: #85ba00;
+      }
+    }
+  }
+  .banner-part-3 {
+    position: relative;
+    .shape-backgrounds {
+      position: absolute;
+      top: -5.783vw;
+      left: -11.639vw;
+      width: 145%;
+      height: 120%;
+      background-image: url("../../assets/shape2.png");
+      background-size: cover;
+      z-index: 0;
+    }
+
+    img {
+      height: 40vw;
+      padding: 3vw;
+    }
+  }
+  @media screen and (max-width: "480px") {
+    padding: 7vw 6vw;
+    flex-direction: column;
+
+    .form-details {
+      .head {
+        h1 {
+          font-size: 6.5vw;
+          margin-bottom: 7vw;
+        }
+      }
+      input {
+        padding: 1.5vw;
+      }
+
+      form {
+        width: 88vw;
+      }
+      .butt {
+        margin-top: 6vw;
+        font-size: 2.5vw;
+        width: 19vw;
+      }
+    }
+
+    .banner-part-3 {
+      img {
+        height: 50vw;
+        margin-top: 4vw;
+      }
+    }
+  }
+}

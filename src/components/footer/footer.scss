@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@300&display=swap");
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #202c45;
+  padding: 2vw 6vw;
+
+  a {
+    cursor: pointer;
+  }
+
+  .details {
+    width: 20vw;
+
+    img {
+      width: 18vw;
+    }
+  }
+
+  .message {
+    font-family: "Poppins";
+    color: #fff;
+    line-height: 1.5vw;
+    font-size: 1.1vw;
+  }
+
+  .footer-icons {
+    img {
+      background-color: #85ba00;
+      margin: 3vw 0.4vw;
+      padding: 0.4vw;
+      border-radius: 50%;
+      width: 2.2vw;
+    }
+  }
+  .links {
+    margin-top: 1vw;
+
+    h4 {
+      font-family: "Poppins";
+      font-weight: 700;
+      margin: 1vw 0;
+      letter-spacing: 0.1vw;
+      font-size: 1.3vw;
+      color: #fff;
+    }
+
+    img {
+      width: 1.1vw;
+      font-size: 1.1vw;
+      margin-right: 0.4vw;
+    }
+
+    a {
+      font-family: "Poppins";
+      line-height: 2.5rem;
+      font-size: 1.2vw;
+      color: #fff;
+    }
+  }
+
+  .contact-us {
+    margin-top: 1vw;
+    h4 {
+      font-family: "Poppins";
+      font-weight: 700;
+      margin: 1vw 0;
+      letter-spacing: 0.1vw;
+      font-size: 1.3vw;
+      color: #fff;
+    }
+
+    .text-part {
+      width: 20vw;
+      margin: 3vw 0.4vw;
+      font-family: "Poppins";
+      color: #fff;
+      line-height: 1.5vw;
+      font-size: 1.1vw;
+    }
+  }
+  @media screen and (max-width: "480px") {
+    padding: 5vw 6vw;
+    flex-direction: column;
+
+    .details {
+      width: unset;
+
+      img {
+        width: 60vw;
+      }
+
+      .message {
+        line-height: 1.3rem;
+        font-size: 1rem;
+      }
+
+      .footer-icons {
+        img {
+          margin: 1rem 0;
+          margin-right: 0.4rem;
+          padding: 0.3rem;
+          border-radius: 12px;
+          width: 2rem;
+        }
+      }
+    }
+
+    .links {
+      margin-top: 1rem;
+
+      h4 {
+        margin: 0.5rem 0;
+        font-size: 1.3rem;
+      }
+
+      img {
+        width: 0.8rem;
+        margin-right: 0.4rem;
+      }
+
+      a {
+        font-size: 1rem;
+      }
+    }
+
+    .contact-us {
+      h4 {
+        margin: 0.5rem 0;
+        font-size: 1.3rem;
+      }
+
+      .text-part {
+        width: unset;
+        line-height: 1.3rem;
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+
+.contact-container {
+  .contact-page-section {
+    padding: 6vw 8vw 6vw 8vw;
+    display: flex;
+
+    .contact-cards {
+      .card {
+        display: flex;
+        color: #363345;
+        width: 30vw;
+        padding: 3vw;
+        margin: 3vw;
+        background-color: #EEEEEE;
+
+        img {
+          padding-right: 1vw;
+          width: 5vw;
+          height: 4vw;
+        }
+
+        div {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          h2 {
+            font-weight: 700;
+            font-size: 1.2vw;
+            font-family: 'Poppins';
+            color: #363345;
+            margin-top: 0.3vw;
+          }
+
+          p {
+            font-family: 'Poppins';
+            color: #707070;
+            font-size: 1.1vw;
+          }
+        }
+      }
+    }
+
+    .contact-form {
+      padding: 2.5vw 0 2.5vw 4vw;
+
+      h2 {
+        font-weight: 800;
+        font-family: 'Poppins';
+        color: #363345;
+        font-size: 2.5vw;
+      }
+
+      p {
+        font-family: 'Poppins';
+        color: #9A9696;
+        font-size: 1vw;
+        margin: 1vw 0;
+      }
+
+      .form-fields {
+        display: flex;
+        flex-direction: column;
+      }
+
+      input::-webkit-input-placeholder,
+      textarea::-webkit-input-placeholder {
+        font-size: 1.1vw;
+        color: #9A9696;
+      }
+
+      input,
+      textarea {
+        background-color: #EEEEEE;
+        border: none;
+        margin: 1vw 0;
+        height: 3vw;
+        padding: 0 2vw;
+        font-family: 'Poppins';
+        font-size: 1.1vw;
+        color:#9A9696;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      textarea {
+        font-family: 'Poppins';
+        height: 8vw;
+        font-size: 1.1vw;
+        padding: 1vw 2vw;
+        resize: none;
+      }
+
+      button {
+        border: none;
+        color: #fff;
+        font-family: 'Poppins';
+        background-color: #2D6AA2;
+        width: 10.5vw;
+        height: 3vw;
+        border-radius: 5px;
+        font-size: 1.1vw;
+
+        &:hover {
+        background-color: #85ba00;
+        }
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+
+      .contact-cards {
+        .card {
+          width: unset;
+          padding: 1rem;
+          margin: 3rem 0;
+          background-color: #EEEEEE;
+
+          img {
+            padding-right: 1rem;
+            height: 12vw;
+            width: auto;
+          }
+
+          div {
+            h2 {
+              font-size: 1.1rem;
+              margin-top: 0.3vw;
+            }
+
+            p {
+              color: #707070;
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+
+      .contact-form {
+        padding: 0;
+
+        h2 {
+          font-size: 1.1rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+          margin: 1rem 0;
+        }
+
+        input::-webkit-input-placeholder,
+        textarea::-webkit-input-placeholder {
+          font-size: 1rem;
+          color:#9A9696;
+        }
+
+        input,
+        textarea {
+          margin: 1vw 0;
+          height: 3rem;
+          padding: 0 2vw;
+          font-size: 1rem;
+          color:#9A9696;
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        textarea {
+          height: 8rem;
+          font-size: 1rem;
+          padding: 1vw 2vw;
+          resize: none;
+        }
+
+        button {
+          margin-top: 4vw;
+          border: none;
+          color: #fff;
+          background-color: #2D6AA2;
+          width: 50%;
+          height: 2.3rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
