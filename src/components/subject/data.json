@@ -11,7 +11,8 @@
           "Physics",
           "Chemistry",
           "Biology"
-        ],
+        ], 
+      
         "courseLines": [
           "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
           " English Coaching will also help you with SET exams.",
@@ -20,12 +21,13 @@
           "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
         ]
       },
+    
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Physics",
           "Chemistry",
@@ -42,8 +44,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -61,8 +63,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -79,8 +81,8 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -96,10 +98,10 @@
       },
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Hindi Literature",
           "Hindi Vyakran"
@@ -114,10 +116,10 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Hindi Literature",
           "Hindi Vyakran"
@@ -132,10 +134,10 @@
       },
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Maths 1",
           "Maths 2"
@@ -150,10 +152,10 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Maths 1",
           "Maths 2"
@@ -168,10 +170,10 @@
       },
       "G.K": {
         "id": "10",
-        "title":      "G.K",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "G.K"
         ],
@@ -185,10 +187,10 @@
       },
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Computer"
         ],
@@ -205,9 +207,9 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Physics",
           "Chemistry",
@@ -224,8 +226,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -243,8 +245,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -264,8 +266,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -282,9 +284,9 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "English Literature",
           "English Grammer"
@@ -301,9 +303,9 @@
     "Hindi": {
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -319,9 +321,9 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -339,10 +341,10 @@
     "Maths": {
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Maths 1",
           "Maths 2"
@@ -357,9 +359,9 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -377,10 +379,10 @@
     "GK": {
       "G.K": {
         "id": "10",
-        "title":      "G.K",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "G.K"
         ],
@@ -396,9 +398,9 @@
     "Other": {
       "Computer": {
         "id": "1",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "courseLines": [
           "English Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
@@ -415,8 +417,8 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -434,8 +436,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -453,8 +455,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -472,8 +474,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -490,8 +492,8 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -507,9 +509,9 @@
       },
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -525,10 +527,10 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Hindi Literature",
           "Hindi Vyakran"
@@ -543,9 +545,9 @@
       },
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -561,9 +563,9 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -579,9 +581,9 @@
       },
       "G.K": {
         "id": "10",
-        "title":      "G.K",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "G.K"
@@ -596,10 +598,10 @@
       },
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Computer"
         ],
@@ -616,8 +618,8 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -635,8 +637,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -654,8 +656,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -675,8 +677,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -693,9 +695,9 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "English Literature",
           "English Grammer"
@@ -712,9 +714,9 @@
     "Hindi": {
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -730,9 +732,9 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -750,9 +752,9 @@
     "Maths": {
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -768,9 +770,9 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -788,10 +790,10 @@
     "GK": {
       "G.K": {
         "id": "10",
-        "title":      "G.K",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "G.K"
         ],
@@ -807,10 +809,10 @@
     "Other": {
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Computer"
         ],
@@ -829,8 +831,8 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -848,8 +850,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -867,8 +869,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -886,8 +888,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -904,8 +906,8 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -921,9 +923,9 @@
       },
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -939,9 +941,9 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -957,9 +959,9 @@
       },
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -975,9 +977,9 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -991,13 +993,29 @@
           "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
         ]
       },
-      "G.K": "G.K for class 1",
+      "G.K": {
+        "id": "10",
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+        "sidelinks": [
+          "G.K"
+        ],
+        "courseLines": [
+          "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+          " English Coaching will also help you with SET exams.",
+          " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+          "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+          "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+        ]
+      },
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "Computer"
         ],
@@ -1014,8 +1032,8 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1033,8 +1051,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1052,8 +1070,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1073,8 +1091,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1091,9 +1109,9 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw" ,
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
         "sidelinks": [
           "English Literature",
           "English Grammer"
@@ -1110,9 +1128,9 @@
     "Hindi": {
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1128,9 +1146,9 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1148,9 +1166,9 @@
     "Maths": {
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1166,9 +1184,9 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1186,9 +1204,9 @@
     "GK": {
       "G.K": {
         "id": "10",
-        "title":      "G.K",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "G.K"
@@ -1205,9 +1223,9 @@
     "Other": {
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Computer"
@@ -1227,8 +1245,8 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1246,8 +1264,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1265,8 +1283,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1284,8 +1302,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1302,8 +1320,8 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1319,9 +1337,9 @@
       },
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1337,9 +1355,9 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1355,9 +1373,9 @@
       },
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1373,9 +1391,9 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1391,9 +1409,9 @@
       },
       "G.K": {
         "id": "10",
-        "title":      "G.K",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "G.K"
@@ -1408,9 +1426,9 @@
       },
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Computer"
@@ -1428,8 +1446,8 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1447,8 +1465,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1466,8 +1484,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1487,8 +1505,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1505,8 +1523,8 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1524,9 +1542,9 @@
     "Hindi": {
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1542,9 +1560,9 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1562,9 +1580,9 @@
     "Maths": {
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1580,9 +1598,9 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1600,9 +1618,9 @@
     "GK": {
       "G.K": {
         "id": "10",
-        "title":      "G.K",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "G.K"
@@ -1619,9 +1637,9 @@
     "Other": {
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Computer"
@@ -1641,8 +1659,8 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1660,8 +1678,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1679,8 +1697,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1698,8 +1716,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1716,8 +1734,8 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1733,9 +1751,9 @@
       },
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1751,9 +1769,9 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1769,9 +1787,9 @@
       },
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1787,9 +1805,9 @@
       },
       "Maths 2": {
         "id": "9",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1803,12 +1821,28 @@
           "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
         ]
       },
-      "G.K": "G.K for class 1",
+      "G.K": {
+        "id": "10",
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+        "sidelinks": [
+          "G.K"
+        ],
+        "courseLines": [
+          "G.K Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+          " English Coaching will also help you with SET exams.",
+          " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+          "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+          "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+        ]
+      },
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Computer"
@@ -1826,8 +1860,8 @@
       "Physics": {
         "id": "1",
         "title": "Physics",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1845,8 +1879,8 @@
       "Chemistry": {
         "id": "2",
         "title": "Chemistry",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1864,8 +1898,8 @@
       "Biology": {
         "id": "3",
         "title": "Biology",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Physics",
@@ -1885,8 +1919,8 @@
       "English Literature": {
         "id": "4",
         "title": "English Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1903,8 +1937,8 @@
       "Grammar": {
         "id": "5",
         "title": "English Grammer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "English Literature",
@@ -1922,9 +1956,9 @@
     "Hindi": {
       "Hindi Literature": {
         "id": "6",
-        "title":  "Hindi Literature",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Literature",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1940,9 +1974,9 @@
       },
       "Hindi Vyakran": {
         "id": "7",
-        "title":  "Hindi Vyakran",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Hindi Vyakran",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Hindi Literature",
@@ -1960,9 +1994,9 @@
     "Maths": {
       "Maths 1": {
         "id": "8",
-        "title":    "Maths 1",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1978,9 +2012,9 @@
       },
       "Maths 2": {
         "id": "8",
-        "title":     "Maths 2",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Maths 2",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Maths 1",
@@ -1998,9 +2032,9 @@
     "GK": {
       "G.K": {
         "id": "10",
-        "title":      "G.K",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "G.K",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "G.K"
@@ -2017,9 +2051,9 @@
     "Other": {
       "Computer": {
         "id": "11",
-        "title":   "Computer",
-      "image": "/subject/bg3.png",
-         "pdf": "/subject/dummy.pdf",
+        "title": "Computer",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
         "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
         "sidelinks": [
           "Computer"

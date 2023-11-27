@@ -17,12 +17,10 @@
   }
 
   .card-container {
-    display: flex;
-    gap: 2.19vw;
     .card-part {
       border-radius: 1.2vw;
       padding: 1.464vw;
-      background: #fff;
+      background-color: #fff;
       .card-section {
         margin-bottom: 2.196vw;
         display: flex;
@@ -58,7 +56,13 @@
       }
     }
   }
+
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
   @media screen and (max-width: "480px") {
+    padding: 10vw 8vw;
     .text-part {
       text-align: center;
 
@@ -72,9 +76,9 @@
     }
 
     .card-container {
-      display: flex;
-      flex-direction: column;
-      gap: 5vw;
+      // display: flex;
+      // flex-direction: column;
+      // gap: 5vw;
 
       .card-part {
         padding: 3vw;
