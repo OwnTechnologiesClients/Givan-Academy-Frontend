@@ -22,13 +22,14 @@ const Navbar = () => {
 
   return (
     <div className={`nav-bar${menuOpen ? " menu-open" : ""}`}>
-      <div className="menu-icon" onClick={toggleMenu}>
-        <img src={hamburger} alt="" />
-      </div>
       <div className="logo">
         <Link to="/">
           <img src={Logo} alt="" />
         </Link>
+      </div>
+
+      <div className="menu-icon" onClick={toggleMenu}>
+        <img src={hamburger} alt="" />
       </div>
 
       <div className="tabs">

@@ -61,10 +61,26 @@
     }
   }
 
-  @media (max-width: 768px) {
-    padding: 5vw 6vw;
+  @media (max-width: 480px) {
+    padding: 10vw 8vw;
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+      width: 83vw;
+    }
+    .slick-prev:before {
+      content: "←";
+      color: black;
+      font-size: 5vw;
+    }
+  
+    .slick-next:before {
+      content: "→";
+      color: black;
+      font-size: 5vw;
+    }
     .earn {
-      flex-direction: column;
+      background-color: #252525;
+      display: flex;
       border-radius: 6vw;
 
       .st-card {
@@ -77,14 +93,12 @@
           height: 14.5vw;
 
           img {
-         
             width: 12vw;
             height: 12vw;
           }
         }
 
         .stats {
-        
           h1 {
             font-size: 4vw;
             padding-bottom: 2vw;
@@ -97,7 +111,6 @@
           p {
             font-size: 3.5vw;
             padding-bottom: 2vw;
-
           }
 
           .view {
@@ -110,3 +123,4 @@
     }
   }
 }
+

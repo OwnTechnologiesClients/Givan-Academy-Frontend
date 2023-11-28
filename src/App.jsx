@@ -26,10 +26,10 @@ function App() {
             path="notes/detail/:selectedClass/:selectedSubject/payment"
             element={<Payment />}
           />
-          <Route
+         <Route
             path="notes/detail/:selectedClass/:selectedSubject"
             element={<Details />}
-          />
+          />   
         </Routes>
       </BrowserRouter>
     </div>

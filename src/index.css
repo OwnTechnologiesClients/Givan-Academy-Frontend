@@ -4,29 +4,58 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: Arial;
+  font-family: "Poppins";
   color: inherit;
-
+  scroll-behavior: smooth;
 }
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+/* .slick-prev:before {
+  content: "←";
+  color: black;
+  font-size: 1.5vw;
+}
+
+.slick-next:before {
+  content: "→";
+  color: black;
+  font-size: 1.5vw;
+} */
 
 .under-bar::after {
   content: "";
-  height: .2vw;
+  height: 0.2vw;
   background-color: #363345;
   display: flex;
   width: 4vw;
-  margin-top: .7vw;
-}
-
-
-@media screen and (max-width:600px) {
-  .under-bar::after {
-    height: .2rem;
-    width: 20vw;
-  }
-
+  margin-top: 0.7vw;
 }
 
 button:hover {
   cursor: pointer;
 }
+
+/* @media screen and (max-width: 480px) {
+  .slick-prev:before {
+    content: "←";
+    color: black;
+    font-size: 4vw;
+  }
+
+  .slick-next:before {
+    content: "→";
+    color: black;
+    font-size: 4vw;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  .under-bar::after {
+    height: 0.2rem;
+    width: 20vw;
+  }
+}
+

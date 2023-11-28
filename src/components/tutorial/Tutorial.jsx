@@ -19,7 +19,6 @@ const Tutorial = ({ hd1, hd3 }) => {
         </div>
       </div>
     </div>
-
   );
 };
 

@@ -7,18 +7,11 @@ import { useNavigate } from "react-router-dom";
 const Subject = () => {
   const navigate = useNavigate();
 
-  const allSubjects = Object.keys(data)
-    .filter((classKey) => classKey !== "All")
-    .reduce((subjects, classKey) => {
-      const subjectsInClass = Object.keys(data[classKey]).filter(
-        (subject) => subject !== "All" && !subjects.includes(subject)
-      );
-      return subjects.concat(subjectsInClass);
-    }, []);
-
   const classOptions = Object.keys(data);
   const [selectedClass, setSelectedClass] = useState(classOptions[0]);
   const [selectedSubject, setSelectedSubject] = useState("All");
+
+  const allSubjects = Object.keys(data[selectedClass]);
 
   const handleClassChange = (e) => {
     setSelectedClass(e.target.value);
@@ -30,20 +23,13 @@ const Subject = () => {
   };
 
   const handleSubjectSubsectionClick = (subject) => {
-    const path = `detail/${selectedClass}/${subject}`;
     const subsectionData = data[selectedClass][selectedSubject][subject];
     const subjectData = data[selectedClass][selectedSubject];
-    console.log(
-      "Data to pass:",
-      selectedClass,
-      selectedSubject,
-      subsectionData,
-      subjectData
-    );
 
-    navigate(path, {
+    navigate("/notes", {
       state: {
         selectedSubject: subject,
+        selectedClass,
         subsectionData,
         subjectData,
       },
@@ -57,7 +43,6 @@ const Subject = () => {
   const renderSubjectContent = (selectedClass, selectedSubject) => {
     const subjectData = data[selectedClass][selectedSubject];
 
-    console.log(subjectData);
     if (typeof subjectData === "string") {
       return subjectData;
     } else if (typeof subjectData === "object") {
@@ -85,24 +70,34 @@ const Subject = () => {
 
   return (
     <div className="subject-container">
+
       {/* Filter Tutorial Class */}
       <div className="subject-tutorial">
-        <h5 style={{
-          fontSize: "1rem"
-        }}>Filter Tutorial Class</h5>
-        <select style={{
-          height: "40px",
-          width: "105px",
-          fontSize: "15px"
-                }}
+        <h5
+          style={{
+            fontSize: "1rem",
+          }}
+        >
+          Filter Tutorial Class
+        </h5>
+        <select
+          style={{
+            height: "40px",
+            width: "105px",
+            fontSize: "15px",
+          }}
           className="class-select"
           value={selectedClass}
           onChange={handleClassChange}
         >
           {classOptions.map((classOption) => (
-            <option key={classOption} value={classOption} style={{
-              fontSize: "20px"
-            }}>
+            <option
+              key={classOption}
+              value={classOption}
+              style={{
+                fontSize: "20px",
+              }}
+            >
               {classOption}
             </option>
           ))}
@@ -111,13 +106,6 @@ const Subject = () => {
 
       {/* Subject tabs */}
       <div className="tab-list">
-        <button
-          key="All"
-          onClick={() => handleSubjectClick("All")}
-          className={selectedSubject === "All" ? "active" : ""}
-        >
-          All
-        </button>
         {allSubjects.map((subject) => (
           <button
             key={subject}
