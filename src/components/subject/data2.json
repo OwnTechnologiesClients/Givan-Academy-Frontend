@@ -1,0 +1,179 @@
+{
+    "1": {
+      "All": {
+        "Physical Quantities": {
+          "id": "1",
+          "title": "Physics",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+          "sidelinks": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ], 
+        
+          "courseLines": [
+            "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        },
+        "Basic Concepts": {
+          "id": "1",
+          "title": "Basic Concepts",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+          "sidelinks": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ], 
+        
+          "courseLines": [
+            "Basic Concepts Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        },
+        "Kinematics": {
+          "id": "2",
+          "title": "Chemistry",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
+          "sidelinks": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "courseLines": [
+            "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        },
+        "Biology": {
+          "id": "3",
+          "title": "Biology",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+          "sidelinks": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "courseLines": [
+            "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        },
+        "English Literature": {
+          "id": "4",
+          "title": "English Literature",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+          "sidelinks": [
+            "English Literature",
+            "English Grammer"
+          ],
+          "courseLines": [
+            "Literature Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        },
+        "Grammar": {
+          "id": "5",
+          "title": "English Grammer",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+          "sidelinks": [
+            "English Literature",
+            "English Grammer"
+          ],
+          "courseLines": [
+            "Grammer Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        }
+      },
+      "Science": {
+        "Physics": {
+          "id": "1",
+          "title": "Physics",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/NxAwOjb_NlA?si=gVKFiCyTlDDg4KAw",
+          "sidelinks": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "courseLines": [
+            "Physics Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        },
+        "Chemistry": {
+          "id": "2",
+          "title": "Chemistry",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+          "sidelinks": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "courseLines": [
+            "Chemistry Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        },
+        "Biology": {
+          "id": "3",
+          "title": "Biology",
+          "image": "/subject/bg3.png",
+          "pdf": "/subject/dummy.pdf",
+          "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+          "sidelinks": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "courseLines": [
+            "Biology Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+            " English Coaching will also help you with SET exams.",
+            " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+            "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+            "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+          ]
+        }
+      }
+    }
+  }

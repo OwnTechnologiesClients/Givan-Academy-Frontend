@@ -28,10 +28,12 @@
   }
 
   .card-container {
+
+
     .card-part {
       border-radius: 1.2vw;
       padding: 1.464vw;
-      background-color: #fff;
+      background: #fff;
       .card-section {
         margin-bottom: 2.196vw;
         display: flex;
@@ -72,18 +74,19 @@
     margin: 0 10px;
   }
 
+
   @media screen and (max-width: "480px") {
     padding: 10vw 8vw;
     .slick-prev:before {
       content: "←";
       color: black;
-      font-size: 4vw;
+      font-size: 5vw;
     }
   
     .slick-next:before {
       content: "→";
       color: black;
-      font-size: 4vw;
+      font-size: 5vw;
     }
     .text-part {
       text-align: center;
@@ -101,6 +104,7 @@
       // display: flex;
       // flex-direction: column;
       // gap: 5vw;
+ 
 
       .card-part {
         padding: 3vw;

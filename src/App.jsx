@@ -29,8 +29,6 @@ function App() {
          <Route
             path="notes/detail/:selectedClass/:selectedSubject"
             element={<Details />}
-
-          
           />   
         </Routes>
       </BrowserRouter>

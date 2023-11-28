@@ -31,14 +31,14 @@ const StatisticsSection = () => {
     return (
       <Slider slidesToShow={1} slidesToScroll={1} infinite={true}>
         {statisticsData.map((data, index) => (
-          <div className="st-container">
-          <div key={index} className="st-card">
-            <img src={smile} alt="" />
-            <div className="stats">
-              <h1>{data.value}</h1>
-              <p>{data.label}</p>
+          <div className="st-container" key={index}>
+            <div className="st-card">
+              <img src={smile} alt="" />
+              <div className="stats">
+                <h1>{data.value}</h1>
+                <p>{data.label}</p>
+              </div>
             </div>
-          </div>
           </div>
         ))}
       </Slider>
