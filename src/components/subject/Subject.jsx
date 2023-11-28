@@ -7,16 +7,6 @@ import { useNavigate } from "react-router-dom";
 const Subject = () => {
   const navigate = useNavigate();
 
-
-  // const allSubjects = Object.keys(data)
-  //   .filter((classKey) => classKey !== "All")
-  //   .reduce((subjects, classKey) => {
-  //     const subjectsInClass = Object.keys(data[classKey]).filter(
-  //       (subject) => subject !== "All" && !subjects.includes(subject)
-  //     );
-  //     return subjects.concat(subjectsInClass);
-  //   }, []);
-
   const classOptions = Object.keys(data);
   const [selectedClass, setSelectedClass] = useState(classOptions[0]);
   const [selectedSubject, setSelectedSubject] = useState("All");
@@ -53,7 +43,6 @@ const Subject = () => {
   const renderSubjectContent = (selectedClass, selectedSubject) => {
     const subjectData = data[selectedClass][selectedSubject];
 
-    // console.log(subjectData);
     if (typeof subjectData === "string") {
       return subjectData;
     } else if (typeof subjectData === "object") {
@@ -81,6 +70,7 @@ const Subject = () => {
 
   return (
     <div className="subject-container">
+
       {/* Filter Tutorial Class */}
       <div className="subject-tutorial">
         <h5
@@ -116,13 +106,6 @@ const Subject = () => {
 
       {/* Subject tabs */}
       <div className="tab-list">
-        {/* <button
-          key="All"
-          onClick={() => handleSubjectClick("All")}
-          className={selectedSubject === "All" ? "active" : ""}
-        >
-          All
-        </button> */}
         {allSubjects.map((subject) => (
           <button
             key={subject}
