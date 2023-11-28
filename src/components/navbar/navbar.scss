@@ -91,11 +91,15 @@
 
     .menu-icon {
       display: block;
+      img{
+        margin-top: 2vw;
+        height: 9vw;
+      }
     }
 
     .logo {
       img {
-        height: 13vw;
+        height: 15vw;
       }
     }
 
