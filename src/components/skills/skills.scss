@@ -67,6 +67,17 @@
     .slick-slider .slick-list {
       width: 83vw;
     }
+    .slick-prev:before {
+      content: "←";
+      color: black;
+      font-size: 4vw;
+    }
+  
+    .slick-next:before {
+      content: "→";
+      color: black;
+      font-size: 4vw;
+    }
     .earn {
       background-color: #252525;
       display: flex;
@@ -112,3 +123,4 @@
     }
   }
 }
+

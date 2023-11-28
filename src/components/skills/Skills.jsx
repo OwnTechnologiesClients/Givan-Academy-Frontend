@@ -7,14 +7,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Skills = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 480);
     };
 
-    handleResize(); // Set initial value
     window.addEventListener("resize", handleResize);
 
     return () => {
@@ -51,27 +50,31 @@ const Skills = () => {
 
   const renderSlider = () => {
     return (
-      <Slider className="custom-slider" slidesToShow={1} slidesToScroll={1} infinite={true}>
+      <Slider
+        className="custom-slider"
+        slidesToShow={1}
+        slidesToScroll={1}
+        infinite={true}
+      >
         {Data.map((item, index) => (
           <div className="earn">
             <div key={index} className="st-card">
-            <div className="bg-clr">
-              <img src={SKILLS} alt="" />
-            </div>
-            <div className="stats">
-              <h1>
-                {item.title}
-                <br />
-                <span>{item.title2}</span>
-              </h1>
-              <p>{item.subtitle}</p>
-              <Link to="/aboutus">
-                <div className="view">{item.courses} &gt;</div>
-              </Link>
+              <div className="bg-clr">
+                <img src={SKILLS} alt="" />
+              </div>
+              <div className="stats">
+                <h1>
+                  {item.title}
+                  <br />
+                  <span>{item.title2}</span>
+                </h1>
+                <p>{item.subtitle}</p>
+                <Link to="/aboutus">
+                  <div className="view">{item.courses} &gt;</div>
+                </Link>
+              </div>
             </div>
           </div>
-          </div>
-        
         ))}
       </Slider>
     );

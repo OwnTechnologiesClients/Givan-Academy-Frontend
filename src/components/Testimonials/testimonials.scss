@@ -1,6 +1,17 @@
 .testimonials {
   padding: 7vw;
   background-color: #e7f0fd;
+   .slick-prev:before {
+  content: "←";
+  color: black;
+  font-size: 1.5vw;
+}
+
+.slick-next:before {
+  content: "→";
+  color: black;
+  font-size: 1.5vw;
+} 
   .text-part {
     display: flex;
     flex-direction: column;
@@ -63,6 +74,17 @@
 
   @media screen and (max-width: "480px") {
     padding: 10vw 8vw;
+    .slick-prev:before {
+      content: "←";
+      color: black;
+      font-size: 4vw;
+    }
+  
+    .slick-next:before {
+      content: "→";
+      color: black;
+      font-size: 4vw;
+    }
     .text-part {
       text-align: center;
 

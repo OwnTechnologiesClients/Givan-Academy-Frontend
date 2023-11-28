@@ -2,65 +2,70 @@ $theme-color: #202c45;
 
 .statistics {
   display: flex;
-  border-radius:  7.32vw 0vw 0vw  7.32vw;
+  border-radius: 7.32vw 0vw 0vw 7.32vw;
   margin-left: 2.196vw;
   background-color: $theme-color;
   justify-content: space-between;
   color: #fff;
   padding: 6vw 6vw;
-  // margin-bottom: 6vw;
-
-  .st-card {
+  .st-container {
     display: flex;
+    gap: 7vw;
+    .st-card {
+      display: flex;
 
-    img {
-      margin: 0 1vw;
-      width: 4vw;
-      height: 4vw;
-    }
-
-    .stats {
-      font-family: "Poppins";
-
-      h1 {
-        font-weight: 700;
-        font-size: 2vw;
-        padding-bottom: 5px;
+      img {
+        margin: 0 1vw;
+        width: 4vw;
+        height: 4vw;
       }
 
-      p {
-        font-weight: 500;
-        letter-spacing: 0.7px;
-        font-size: 1.2vw;
+      .stats {
+        font-family: "Poppins";
+
+        h1 {
+          font-weight: 700;
+          font-size: 2vw;
+          padding-bottom: 5px;
+        }
+
+        p {
+          font-weight: 500;
+          letter-spacing: 0.7px;
+          font-size: 1.2vw;
+        }
       }
     }
   }
 
   @media screen and (max-width: "480px") {
     flex-direction: column;
-    padding: 5vw 6vw;
-    padding-left: 20vw;
-    padding-left: 34vw;
-    border-radius: 41.32vw 0vw 0vw 41.32vw;
+    padding: 11vw 9vw;
+    border-radius: 0vw;
+    margin: 0;
 
-    .st-card {
-      display: flex;
-      margin: 1rem 0;
+    .st-container {
+      .st-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
 
-      img {
-        margin-right: 1rem;
-        width: 3rem;
-        height: 3rem;
-      }
-
-      .stats {
-        h1 {
-          font-size: 1.3rem;
-          padding-bottom: 5px;
+        img {
+          margin-right: 1.2rem;
+          width: 6rem;
+          height: 6rem;
         }
 
-        p {
-          font-size: 0.9rem;
+        .stats {
+          h1 {
+            font-size: 1.9rem;
+            padding-bottom: 2px;
+          }
+
+          p {
+            font-size: 1rem;
+          }
         }
       }
     }
