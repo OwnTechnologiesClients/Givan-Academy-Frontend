@@ -40,7 +40,8 @@ const Chapter = () => {
       <div className="chapter-section">
         {chaptersData?.[selectedSubject1]?.[selectedClass1].length>0 && (
           <div className="chapter-heading">
-            <h2>All Chapters:</h2>
+            <h2>All Chapters:</h2>  
+            
           </div>
         )}
         {open &&
