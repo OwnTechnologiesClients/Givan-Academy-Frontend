@@ -39,6 +39,24 @@
           "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
           "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
         ]
+      },
+      "Maths 1": {
+        "id": "8",
+        "title": "Maths 1",
+        "image": "/subject/bg3.png",
+        "pdf": "/subject/dummy.pdf",
+        "videolink": "https://www.youtube.com/embed/W6NZfCO5SIk?si=44toyFv2eClcvPd3" ,
+        "sidelinks": [
+          "Maths 1",
+          "Maths 2"
+        ],
+        "courseLines": [
+          "Maths Notes. The classroom Study Course is designed for comprehensive preparation. The main feature of the course is that all the subjects are taught from very basic to advanced level. Due emphasis is given to solving conceptual and objective questions in class.",
+          " English Coaching will also help you with SET exams.",
+          " Classes are taken by Subject-wise highly Experienced Educators, having long-time teaching experience in their respective fields. This course is specially designed under the time management method to provide maximum information in a limited time period.",
+          "  There will be approximately 4 to 5 hours of classes daily for 6 days a Week for around Five Months.",
+          "   The assessment of performance is done on a regular basis through Topic-wise Tests which are followed by discussion."
+        ]
       }
     },
     "Maths": {
@@ -122,7 +140,7 @@
         "title": "English Literature",
         "image": "/subject/bg3.png",
         "pdf": "/subject/dummy.pdf",
-        "videolink": "https://www.youtube.com/embed/n3ffYqdI2SE?si=JGAGWLzhtdyQX96Z",
+        "videolink": "//www.youtube.com/embed/W6NZfCO5SIk?si=44toyFv2eClcvPd3" ,
         "sidelinks": [
           "English Literature",
           "English Grammer"
