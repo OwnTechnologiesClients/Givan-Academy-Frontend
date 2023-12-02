@@ -50,7 +50,7 @@ const Cost = () => {
           </div>
         </div>
         <Link to="/notes">
-          <div className="button"> Start Classes &gt;</div>
+          <div className="button"> Explore Notes &gt;</div>
         </Link>
       </div>
     </div>

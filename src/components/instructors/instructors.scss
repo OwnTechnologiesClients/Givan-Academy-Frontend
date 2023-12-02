@@ -76,12 +76,16 @@
       content: "←";
       color: black;
       font-size: 5vw;
+      position: relative;
+      bottom: 8vw;
     }
   
     .slick-next:before {
       content: "→";
       color: black;
       font-size: 5vw;
+      position: relative;
+      bottom: 8vw;
     }
 
     .text-section {

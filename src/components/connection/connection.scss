@@ -1,5 +1,5 @@
 .connection-container {
-  padding: 6.5vw;
+  padding: 6.5vw 6.5vw 3vw 6.5vw;
 
   .connection-section {
     .heading {
@@ -21,7 +21,8 @@
       display: flex;
       gap: 4vw;
       align-items: center;
-      margin-bottom: 6vw;
+      margin-bottom: 1vw;
+      margin-top: 4vw;
 
       .connection-left {
         border: 3px solid #fad39a;
@@ -144,7 +145,7 @@
             .hard {
               display: flex;
               flex-direction: row;
-align-items: center;
+              align-items: center;
               gap: 0.5vw;
               img {
                 height: 2vw;
@@ -170,8 +171,35 @@ align-items: center;
       }
     }
 
+    .award-section {
+      display: flex;
+      flex-direction: column;
+      .award {
+        h2 {
+          color: black;
+          font-size: 2vw;
+          margin-bottom: 2vw;
+          font-family: "Poppins";
+        }
+      }
+
+      .award-img {
+        display: flex;
+        flex-direction: column;
+        .award-img-section {
+          display: flex;
+          flex-direction: row;
+          gap: 3vw;
+          img {
+            height: 17.8vw;
+            margin-bottom: 3vw;
+          }
+        }
+      }
+    }
   }
   @media screen and (max-width: 480px) {
+    padding: 7vw 7vw 0vw 7vw;
     .connection-section {
       .heading {
         h4 {
@@ -280,6 +308,24 @@ align-items: center;
                   }
                 }
               }
+            }
+          }
+        }
+      }
+
+      .award-section {
+        .award {
+          h2 {
+            font-size: 4vw;
+            margin-bottom: 2vw;
+          }
+        }
+
+        .award-img {
+          .award-img-section {
+            img {
+              height: 17.7vw;
+              margin-bottom: 3vw;
             }
           }
         }

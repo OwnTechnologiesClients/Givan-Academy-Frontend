@@ -1,0 +1,96 @@
+.teacher-container {
+  padding: 7vw 7vw 0vw 7vw;
+
+  .teacher-parent-section {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+
+    .teacher-section {
+      .teacher-border {
+        border: 4px solid;
+        border-radius: 0.732vw;
+        padding: 0.732vw;
+
+        .teacher-img {
+          img {
+            height: 25vw;
+          }
+        }
+      }
+
+      .teacher-text-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .teacher-name {
+          h1 {
+            color: #252525;
+            font-size: 1.8vw;
+          }
+        }
+        .teacher-post {
+          h3 {
+            font-size: 1.5vw;
+          }
+        }
+
+        .teacher-para {
+          p {
+            text-align: start;
+            color: #9a9696;
+            font-size: 1.2vw;
+          }
+        }
+      }
+    }
+  }
+
+  
+  @media (max-width: 480px) {
+    padding: 10vw 8.5vw;
+
+
+    .teacher-parent-section{
+        display: flex;
+        flex-direction: column;
+
+        .teacher-section{
+            .teacher-border{
+              border: 4px solid;
+              border-radius: 1vw;
+              padding: 5vw;
+
+                .teacher-img{
+                    img{
+                        height: 74vw;
+                    }
+                }
+            }
+
+            .teacher-text-part{
+
+                .teacher-name{
+                  
+                    h1{
+                        font-size: 7vw;
+                    }
+                }
+
+                .teacher-post{
+                    h3{
+                        font-size: 6vw;
+                    }
+                }
+
+                .teacher-para{
+                    p{
+                        font-size: 4vw;
+                    }
+                }
+            }
+        }
+    }
+  }
+}

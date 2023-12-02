@@ -9,6 +9,8 @@ import Liveclass from "./pages/liveclass/Liveclass";
 import Details from "./pages/details/Details";
 import Payment from "./components/payment/Payment";
 import Apply from "./pages/apply/Apply";
+import Team from "./pages/team/Team";
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <Route path="aboutus" element={<Aboutus />} />
           <Route path="liveclass" element={<Liveclass />} />
           <Route path="apply" element={<Apply />} />
+          <Route path="team" element={<Team />} />
           <Route
             path="notes/detail/:selectedClass/:selectedSubject/payment"
             element={<Payment />}

@@ -1,12 +1,30 @@
-import React from "react";
+import React,{useState} from 'react'
 import { Link } from "react-router-dom";
 import "./herosection.scss";
-import Banner from "../../assets/banner.png";
+import Banner1 from "../../assets/Banner_03.png";
+import Banner2 from "../../assets/Banner_01.jpg";
+import Banner3 from "../../assets/Banner_02.jpg";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const HeroSection = () => {
+
+  const [autoplay, setAutoplay] = useState(true);
+
+  const startAutoplay = () => {
+      setAutoplay(true);
+  };
+
+  const toggleAutoplay = () => {
+      setAutoplay((prevAutoplay) => !prevAutoplay);
+  };
   return (
     <div className="hero-section">
-      <div className="text-part">
+      {/*<div className="text-part">
         <h1>
           Check out <span>Givan</span>
           <br />
@@ -26,7 +44,36 @@ const HeroSection = () => {
       <div className="banner-part">
         <div className="shape-background-1"></div>
         <img src={Banner} alt="" />
-      </div>
+      </div> */}
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={
+          autoplay
+            ? {
+                delay: 2500,
+              }
+            : false
+        }
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+        onClick={toggleAutoplay} // Toggle autoplay on click
+        onMouseLeave={startAutoplay}
+      >
+        <SwiperSlide>
+          <img src={Banner1} className="heroimage" alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Banner2} className="heroimage" alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={Banner3} className="heroimage" alt="" />
+      </SwiperSlide>
+      </Swiper>
     </div>
   );
 };
