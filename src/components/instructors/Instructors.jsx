@@ -54,7 +54,6 @@ const Instructors = () => {
   const renderSlider = () => {
     return (
       <Slider slidesToShow={1} slidesToScroll={1} infinite={true}>
-      
         {instructorData.map((instructor) => (
           <div key={instructor.id}>
             <div className="content-part">
@@ -84,7 +83,7 @@ const Instructors = () => {
           <h1>Team of Instructors</h1>
         </div>
 
-        <Link to="/aboutus">
+        <Link to="/team">
           <div className="button"> View All &gt;</div>
         </Link>
       </div>

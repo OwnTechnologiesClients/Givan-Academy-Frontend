@@ -1,17 +1,17 @@
 .testimonials {
   padding: 7vw;
   background-color: #e7f0fd;
-   .slick-prev:before {
-  content: "←";
-  color: black;
-  font-size: 1.5vw;
-}
+  .slick-prev:before {
+    content: "←";
+    color: black;
+    font-size: 1.5vw;
+  }
 
-.slick-next:before {
-  content: "→";
-  color: black;
-  font-size: 1.5vw;
-} 
+  .slick-next:before {
+    content: "→";
+    color: black;
+    font-size: 1.5vw;
+  }
   .text-part {
     display: flex;
     flex-direction: column;
@@ -28,8 +28,6 @@
   }
 
   .card-container {
-
-
     .card-part {
       border-radius: 1.2vw;
       padding: 1.464vw;
@@ -74,7 +72,6 @@
     margin: 0 10px;
   }
 
-
   @media screen and (max-width: "480px") {
     padding: 10vw 8vw;
     .slick-prev:before {
@@ -82,7 +79,7 @@
       color: black;
       font-size: 5vw;
     }
-  
+
     .slick-next:before {
       content: "→";
       color: black;
@@ -104,7 +101,6 @@
       // display: flex;
       // flex-direction: column;
       // gap: 5vw;
- 
 
       .card-part {
         padding: 3vw;

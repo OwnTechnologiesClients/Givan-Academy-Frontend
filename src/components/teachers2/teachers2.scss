@@ -1,0 +1,116 @@
+.teacher-container2 {
+    padding: 7vw 7vw 0vw 7vw;
+  
+    .teacher-parent-section2 {
+      display: flex;
+      flex-direction: row;
+      gap: 4vw;
+  
+      .teacher-section2 {
+        .teacher-border2 {
+          border: 4px solid;
+          border-radius: 0.732vw;
+          padding: 0.732vw;
+  
+          .teacher-img2 {
+            img {
+              height: 25vw;
+            }
+          }
+        }
+  
+        .teacher-text-part2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+  
+          .teacher-name2 {
+            h1 {
+              color: #252525;
+              font-size: 1.8vw;
+            }
+          }
+          .teacher-post2 {
+            h3 {
+              font-size: 1.5vw;
+            }
+          }
+  
+          .teacher-para2 {
+            p {
+              text-align: start;
+              color: #9a9696;
+              font-size: 1.2vw;
+            }
+          }
+        }
+      }
+    }
+  
+    
+    @media (max-width: 480px) {
+      padding: 10vw 8.5vw;
+  
+      .slick-slider .slick-track,
+      .slick-slider .slick-list {
+        width: 83vw;
+      }
+      .slick-prev:before {
+        content: "←";
+        color: black;
+        font-size: 5vw;
+        position: relative;
+        bottom: 20vw;
+      }
+    
+      .slick-next:before {
+        content: "→";
+        color: black;
+        font-size: 5vw;
+        position: relative;
+        bottom: 20vw;
+      }
+  
+      .teacher-parent-section2{
+          display: flex;
+          flex-direction: column;
+  
+          .teacher-section2{
+              .teacher-border2{
+                border: 5px solid;
+                border-radius: 1vw;
+                padding: 5vw;
+  
+                  .teacher-img2{
+                      img{
+                          height: 69vw;
+                      }
+                  }
+              }
+  
+              .teacher-text-part2{
+  
+                  .teacher-name2{
+                    
+                      h1{
+                          font-size: 7vw;
+                      }
+                  }
+  
+                  .teacher-post2{
+                      h3{
+                          font-size: 6vw;
+                      }
+                  }
+  
+                  .teacher-para2{
+                      p{
+                          font-size: 4vw;
+                      }
+                  }
+              }
+          }
+      }
+    }
+  }
+  
