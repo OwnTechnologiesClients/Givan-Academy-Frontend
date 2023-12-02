@@ -1,5 +1,5 @@
 .connection-container {
-  padding: 6.5vw;
+  padding: 6.5vw 6.5vw 3vw 6.5vw;
 
   .connection-section {
     .heading {
@@ -172,6 +172,7 @@ align-items: center;
 
   }
   @media screen and (max-width: 480px) {
+    padding: 7vw 7vw 0vw 7vw ;
     .connection-section {
       .heading {
         h4 {

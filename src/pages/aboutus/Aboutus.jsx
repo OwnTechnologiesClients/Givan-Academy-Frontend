@@ -9,6 +9,7 @@ import Testimonials from "../../components/Testimonials/Testimonials";
 import Tutorial from "../../components/tutorial/Tutorial";
 import Vision from "../../components/vision/Vision";
 import Connection from "../../components/connection/Connection";
+import Gallery from "../../components/gallery/Gallery";
 
 const Aboutus = () => {
   return (
@@ -20,6 +21,7 @@ const Aboutus = () => {
       <StatisticsSection  className="statistics-margin"/>
       <Testimonials />
       <Connection />
+      <Gallery />
       <WhatsappIcon />
       <Footer />
     </div>
