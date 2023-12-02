@@ -34,9 +34,6 @@ const teacherData = [
   },
 ];
 
-
-
-
 const Teachers = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
 
@@ -122,8 +119,6 @@ const Teachers = () => {
       )}
     </div>
   );
-
-  
 };
 
 export default Teachers;
