@@ -30,10 +30,10 @@ const Gallery = () => {
           <img src={IMG1} alt="" />
         </div>
         <div className="gallery-img-line">
-        <img src={IMG3} alt="" />
-        <img src={IMG1} alt="" />
-        <img src={IMG1} alt="" />
-      </div>
+          <img src={IMG3} alt="" />
+          <img src={IMG1} alt="" />
+          <img src={IMG1} alt="" />
+        </div>
       </div>
     </div>
   );

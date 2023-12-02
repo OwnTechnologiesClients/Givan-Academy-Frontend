@@ -105,11 +105,6 @@
         "images1": "/award/2.png",
         "images2": "/award/2.png",
         "images3": "/award/2.png"
-      },
-      {
-        "images1": "/award/2.png",
-        "images2": "/award/2.png",
-        "images3": "/award/2.png"
       }
     ]
   },
@@ -158,11 +153,6 @@
       }
     ],
     "awards": [
-      {
-        "images1": "/award/3.png",
-        "images2": "/award/3.png",
-        "images3": "/award/3.png"
-      },
       {
         "images1": "/award/3.png",
         "images2": "/award/3.png",
