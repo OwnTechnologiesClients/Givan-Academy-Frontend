@@ -5,7 +5,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
 const Testimonials = () => {
   const classCardDetails = [
     {
@@ -13,48 +12,48 @@ const Testimonials = () => {
       classImg: img,
       className: "Pawan Yadav",
       cardClass: "(Class-1)",
-      classDetails:
-        "We care for children, protect their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect ",
+      videoLink:
+        "https://www.youtube.com/embed/SqcY0GlETPk?si=VlXRZxv74Nlqa2Fc",
     },
     {
       key: "2",
       classImg: img,
       className: "Pawan Yadav",
       cardClass: "(Class-2)",
-      classDetails:
-        "We care for children, protect their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect ",
+      videoLink:
+        "https://www.youtube.com/embed/qz0aGYrrlhU?si=ldRzbPwkCRADWC7d" ,
     },
     {
       key: "3",
       classImg: img,
       className: "Pawan Yadav",
       cardClass: "(Class-3)",
-      classDetails:
-        "We care for children, protect their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect ",
+      videoLink:
+        "https://www.youtube.com/embed/-_X6PhkjpzU?si=E3Vh42ftkJ7K17YM",
     },
     {
       key: "4",
       classImg: img,
       className: "Pawan Yadav",
       cardClass: "(Class-4)",
-      classDetails:
-        "We care for children, protect their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect ",
+      videoLink:
+        "https://www.youtube.com/embed/d56mG7DezGs?si=0TPS91bGgXTXHK1T",
     },
     {
       key: "5",
       classImg: img,
       className: "Pawan Yadav",
       cardClass: "(Class-5)",
-      classDetails:
-        "We care for children, protect their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect ",
+      videoLink:
+        "https://www.youtube.com/embed/SqcY0GlETPk?si=VlXRZxv74Nlqa2Fc",
     },
     {
       key: "6",
       classImg: img,
       className: "Pawan Yadav",
       cardClass: "(Class-6)",
-      classDetails:
-        "We care for children, protect their welfare, and prepare them for the future. We care for children, protect  their welfare, and prepare them for the future We care for children, protect ",
+      videoLink:
+        "https://www.youtube.com/embed/SqcY0GlETPk?si=VlXRZxv74Nlqa2Fc",
     },
   ];
 
@@ -66,7 +65,7 @@ const Testimonials = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 480, 
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -97,8 +96,15 @@ const Testimonials = () => {
                   </div>
                 </div>
 
-                <div className="text-section">
-                  <p>{item.classDetails}</p>
+                <div className="video-section">
+                  <iframe
+                    width="260"
+                    height="215"
+                    src={item.videoLink}
+                    title={item.className}
+                    frameBorder="0"
+                    allowFullScreen
+                  ></iframe>
                 </div>
               </div>
             </div>

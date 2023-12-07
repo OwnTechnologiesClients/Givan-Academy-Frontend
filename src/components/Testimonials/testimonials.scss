@@ -56,13 +56,10 @@
           }
         }
       }
-      .text-section {
+      .videro-section {
         margin-bottom: 2.196vw;
-        p {
-          color: #9a9696;
-          font-size: 1.024vw;
-          font-family: "Poppins";
-          font-weight: 600;
+        iframe {
+     
         }
       }
     }
@@ -120,9 +117,9 @@
             }
           }
         }
-        .text-section {
-          p {
-            font-size: 3.5vw;
+        .video-section {
+          iframe {
+            width: 315px;
           }
         }
       }
