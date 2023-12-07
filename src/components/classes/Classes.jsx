@@ -72,7 +72,7 @@ const Classes = () => {
       <div className="top-heading">
         {/*<div></div> */}
         <div className="courses">
-          <h4>DISCOVER COURSES</h4>
+          <h4>DISCOVER STUDENTS</h4>
           <h1>Topper Students</h1>
         </div>
         {/*<Link to="/notes">
