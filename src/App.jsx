@@ -11,7 +11,6 @@ import Payment from "./components/payment/Payment";
 import Apply from "./pages/apply/Apply";
 import Team from "./pages/team/Team";
 
-
 function App() {
   return (
     <div className="app">
@@ -29,10 +28,10 @@ function App() {
             path="notes/detail/:selectedClass/:selectedSubject/payment"
             element={<Payment />}
           />
-         <Route
+          <Route
             path="notes/detail/:selectedClass/:selectedSubject"
             element={<Details />}
-          />   
+          />
         </Routes>
       </BrowserRouter>
     </div>

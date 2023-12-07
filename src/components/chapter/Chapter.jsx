@@ -8,14 +8,12 @@ const Chapter = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-
   let selectedSubject1 = "";
   let selectedClass1 = "1";
   let open = false;
   if (location.state) {
     const { selectedSubject, selectedClass } = location.state;
     selectedSubject1 = selectedSubject;
-    // selectedClass1 = selectedClass;
     open = true;
   }
 
@@ -35,13 +33,15 @@ const Chapter = () => {
     });
   };
 
+  console.log(selectedClass1);
+  console.log(selectedSubject1);
+
   return (
     <>
       <div className="chapter-section">
-        {chaptersData?.[selectedSubject1]?.[selectedClass1].length>0 && (
+        {chaptersData?.[selectedSubject1]?.[selectedClass1].length > 0 && (
           <div className="chapter-heading">
-            <h2>All Chapters:</h2>  
-            
+            <h2>All Chapters:</h2>
           </div>
         )}
         {open &&
