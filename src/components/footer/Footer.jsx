@@ -33,7 +33,7 @@ const Footer = () => {
                 <img src={igicon} width={"25vw"} alt="" />
               </a>
             </div>*/}
-           
+
           </div>
           <div className="links ">
             <h4>Courses</h4>
@@ -107,7 +107,9 @@ const Footer = () => {
             <div className="footer-text">
               <p>
                 © 2023 All Rights Reserved. Created with ❤️ by
-                <span> OwnTechnologies</span>
+                <Link to="https://owntechnologies.com/" target="_blank">
+                  <span> OwnTechnologies</span>
+                </Link>
               </p>
             </div>
 
