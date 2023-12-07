@@ -7,7 +7,6 @@ import fbicon from "../../assets/icons/facebook.png";
 import yticon from "../../assets/icons/youtube.png";
 import igicon from "../../assets/icons/instagram.png";
 import checkbox from "../../assets/icons/checkbox.png";
-import Header from "../../components/header/Header";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
