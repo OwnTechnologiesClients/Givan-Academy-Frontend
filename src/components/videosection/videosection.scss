@@ -1,68 +1,143 @@
 .subject-container {
   padding: 6vw 3.2vw 6vw 4vw;
+  display: flex;
+  background-color: #faf8f9;
+  flex-direction: column;
+
+  .subject-tutorial {
+    h5 {
+      font-size: 1vw;
+      font-family: "Poppins";
+      margin-bottom: 1vw;
+      letter-spacing: 1px;
+    }
+
+    .class-select {
+      border: 1px solid #fff;
+      font-family: "Poppins";
+      border-radius: 0.878vw;
+      font-size: 1.2vw;
+      padding: 0.732vw 0.83vw;
+      width: 8vw;
+      cursor: pointer;
+      background-color: #fff;
+      border: none;
+      box-shadow: 0 2px 4px rgba(83, 82, 82, 0.2);
+
+      &:hover {
+        background-color: #e0e0e0;
+      }
+    }
+  }
+
+  .tab-list {
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7vw;
+    margin-top: 1.83vw;
+
+    button {
+      background: #8d9296;
+      border-radius: 0.366vw;
+      color: #fff;
+      font-family: "Poppins";
+      border: none;
+      padding: 0.732vw 1.83vw;
+      margin-right: 1.317vw;
+      cursor: pointer;
+
+      &.active {
+        background: #85ba00;
+      }
+    }
+  }
+  iframe {
+    width: 285px;
+    height: 200px;
+  }
+  .videochapter-section {
     background-color: #faf8f9;
-    flex-direction: column;
-  
-    .subject-tutorial {
-      h5 {
-        font-size: 1vw;
+    padding: 0vw 4vw 0vw 4vw;
+
+    .videochapter-heading {
+      margin-bottom: 2.5vw;
+      h2 {
         font-family: "Poppins";
-        margin-bottom: 1vw;
-        letter-spacing: 1px;
+        font-size: 2vw;
+        text-align: start;
       }
-  
-      .class-select {
-        border: 1px solid #fff;
+    }
+
+    .videochapter-name {
+      background-color: #252525;
+      padding: 1.7vw;
+      h3 {
+        font-size: 1.5vw;
         font-family: "Poppins";
-        border-radius:  0.878vw;
-        font-size: 1.2vw;
-        padding: 0.732vw 0.83vw;
-        width: 8vw;
-        cursor: pointer;
-        background-color: #fff;
-        border: none;
-        box-shadow: 0 2px 4px rgba(83, 82, 82, 0.2);
-  
-        &:hover {
-          background-color: #e0e0e0;
+        color: #ffffff;
+        text-align: start;
+      }
+    }
+
+    .videochapter-topic {
+      background-color: #94999c;
+      padding: 2.5vw 1.7vw;
+      margin-bottom: 2.6vw;
+
+      ul {
+        li {
+          cursor: pointer;
+          font-size: 1.4vw;
+          font-weight: bold;
+          font-family: "Poppins";
+          color: white;
+          margin: 0.5vw 0vw;
+          text-align: start;
+          &:hover {
+            color: #252525;
+          }
         }
       }
     }
-  
-    .tab-list {
-      display: flex;
-      flex-wrap: wrap;
-      margin-bottom: 7vw;
-      margin-top:1.830vw;
-  
-      button {
-        background: #8d9296;
-        border-radius:  0.3660vw;
-        color: #fff;
-        font-family: "Poppins";
-        border: none;
-        padding: 0.732vw 1.83vw;
-        margin-right: 1.317vw;
-        cursor: pointer;
-  
-        &.active {
-          background: #85ba00;
-        }
-      }
-    }
-    iframe {
-      width: 285px; 
-      height: 200px; 
   }
 
   @media screen and (max-width: 768px) {
     padding: 9vw;
-      iframe {
-          margin-top: 1rem;
-          width: 290px; 
-          height: 185px; 
-      }
+    iframe {
+      margin-top: 1rem;
+      width: 290px;
+      height: 185px;
+    }
+    .videochapter-section {
+      padding: 7vw 0vw 0vw 0vw;
+      .videochapter-heading{
+       
+        h2{
+       
+            font-size: 4.5vw;
+        }
+    }
+
+    .videochapter-name{
+       padding: 2.5vw;
+        h3{
+            font-size: 2.5vw;
+            letter-spacing: 1px;
+
+        }
+    }
+
+    .videochapter-topic{
+        padding: 3.5vw 3vw;
+        margin-bottom: 3.6vw;
+        ul{
+            li{
+                font-size: 2.4vw;
+                letter-spacing: 0.6px;
+                margin: 1.2vw 0vw;
+            }
+        }
+    }
+    }
   }
-  }
-  
+}

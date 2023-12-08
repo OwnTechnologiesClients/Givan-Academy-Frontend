@@ -165,20 +165,20 @@ const VideoSection = () => {
 
       <div className="tab-content">{renderContent2()}</div>
 
-      <div className="chapter-section">
+      <div className="videochapter-section">
         {chaptersData?.[selectedName]?.[selectedClass].length > 0 && (
-          <div className="chapter-heading">
+          <div className="videochapter-heading">
             <h2>All Chapters:</h2>
           </div>
         )}
         {
           chaptersData?.[selectedName]?.[selectedClass].map((chapter) => (
             <div key={chapter.id}>
-              <div className="chapter-name">
+              <div className="videochapter-name">
                 <h3>{chapter.title}</h3>
               </div>
 
-              <div className="chapter-topic">
+              <div className="videochapter-topic">
                 <ul>
                   {chapter.topics.map((topic, topicIndex) => (
                     <li
