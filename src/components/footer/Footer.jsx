@@ -114,7 +114,9 @@ const Footer = () => {
             <div className="footer-text">
               <p>
                 © 2023 All Rights Reserved. Created with ❤️ by
-                <span> OwnTechnologies</span>
+                <Link to="https://owntechnologies.com/" target="_blank">
+                  <span> OwnTechnologies</span>
+                </Link>
               </p>
             </div>
 

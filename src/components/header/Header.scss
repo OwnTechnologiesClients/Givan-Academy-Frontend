@@ -30,7 +30,7 @@
   
       .header-icon {
         img {
-          margin: 0 0.5vw;
+          margin: 0 1vw;
           margin-top: 0.6vw;
   
           &:hover {
@@ -74,8 +74,9 @@
   
         .header-icon {
           img {
-            margin: 0 1vw;
+            margin: 0 2vw;
             margin-top: 0.6vw;
+            width: 2.5vw;
           }
         }
       }
