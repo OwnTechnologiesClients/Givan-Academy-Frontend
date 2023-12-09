@@ -18,8 +18,8 @@ const Aboutus = () => {
       <Navbar />
       <Tutorial hd1={"About Us"} hd3={"About us"} />
       <Vision />
-      <StatisticsSection  className="statistics-margin"/>
-      <Testimonials />
+      {/* <StatisticsSection  className="statistics-margin"/>
+      <Testimonials /> */}
       <Connection />
       <Gallery />
       <WhatsappIcon />
