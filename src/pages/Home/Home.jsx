@@ -34,7 +34,7 @@ const Home = () => {
       <Tuition />
       <Cost />
       <WhatsappIcon />
-      <Footer />
+      <Footer  />
     </div>
   );
 };

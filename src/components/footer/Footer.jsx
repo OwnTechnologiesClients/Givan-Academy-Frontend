@@ -15,9 +15,17 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-container">
           <div className="details">
-            <Link to="/">
-              <img src={Logo} alt="" />
-            </Link>
+            <div className="footer-logo-img">
+              <div className="footer-bg">
+                <img  src={HeaderBG} alt="" />
+              </div>
+              <div className="footer-logo-bg">
+                <img src={Headerlogo} alt="" />
+              </div>
+              <Link className="ft-logo" to="/">
+                <img src={Logo} alt="" />
+              </Link>
+            </div>
             <div className="message">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -33,7 +41,6 @@ const Footer = () => {
                 <img src={igicon} width={"25vw"} alt="" />
               </a>
             </div>*/}
-
           </div>
           <div className="links ">
             <h4>Courses</h4>
@@ -97,10 +104,10 @@ const Footer = () => {
           <div className="footer-logo-text">
             <div className="footer-logo">
               <div className="footer-bg-img">
-                <img src={HeaderBG} alt="" />
+               {/* <img src={HeaderBG} alt="" /> */} 
               </div>
               <div className="footer-logo-bg">
-                <img src={Headerlogo} alt="" />
+               {/*<img src={Headerlogo} alt="" /> */} 
               </div>
             </div>
 
