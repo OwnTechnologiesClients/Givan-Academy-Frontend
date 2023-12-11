@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import HeaderBG from "../../assets/header-bg.png";
+import down from "../../assets/icons/down.png";
 import Headerlogo from "../../assets/headerlogo.png";
 import Logo from "../../assets/icons/logo.png";
 import fbicon from "../../assets/icons/facebook.png";
@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="details">
             <div className="footer-logo-img">
               <div className="footer-bg">
-                <img  src={HeaderBG} alt="" />
+                <div className="header-bg"></div>
               </div>
               <div className="footer-logo-bg">
                 <img src={Headerlogo} alt="" />
@@ -102,13 +102,16 @@ const Footer = () => {
         </div>
         <div className="footer-container-2">
           <div className="footer-logo-text">
-            <div className="footer-logo">
-              <div className="footer-bg-img">
-               {/* <img src={HeaderBG} alt="" /> */} 
-              </div>
-              <div className="footer-logo-bg">
-               {/*<img src={Headerlogo} alt="" /> */} 
-              </div>
+            <div className="footer-icon">
+              <a href="https://www.facebook.com" target="_blank">
+                <img src={fbicon} width={"18vw"} alt="" />
+              </a>
+              <a href="https://www.youtube.com" target="_blank">
+                <img src={yticon} width={"18vw"} alt="" />
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <img src={igicon} width={"18vw"} alt="" />
+              </a>
             </div>
 
             <div className="footer-text">
@@ -120,16 +123,13 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="footer-icon">
-              <a href="https://www.facebook.com" target="_blank">
-                <img src={fbicon} width={"18vw"} alt="" />
-              </a>
-              <a href="https://www.youtube.com" target="_blank">
-                <img src={yticon} width={"18vw"} alt="" />
-              </a>
-              <a href="https://www.instagram.com" target="_blank">
-                <img src={igicon} width={"18vw"} alt="" />
-              </a>
+            <div className="smooth-up">
+              <div
+                className="up"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                <img src={down} alt="" />
+              </div>
             </div>
           </div>
         </div>

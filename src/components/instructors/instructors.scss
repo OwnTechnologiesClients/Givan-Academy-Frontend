@@ -3,6 +3,22 @@
 .instructor-section {
   padding: 7vw;
   background-color: #faf8f9;
+  .slick-prev:before {
+    content: "←";
+    color: black;
+    font-size: 1.5vw;
+    position: relative;
+    bottom: 2vw;
+
+  }
+
+  .slick-next:before {
+    content: "→";
+    color: black;
+    font-size: 1.5vw;
+    position: relative;
+    bottom: 2vw;
+  }
 
   .text-section {
     display: flex;
@@ -43,9 +59,9 @@
   }
 
   .img-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
     .content-part {
       display: flex;
       flex-direction: column;
