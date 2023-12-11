@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
   
     .header-logo-icon {
-      padding: 0vw 7vw;
+      padding: 0vw 10vw;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -53,10 +53,11 @@
       .header-logo-icon {
         display: flex;
         flex-direction: row;
-        padding: 0vw 8vw;
+        padding: 0vw 14vw;
         justify-content: space-between;
   
         .header-logo {
+   
           .header-bg-img {
             img {
               height: 10vw;
