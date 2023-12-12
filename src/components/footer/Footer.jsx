@@ -72,23 +72,23 @@ const Footer = () => {
 
             <div className="link">
               <img src={checkbox} alt="" />
-              <Link to="">About us</Link>
+              <Link to="/aboutus">About us</Link>
             </div>
             <div className="link">
               <img src={checkbox} alt="" />
-              <Link to="">Gallary</Link>
+              <Link to="/notes">Notes</Link>
             </div>
             <div className="link">
               <img src={checkbox} alt="" />
-              <Link to="">Testimonail</Link>
+              <Link to="/videos">Videos</Link>
             </div>
             <div className="link">
               <img src={checkbox} alt="" />
-              <Link to="">Courses</Link>
+              <Link to="/team">Team</Link>
             </div>
             <div className="link">
               <img src={checkbox} alt="" />
-              <Link to="">Students</Link>
+              <Link to="/liveclass">Live Class</Link>
             </div>
           </div>
 
